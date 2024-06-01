@@ -1,0 +1,8 @@
+.results__count{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+	border-radius: 12px;
+	padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}

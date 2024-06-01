@@ -1,0 +1,50 @@
+.custom-select {
+	display: flex;
+    font-size: 1.25rem;
+	width: 120px;
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	background-color: rgba(197, 197, 197, 0.5);
+	border-radius: 12px;
+	padding: 0.5rem 1rem;
+	margin-bottom: 1rem;
+	z-index: 10;
+}
+
+.selected-value {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.options {
+	position: absolute;
+	top: 100%;
+    margin-top: 0.5rem;
+	left: 0;
+    padding: .75rem 1rem;
+	display: none;
+	list-style: none; 
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	background-color: rgb(203, 203, 203);
+	border-radius: 12px; 
+	z-index: 10; 
+	width: 100%;
+}
+
+.options li{
+    padding-top: 0.25rem;
+}
+
+.options li:hover{
+    color: red
+}
+.custom-select .options {
+	display: none; 
+}
+
+.custom-select.open .options {
+	display: block; 
+}

@@ -1,0 +1,20 @@
+.footer {
+	width: 100%;
+	font-size: 1.25rem;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	position: relative;
+}
+
+.footer__item {
+	display: flex;
+    align-items: center;
+	padding:  0.5rem 1rem;
+	justify-content: space-between;
+	position: relative;
+	border-radius: 12px;
+	border: 1px solid #ccc;
+}
+

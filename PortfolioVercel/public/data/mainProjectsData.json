@@ -1,0 +1,147 @@
+{
+	"projects": [
+		{
+			"id": 1,
+			"title": "Leroy Merlin x CCP",
+			"imageUrl": "./imgs/main/Leroy/MUPI - AL2.jpg",
+			"category": ["Identity", "Art Direction"],
+			"year": 2024
+		},
+
+		{
+			"id": 2,
+			"title": "Wasted Rita",
+			"videoUrl": "https://vod.api.video/vod/vilKChKmXXIGAod8am8pGZS/mp4/source.mp4",
+			"category": ["Web Design", "Web Development"],
+			"year": 2023
+		},
+
+		{
+			"id": 3,
+			"title": "Meo Kalorama Festival x Underdogs Gallery",
+			"videoUrl": "https://vod.api.video/vod/vi3PXD9M0lVkiz74LKi8WQZV/mp4/source.mp4",
+			"category": "Identity",
+			"year": 2022
+		},
+		{
+			"id": 4,
+			"title": "Stand Project x National Coach Museum",
+			"imageUrl": "./imgs/main/StandUmbigo/UMBIGO MOCKUP1.png",
+			"category": ["Identity", "Art Direction"],
+			"year": 2022
+		},
+		{
+			"id": 5,
+			"title": "Novocine",
+			"videoUrl": "https://vod.api.video/vod/vi3GKim55ntTaGxhtdphEnQ8/mp4/source.mp4",
+			"category": ["Web Design", "Web Development"],
+			"year": 2022
+		},
+		{
+			"id": 6,
+			"title": "Alex Darling",
+			"videoUrl": "https://vod.api.video/vod/vi46j6WsIWUDJqvygsXliomy/mp4/source.mp4",
+			"category": ["Web Design", "Web Development"],
+			"year": 2022
+		},
+		{
+			"id": 7,
+			"title": "Jonas&Lander",
+			"videoUrl": "https://vod.api.video/vod/vi45VrDIpFJBGFHTjeEGvgFn/mp4/source.mp4",
+			"category": ["Web Design", "Web Development"],
+			"year": 2022
+		},
+		{
+			"id": 8,
+			"title": "Limit of Disappearance",
+			"imageUrl": "./imgs/main/Limit/LO1.jpg",
+			"category": ["Identity", "Posters"],
+			"year": 2022
+		},
+		{
+			"id": 9,
+			"title": "Stand 1.0",
+			"imageUrl": "./imgs/main/StandBook/StandProject(1)_mainpage.jpg",
+			"category": ["Identity", "Editorial"],
+			"year": 2022
+		},
+		{
+			"id": 10,
+			"title": "Filipa Nunes",
+			"videoUrl": "https://vod.api.video/vod/vi5L0LRswa1sa1IhVMFwb8cS/mp4/source.mp4",
+			"category": ["Web Design", "Web Development"],
+			"year": 2022
+		},
+		{
+			"id": 11,
+			"title": "Teorias da Inspiração - Filme by David Marques",
+			"videoUrl": "https://vod.api.video/vod/vi1C1Uoxosf1xKorhwaIvx9h/mp4/source.mp4",
+			"category": "Video",
+			"year": 2021
+		},
+		{
+			"id": 12,
+			"title": "Amadora-3",
+			"imageUrl": "./imgs/main/Amadora3/AMD1.jpg",
+			"category": "Individual Exhibition",
+			"year": 2021
+		},
+		{
+			"id": 13,
+			"title": "Esa Cosa Llamada Amor by Plataforma 285",
+			"imageUrl": "./imgs/main/EsaCosa/ESA_COSA.gif",
+			"category": "Editorial",
+			"year": 2021
+		},
+		{
+			"id": 14,
+			"title": "Stand Project",
+			"videoUrl": "https://vod.api.video/vod/vi5ZR7bawbKvS0rkGvLmn2ni/mp4/source.mp4",
+			"category": ["Art Direction", "Visual", "Video"],
+			"year": 2021
+		},
+		{
+			"id": 15,
+			"title": "António Castro",
+			"videoUrl": "https://vod.api.video/vod/vi7WLnoBVoDZzouPXb1Z0QGG/mp4/source.mp4",
+			"category": ["Web Design", "Web Development"],
+			"year": 2021
+		},
+		{
+			"id": 16,
+			"title": "Enjoy the Weather by Teresa Silva",
+			"imageUrl": "./imgs/main/EnjoyTWeather/EnjoytheWeather(1)_mainpage.jpg",
+			"category": ["Posters", "Identity"],
+			"year": 2021
+		},
+		{
+			"id": 17,
+			"title": "Critique by David Marques & Tiago Cadete",
+			"videoUrl": "https://vod.api.video/vod/vi45ZM3vqRKfpNNFdLuKcf5v/mp4/source.mp4",
+			"category": "Video",
+			"year": 2020
+		},
+		{
+			"id": 18,
+			"title": "Helmut Lang - Tshirt Contest",
+			"imageUrl": "./imgs/main/HelmutLang/HL1.png",
+			"category": "Identity",
+			"year": 2020
+		},
+		{
+			"id": 19,
+			"title": "Dança sem Vergonha by David Marques",
+			"imageUrl": "./imgs/main/DancaVergonha/DSV1.jpg",
+			"category": "Video",
+			"year": 2020
+		},
+
+		{
+			"id": 20,
+			"title": "Mistério da Cultura by David Marques",
+			"imageUrl": "./imgs/main/MisterioCultura/MDC1.jpg",
+			"category": "Video",
+			"year": 2019
+		}
+	]
+}

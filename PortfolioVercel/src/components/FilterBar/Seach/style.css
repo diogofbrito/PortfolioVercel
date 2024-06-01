@@ -1,0 +1,29 @@
+.search__bar {
+	display: flex;
+	align-items: center;
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	background-color: rgba(197, 197, 197, 0.5);
+	border-radius: 12px;
+	padding: 0.5rem 1rem;
+	margin-bottom: 1rem;
+}
+
+.search__bar input[type='text'] {
+	flex-grow: 1;
+	border: none;
+	background-color: transparent;
+	padding: 0;
+	margin-right: 10px;
+	outline: none;
+	color: rgb(0, 0, 0);
+	font-size: 1.25rem;
+	font-family: 'Whyte-Light';
+	font-weight: 700;
+}
+
+.search__icon {
+	width: 20px;
+	height: 25px;
+}
+

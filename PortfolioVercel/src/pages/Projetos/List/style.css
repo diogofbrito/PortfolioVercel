@@ -1,0 +1,15 @@
+.projects {
+	display: flex;
+	flex-direction: column;
+}
+
+.image-grid {
+	display: flex;
+	margin-left: -1rem;
+	height: auto;
+}
+
+.image-grid_column {
+	padding-left: 1rem; 
+	background-clip: padding-box;
+}
