@@ -4,13 +4,13 @@
 	top: 1rem;
 	left: 0;
 	right: 0;
-	z-index: 10;
+	z-index: 10000;
 	position: sticky;
 }
 
 .navbar__item {
 	display: flex;
-	padding:  0.5rem 1rem;
+	padding: 0.5rem 1rem;
 	justify-content: space-between;
 	position: relative;
 	border-radius: 12px;

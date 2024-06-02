@@ -1,4 +1,4 @@
-import { useLocation} from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import './style.css';
 
@@ -7,7 +7,7 @@ export function ErrorPage() {
 
 	useEffect(() => {
 		const timer = setTimeout(() => {
-			window.location.href = '/portfolio/';
+			window.location.href = '/';
 		}, 5000);
 
 		return () => clearTimeout(timer);

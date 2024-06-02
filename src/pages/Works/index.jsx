@@ -1,11 +1,11 @@
 import React, { useContext, useState, useEffect } from 'react';
-import { ProjectItem } from '../../../components/ProjectItem/index.jsx';
-import { FilterBar } from '../../../components/FilterBar/index.jsx';
-import { FilterContext } from '../../../contexts/FilterContext.jsx';
+import { ProjectItem } from '../../components/ProjectItem/index.jsx';
+import { FilterBar } from '../../components/FilterBar/index.jsx';
+import { FilterContext } from '../../contexts/FilterContext.jsx';
 import Masonry from 'react-masonry-css';
 import './style.css';
 
-export function List() {
+export function Works() {
 	const { searchTerm, setSearchTerm, selectedYear, setSelectedYear, filteredProjects, uniqueYears } = useContext(FilterContext);
 
 	const breakpointColumnsObj = {

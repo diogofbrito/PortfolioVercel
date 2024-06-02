@@ -1,38 +1,41 @@
-import React, { useState, useContext } from 'react';
-import Masonry from 'react-masonry-css';
-import { AppContext } from '../../contexts/AppContext';
+import React, { useContext, useState, useEffect } from 'react';
+import Slider from 'react-slick';
 import './style.css';
+import { AppContext } from '../../contexts/AppContext';
+
 
 export function Gallery() {
-	const { intro } = useContext(AppContext);
+	const { projects } = useContext(AppContext);
+	
 
-	const breakpointColumnsObj = {
-		default: 3,
-		1100: 2,
-		600: 1,
+	const settings = {
+		dots: false,
+		fade: true,
+		arrows: false,
+		infinite: true,
+		speed: 500,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		waitForAnimate: false,
+		autoplay: true,
+		autoplaySpeed: 5000,
 	};
 
 	return (
-		<div className='gallery'>
-			<Masonry breakpointCols={breakpointColumnsObj} className='image-grid' columnClassName='image-grid_column'>
-				{intro.map(item => (
-					<>
-						<div key={item.id} className='image-container'>
-							{item.videoUrl ? (
-								<video autoPlay muted loop playsInline preload='metadata'>
-									<source src={item.videoUrl} type='video/mp4' />
-								</video>
-							) : (
-								<img src={item.imageUrl} alt={item.title} loading='lazy' />
-							)}
-						</div>
-						<div className='title__intro'>
-							<div className='name__proj'>{item.title}</div>
-							<div className='name__type'>{Array.isArray(item.category) ? item.category.map((cat, index) => <div key={index}>{cat}</div>) : <div>{item.category}</div>}</div>
-						</div>
-					</>
+		<div className='slider-container' >
+			<Slider {...settings}>
+				{projects.map(project => (
+					<div key={project.id} className='slider-item'>
+						{project.videoUrl ? (
+							<video autoPlay muted loop playsInline preload='metadata'>
+								<source src={project.videoUrl} type='video/mp4' />
+							</video>
+						) : (
+							<img src={project.imageUrl} alt={project.title} loading='lazy' />
+						)}
+					</div>
 				))}
-			</Masonry>
+			</Slider>
 		</div>
 	);
 }

@@ -4,10 +4,9 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { ToggleListButton } from '../ToggleListButton/index';
 import { ToggleSwitch } from '../ThemeSwitch/index';
 
-
 export function Header() {
 	const location = useLocation();
-	const isProjectsPage = location.pathname.startsWith('/projects');
+	const isWorksPage = location.pathname.startsWith('/work');
 
 	return (
 		<div className='navbar'>
@@ -23,10 +22,10 @@ export function Header() {
 						<NavLink className='item__flex' to='/about'>
 							About
 						</NavLink>
-						<NavLink className='item__flex' to='/projects'>
+						<NavLink className='item__flex' to='/work'>
 							Work
 						</NavLink>
-						{isProjectsPage && <ToggleListButton />}
+						{isWorksPage && <ToggleListButton />}
 					</div>
 
 					<ToggleSwitch />
