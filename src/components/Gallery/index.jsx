@@ -18,7 +18,7 @@ export function Gallery() {
 		slidesToScroll: 1,
 		waitForAnimate: false,
 		autoplay: true,
-		autoplaySpeed: 5000,
+		autoplaySpeed: 7000,
 	};
 
 	return (
@@ -27,7 +27,7 @@ export function Gallery() {
 				{projects.map(project => (
 					<div key={project.id} className='slider-item'>
 						{project.videoUrl ? (
-							<video autoPlay muted loop playsInline preload='metadata'>
+							<video autoPlay muted loop playsInline>
 								<source src={project.videoUrl} type='video/mp4' />
 							</video>
 						) : (
