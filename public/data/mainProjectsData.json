@@ -68,7 +68,7 @@
 		{
 			"id": 10,
 			"title": "Filipa Nunes",
-			"videoUrl": "https://vod.api.video/vod/vi5L0LRswa1sa1IhVMFwb8cS/mp4/source.mp4",
+			"videoUrl": "./imgs/vid/MN_ANIMA.mp4",
 			"category": ["Web Design", "Web Development"],
 			"year": 2022
 		},
