@@ -1,9 +1,9 @@
 import { createBrowserRouter } from 'react-router-dom';
-import App from './App';
-import { Home } from './pages/Home/index';
-import { About } from './pages/About/index';
-import { Works } from './pages/Works/index';
-import { ErrorPage } from './pages/ErrorPage/index';
+import App from './App.jsx';
+import { Home } from './pages/Home/index.jsx';
+import { About } from './pages/About/index.jsx';
+import { Works } from './pages/Works/index.jsx';
+import { ErrorPage } from './pages/ErrorPage/index.jsx';
 
 export const router = createBrowserRouter([
 	{
