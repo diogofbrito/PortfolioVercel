@@ -8,9 +8,15 @@ export function ProjectItem({ project }) {
 		<>
 			<div key={id} className='image-container'>
 				{videoUrl ? (
-					<video autoPlay muted loop playsInline preload='metadata'>
-						<source src={videoUrl} type='video/mp4' />
-					</video>
+					<div className='vimeo-wrapper'>
+						<iframe
+							src={`${videoUrl}?autoplay=1&loop=1&muted=1&background=1&playsinline=1&controls=0&title=0&byline=0&portrait=0`}
+							frameborder='0'
+							allow='autoplay; fullscreen; picture-in-picture'
+							allowfullscreen
+							
+						></iframe>
+					</div>
 				) : (
 					<img src={imageUrl} alt={title} loading='lazy' />
 				)}

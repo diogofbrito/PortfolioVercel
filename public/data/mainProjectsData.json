@@ -11,7 +11,7 @@
 		{
 			"id": 2,
 			"title": "Wasted Rita",
-			"videoUrl": "./imgs/vid/WR_ANIMA.mp4",
+			"videoUrl": "https://player.vimeo.com/video/953514659",
 			"category": ["Web Design", "Web Development"],
 			"year": 2023
 		},
@@ -19,10 +19,11 @@
 		{
 			"id": 3,
 			"title": "Meo Kalorama Festival x Underdogs Gallery",
-			"videoUrl": "https://vod.api.video/vod/vi3PXD9M0lVkiz74LKi8WQZV/mp4/source.mp4",
+			"videoUrl": "https://player.vimeo.com/video/953524692",
 			"category": "Identity",
 			"year": 2022
 		},
+
 		{
 			"id": 4,
 			"title": "Stand Project x National Coach Museum",
@@ -33,24 +34,27 @@
 		{
 			"id": 5,
 			"title": "Novocine",
-			"videoUrl": "./imgs/vid/NC_ANIMA.mp4",
+			"videoUrl": "https://player.vimeo.com/video/953515833",
 			"category": ["Web Design", "Web Development"],
 			"year": 2022
 		},
+
 		{
 			"id": 6,
 			"title": "Alex Darling",
-			"videoUrl": "./imgs/vid/AD_ANIMA.mp4",
+			"videoUrl": "https://player.vimeo.com/video/953515776",
 			"category": ["Web Design", "Web Development"],
 			"year": 2022
 		},
+
 		{
 			"id": 7,
 			"title": "Jonas&Lander",
-			"videoUrl": "./imgs/vid/JL_ANIMA.mp4",
+			"videoUrl": "https://player.vimeo.com/video/953515795",
 			"category": ["Web Design", "Web Development"],
 			"year": 2022
 		},
+
 		{
 			"id": 8,
 			"title": "Limit of Disappearance",
@@ -68,14 +72,15 @@
 		{
 			"id": 10,
 			"title": "Filipa Nunes",
-			"videoUrl": "./imgs/vid/MN_ANIMA.mp4",
+			"videoUrl": "https://player.vimeo.com/video/953515813",
 			"category": ["Web Design", "Web Development"],
 			"year": 2022
 		},
+
 		{
 			"id": 11,
 			"title": "Teorias da Inspiração - Filme by David Marques",
-			"videoUrl": "https://vod.api.video/vod/vi1C1Uoxosf1xKorhwaIvx9h/mp4/source.mp4",
+			"videoUrl": "https://player.vimeo.com/video/953525980",
 			"category": "Video",
 			"year": 2021
 		},
@@ -96,17 +101,19 @@
 		{
 			"id": 14,
 			"title": "Stand Project",
-			"videoUrl": "https://vod.api.video/vod/vi5ZR7bawbKvS0rkGvLmn2ni/mp4/source.mp4",
+			"videoUrl": "https://player.vimeo.com/video/953592863",
 			"category": ["Art Direction", "Visual", "Video"],
 			"year": 2021
 		},
+
 		{
 			"id": 15,
 			"title": "António Castro",
-			"videoUrl": "https://vod.api.video/vod/vi7WLnoBVoDZzouPXb1Z0QGG/mp4/source.mp4",
+			"videoUrl": "https://player.vimeo.com/video/953639606",
 			"category": ["Web Design", "Web Development"],
 			"year": 2021
 		},
+
 		{
 			"id": 16,
 			"title": "Enjoy the Weather by Teresa Silva",

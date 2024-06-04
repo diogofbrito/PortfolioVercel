@@ -13,11 +13,6 @@
 	transition: transform 0.3s ease;
 }
 
-.image-container video {
-  width: 102%;
-  padding: -4px;
-  margin: -4px; 
-}
 
 .title__intro{
 	display: flex;
@@ -39,4 +34,23 @@
 	border-radius: 34px;
 	  border: 1px solid var(--text-color-dark);
 	background-color: transparent;
+}
+.vimeo-wrapper { 
+display: block;
+height: 0;
+overflow: hidden;
+padding: 0;
+padding-bottom: 56%;
+position: relative;
+}
+
+.vimeo-wrapper iframe { 
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+scale: 1.07;
+border: 0;
 }
