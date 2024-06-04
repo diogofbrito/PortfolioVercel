@@ -40,7 +40,7 @@
 		{
 			"id": 6,
 			"title": "Alex Darling",
-			"videoUrl": "https://vod.api.video/vod/vi46j6WsIWUDJqvygsXliomy/mp4/source.mp4",
+			"videoUrl": "./imgs/vid/AD_ANIMA.mp4",
 			"category": ["Web Design", "Web Development"],
 			"year": 2022
 		},
