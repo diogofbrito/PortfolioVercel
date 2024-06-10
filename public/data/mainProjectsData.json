@@ -27,7 +27,7 @@
 		{
 			"id": 4,
 			"title": "Stand Project x National Coach Museum",
-			"imageUrl": "./imgs/main/StandUmbigo/UMBIGO MOCKUP1.png",
+			"imageUrl": "./imgs/main/StandUmbigo/UMBIGO MOCKUP1.jpg",
 			"category": ["Identity", "Art Direction"],
 			"year": 2022
 		},
@@ -94,7 +94,7 @@
 		{
 			"id": 13,
 			"title": "Esa Cosa Llamada Amor by Plataforma 285",
-			"imageUrl": "./imgs/main/EsaCosa/ESA_COSA.gif",
+			"imageUrl": "../imgs/main/EsaCosa/ESA_COSA.gif",
 			"category": "Editorial",
 			"year": 2021
 		},
