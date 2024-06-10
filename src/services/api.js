@@ -4,17 +4,18 @@ const api = axios.create({
 	baseURL: '/data',
 });
 
+export async function getProjWithCache() {
+	const cachedProjects = localStorage.getItem('cachedProjects');
+	if (cachedProjects) {
+		return JSON.parse(cachedProjects);
+	} else {
+		const response = await getProj();
+		localStorage.setItem('cachedProjects', JSON.stringify(response));
+		return response;
+	}
+}
 export async function getProj() {
 	const response = await api.get('/mainProjectsData.json');
 	return response.data;
 }
 
-export async function getAbout() {
-	const response = await api.get('/aboutData.json');
-	return response.data;
-}
-
-export async function getIntro() {
-	const response = await api.get('/introProjectsData.json');
-	return response.data;
-}

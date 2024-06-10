@@ -1,9 +1,7 @@
-import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import './style.css';
 
 export function ErrorPage() {
-	const location = useLocation();
 
 	useEffect(() => {
 		const timer = setTimeout(() => {
