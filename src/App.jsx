@@ -11,6 +11,7 @@ function App() {
 		<AppProvider>
 			<FilterProvider>
 				<Header />
+
 				<Outlet />
 			</FilterProvider>
 		</AppProvider>

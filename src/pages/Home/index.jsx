@@ -3,8 +3,8 @@ import { Gallery } from '../../components/Gallery/index';
 
 export function Home() {
 	return (
-		<div className='container'>
+		<>
 			<Gallery />
-		</div>
+		</>
 	);
 }

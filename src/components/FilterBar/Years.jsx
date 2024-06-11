@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { FilterContext } from '../../../contexts/FilterContext';
+import { FilterContext } from '../../contexts/FilterContext';
 import { ChevronDown } from 'lucide-react';
 import './style.css';
 

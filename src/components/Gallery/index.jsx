@@ -1,41 +1,44 @@
-import React, { useContext, useState, useEffect } from 'react';
-import Slider from 'react-slick';
-import './style.css';
+import React, { useContext } from 'react';
 import { AppContext } from '../../contexts/AppContext';
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectFade, Pagination, Autoplay } from 'swiper/modules';
+import './style.css';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 export function Gallery() {
-	const { projects } = useContext(AppContext);
-	
-
-	const settings = {
-		dots: false,
-		fade: true,
-		arrows: false,
-		infinite: true,
-		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		waitForAnimate: false,
-		autoplay: true,
-		autoplaySpeed: 7000,
-	};
+		const { projects } = useContext(AppContext);
 
 	return (
-		<div className='slider-container' >
-			<Slider {...settings}>
-				{projects.map(project => (
-					<div key={project.id} className='slider-item'>
+		<>
+			<Swiper
+				spaceBetween={30}
+				effect={'fade'}
+				autoplay={{
+					delay: 5000,
+					disableOnInteraction: false,
+				}}
+				modules={[EffectFade, Autoplay, Pagination]}
+				className='mySwiper'
+			>
+				{projects.map((project, index) => (
+					<SwiperSlide key={`project_${index}`}>
 						{project.videoUrl ? (
-							<video autoPlay muted loop playsInline>
-								<source src={project.videoUrl} type='video/mp4' />
-							</video>
+							<iframe
+								src={`${project.videoUrl}?autoplay=1&loop=1&muted=1&background=1&playsinline=1&controls=0&title=0&byline=0&portrait=0`}
+								allow='autoplay; fullscreen; picture-in-picture'
+								frameBorder={0}
+								width='100%'
+								height='100%'
+							></iframe>
 						) : (
-							<img src={project.imageUrl} alt={project.title} loading='lazy' />
+							<img src={project.imageUrl} alt={project.title} />
 						)}
-					</div>
+					</SwiperSlide>
 				))}
-			</Slider>
-		</div>
+			</Swiper>
+		</>
 	);
 }

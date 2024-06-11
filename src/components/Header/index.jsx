@@ -1,35 +1,26 @@
 import React from 'react';
 import './style.css';
-import { NavLink, useLocation } from 'react-router-dom';
-import { ToggleListButton } from '../ToggleListButton/index';
+import { NavLink } from 'react-router-dom';
 import { ToggleSwitch } from '../ThemeSwitch/index';
 
-export function Header() {
-	const location = useLocation();
-	const isWorksPage = location.pathname.startsWith('/work');
-
+export function Header({ headerRef }) {
 	return (
-		<div className='navbar'>
-			<div className='container'>
-				<div className='navbar__item'>
-					<div>
-						<NavLink className='item__flex' to='/'>
-							Diogo Brito
-						</NavLink>
-					</div>
+		<div className='navbar container' ref={headerRef}>
+			<div className='navbar__item'>
+				<NavLink className='item__flex' to='/'>
+					Diogo Brito
+				</NavLink>
 
-					<div style={{ display: 'flex', gap: '1rem', position: 'relative' }}>
-						<NavLink className='item__flex' to='/about'>
-							About
-						</NavLink>
-						<NavLink className='item__flex' to='/work'>
-							Work
-						</NavLink>
-						{isWorksPage && <ToggleListButton />}
-					</div>
-
-					<ToggleSwitch />
+				<div style={{ display: 'flex', gap: '1rem' }}>
+					<NavLink className='item__flex' to='/about'>
+						About
+					</NavLink>
+					<NavLink className='item__flex' to='/work'>
+						Work
+					</NavLink>
 				</div>
+
+				<ToggleSwitch />
 			</div>
 		</div>
 	);

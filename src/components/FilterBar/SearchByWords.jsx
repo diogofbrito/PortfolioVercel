@@ -1,13 +1,12 @@
 import React, { useContext } from 'react';
-import { FilterContext } from '../../../contexts/FilterContext.jsx'; 
-import './style.css';
+import { FilterContext } from '../../contexts/FilterContext.jsx'; 
 import { Search } from 'lucide-react';
 
-export function SearchBar() {
+export function SearchByWords() {
 	const { searchTerm, setSearchTerm } = useContext(FilterContext);
 
 	return (
-		<div className='search__bar'>
+		<div className='search'>
 			<input type='text' placeholder='Search' value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
 			<span className='search__icon'>
 				<Search color='var(--background-color-dark)' />

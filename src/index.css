@@ -16,6 +16,15 @@
 	--shadow-dark: rgba(255, 255, 255, 0.25);
 }
 
+#root {
+	height: 100%;
+}
+html,
+body {
+	position: relative;
+	height: 100%;
+}
+
 body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -38,7 +47,6 @@ a {
 	color: var(--text-color-light);
 	transition: color 0.3s;
 }
-
 
 body.dark-mode .index {
 	background-color: rgba(50, 50, 50, 0.5);
@@ -72,11 +80,15 @@ img {
 	display: block;
 }
 
-button {
-	background-color: transparent;
-	color: inherit;
+button, a {
+	text-align: center;
 	border: none;
 	font: inherit;
 	outline: inherit;
 	letter-spacing: -0.2px;
+	padding: 0.5rem 1rem;
+	border-radius: 15px;
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	background-color: rgba(197, 197, 197, 0.5);
 }
