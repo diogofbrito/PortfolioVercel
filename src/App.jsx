@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import { Header } from './components/Header/index';
+import { Header } from './components/HeaderPage/Header';
 import { AppProvider } from './contexts/AppContext';
 import './index.css';
 import './assets/font/stylesheet.css';
@@ -11,7 +11,6 @@ function App() {
 		<AppProvider>
 			<FilterProvider>
 				<Header />
-
 				<Outlet />
 			</FilterProvider>
 		</AppProvider>

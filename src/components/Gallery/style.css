@@ -24,14 +24,12 @@
 	object-fit: cover;
 }
 
-.swiper-slide iframe{
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
+.swiper-slide iframe {
+	display: block; 
+	background: #000;
+	border: none; 
+	overflow: hidden;
+	height: 100vh; /* Viewport-relative units */
+	width: 100vw;
+	scale: 1.2;
 }
-
-

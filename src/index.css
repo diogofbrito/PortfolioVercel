@@ -16,9 +16,7 @@
 	--shadow-dark: rgba(255, 255, 255, 0.25);
 }
 
-#root {
-	height: 100%;
-}
+
 html,
 body {
 	position: relative;
@@ -81,14 +79,15 @@ img {
 }
 
 button, a {
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border: none;
 	font: inherit;
 	outline: inherit;
 	letter-spacing: -0.2px;
 	padding: 0.5rem 1rem;
 	border-radius: 15px;
-	backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);
-	background-color: rgba(197, 197, 197, 0.5);
+	background-color: rgb(131, 131, 131);
 }
+

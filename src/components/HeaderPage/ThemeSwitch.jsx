@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-export const ToggleSwitch = () => {
+export function ThemeSwitch() {
 	const [theme, setTheme] = useState('light');
 
 	const toggleTheme = () => {
@@ -25,5 +25,9 @@ export const ToggleSwitch = () => {
 		}
 	}, [theme]);
 
-	return <button className='item__flex' onClick={toggleTheme}>{theme === 'light' ? 'Night' : 'Day'}</button>;
-};
+	return (
+		<button style={{ width: '70px' }} onClick={toggleTheme}>
+			{theme === 'light' ? 'Night' : 'Day'}
+		</button>
+	);
+}

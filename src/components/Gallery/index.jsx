@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 export function Gallery() {
-		const { projects } = useContext(AppContext);
+	const { projects } = useContext(AppContext);
 
 	return (
 		<>
@@ -30,8 +30,6 @@ export function Gallery() {
 								src={`${project.videoUrl}?autoplay=1&loop=1&muted=1&background=1&playsinline=1&controls=0&title=0&byline=0&portrait=0`}
 								allow='autoplay; fullscreen; picture-in-picture'
 								frameBorder={0}
-								width='100%'
-								height='100%'
 							></iframe>
 						) : (
 							<img src={project.imageUrl} alt={project.title} />
