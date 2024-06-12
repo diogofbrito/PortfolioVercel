@@ -10,7 +10,12 @@ export function WorkItem({ project }) {
 				{videoUrl ? (
 					<div className='vimeo-wrapper'>
 						<LazyLoad height={200} offset={100} once>
-							<iframe src={`${videoUrl}?autoplay=1&loop=1&muted=1&background=1&playsinline=1&controls=0&title=0&byline=0&portrait=0`} allow='autoplay; fullscreen; picture-in-picture'></iframe>
+							<iframe
+								src={`${videoUrl}?autoplay=1&loop=1&muted=1&background=1&playsinline=1&controls=0&title=0&byline=0&portrait=0`}
+								allow='autoplay; fullscreen; picture-in-picture'
+								
+							></iframe>
+
 						</LazyLoad>
 					</div>
 				) : (

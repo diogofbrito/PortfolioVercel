@@ -8,7 +8,7 @@ export function Works() {
 	const { filteredProjects } = useContext(FilterContext);
 
 	const breakpointColumnsObj = {
-		default: 3,
+		default: 2,
 		1100: 2,
 		600: 1,
 	};
