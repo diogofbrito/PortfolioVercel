@@ -1,6 +1,5 @@
-import React, { createContext, useEffect, useReducer } from 'react';
-import { getProjWithCache } from '../services/api'; 
-import { reducer } from '../reducer';
+import React, { createContext, useEffect, useState } from 'react';
+import { getProjWithCache } from '../services/api';
 
 export const AppContext = createContext();
 
@@ -9,13 +8,13 @@ const initialState = {
 };
 
 export function AppProvider({ children }) {
-	const [state, dispatch] = useReducer(reducer, initialState);
+	const [projects, setProjects] = useState(initialState.projects);
 
 	useEffect(() => {
 		async function fetchProj() {
 			try {
 				const projeto = await getProjWithCache();
-				dispatch({ type: 'SET_PROJECTS', payload: projeto.projects });
+				setProjects(projeto.projects);
 			} catch (error) {
 				console.log('ERRO', error);
 			}
@@ -24,7 +23,5 @@ export function AppProvider({ children }) {
 		fetchProj();
 	}, []);
 
-	
-
-	return <AppContext.Provider value={{ ...state }}>{children}</AppContext.Provider>;
+	return <AppContext.Provider value={{ projects }}>{children}</AppContext.Provider>;
 }
