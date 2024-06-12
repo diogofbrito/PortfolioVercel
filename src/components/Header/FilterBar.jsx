@@ -4,7 +4,6 @@ import { SearchByWords } from './SearchByWords.jsx';
 import { Category } from './Category.jsx';
 import { Years } from './Years.jsx';
 import { List } from 'lucide-react';
-import './style.css';
 
 export function FilterBar() {
 	const { searchTerm, setSearchTerm, uniqueYears, selectedYear, setSelectedYear, filteredProjects, selectedCategory, setSelectedCategory, uniqueCategories } = useContext(FilterContext);

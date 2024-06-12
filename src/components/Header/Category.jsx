@@ -1,19 +1,18 @@
 import React, { useContext, useState, useEffect, useRef } from 'react';
 import { FilterContext } from '../../contexts/FilterContext';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-import './style.css';
 
-export function Years() {
-	const { uniqueYears, selectedYear, setSelectedYear } = useContext(FilterContext);
+export function Category() {
+	const { uniqueCategories, selectedCategory, setSelectedCategory } = useContext(FilterContext);
 	const [isOpen, setIsOpen] = useState(false);
-    const dropdownRef = useRef(null);
+	const dropdownRef = useRef(null);
 
 	const toggleDropdown = () => {
 		setIsOpen(!isOpen);
 	};
 
-	const handleOptionClick = year => {
-		setSelectedYear(year);
+	const handleOptionClick = category => {
+		setSelectedCategory(category);
 		setIsOpen(false);
 	};
 
@@ -34,13 +33,15 @@ export function Years() {
 		<div className='dropdown-container' ref={dropdownRef}>
 			<div className={`custom-select ${isOpen ? 'open' : ''}`} onClick={toggleDropdown}>
 				<button className='selected-value'>
-					{selectedYear} {isOpen ? <ChevronUp /> : <ChevronDown />}
+					{selectedCategory}
+					{isOpen ? <ChevronUp /> : <ChevronDown />}
 				</button>
+
 				{isOpen && (
 					<ul className='options'>
-						{uniqueYears.map(year => (
-							<li key={year} onClick={() => handleOptionClick(year)}>
-								{year}
+						{uniqueCategories.map(category => (
+							<li key={category} onClick={() => handleOptionClick(category)}>
+								{category}
 							</li>
 						))}
 					</ul>

@@ -1,9 +1,8 @@
 import React, { useContext } from 'react';
-import { ProjectItem } from '../../components/ProjectItem/index.jsx';
-import { FilterBar } from '../../components/HeaderPage/FilterBar.jsx';
-import { FilterContext } from '../../contexts/FilterContext.jsx';
+import { WorkItem } from '../components/WorkItem.jsx';
+import { Link } from 'react-router-dom';
+import { FilterContext } from '../contexts/FilterContext.jsx';
 import Masonry from 'react-masonry-css';
-import './style.css';
 
 export function Works() {
 	const { filteredProjects } = useContext(FilterContext);
@@ -18,7 +17,15 @@ export function Works() {
 		<>
 			<div className='projects container'>
 				<Masonry breakpointCols={breakpointColumnsObj} className='image-grid' columnClassName='image-grid_column'>
-					{filteredProjects.length > 0 ? filteredProjects.map(project => <ProjectItem key={project.id} project={project} />) : <div className='no-results-message'>No results found.</div>}
+					{filteredProjects.length > 0 ? (
+						filteredProjects.map(project => (
+							<Link to={`/works/${project.id}`} key={project.id}>
+								<WorkItem project={project} />
+							</Link>
+						))
+					) : (
+						<div className='no-results-message'>Loading...</div>
+					)}
 				</Masonry>
 			</div>
 		</>

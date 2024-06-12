@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
-import { Header } from './components/HeaderPage/Header';
+import { Header } from './components/Header/Header';
 import { AppProvider } from './contexts/AppContext';
 import './index.css';
 import './assets/font/stylesheet.css';
