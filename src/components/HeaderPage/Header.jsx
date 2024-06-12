@@ -14,16 +14,10 @@ export function Header() {
 		<div className='navbar'>
 			<div className='container'>
 				<div className='navbar__item'>
-					<NavLink  to='/about'>
-						About
-					</NavLink>
+					<NavLink to='/'>Diogo Brito</NavLink>
 
 					<div style={{ display: 'flex', gap: '1rem' }}>
-						{currentPath !== '/works' && (
-							<NavLink to='/works'>
-								Works
-							</NavLink>
-						)}
+						{currentPath !== '/works' && <NavLink to='/works'>Works</NavLink>}
 
 						{currentPath === '/works' && (
 							<FilterBar
@@ -37,7 +31,11 @@ export function Header() {
 						)}
 					</div>
 
-					<ThemeSwitch />
+					<div style={{ display: 'flex', gap: '1rem' }}>
+						<NavLink to='/about'>About</NavLink>
+						<ThemeSwitch />
+					
+					</div>
 				</div>
 			</div>
 		</div>

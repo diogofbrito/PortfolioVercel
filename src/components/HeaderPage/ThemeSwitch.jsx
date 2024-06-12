@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Moon, Sun } from 'lucide-react';
 
 export function ThemeSwitch() {
 	const [theme, setTheme] = useState('light');
@@ -27,7 +28,7 @@ export function ThemeSwitch() {
 
 	return (
 		<button style={{ width: '70px' }} onClick={toggleTheme}>
-			{theme === 'light' ? 'Night' : 'Day'}
+			{theme === 'light' ? <Moon /> : <Sun />}
 		</button>
 	);
 }
