@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from 'react';
-import { getProjWithCache } from '../services/api';
+import { getProjects } from '../services/api';
 
 export const AppContext = createContext();
 
@@ -13,7 +13,7 @@ export function AppProvider({ children }) {
 	useEffect(() => {
 		async function fetchProj() {
 			try {
-				const projeto = await getProjWithCache();
+				const projeto = await getProjects();
 				setProjects(projeto.projects);
 			} catch (error) {
 				console.log('ERRO', error);

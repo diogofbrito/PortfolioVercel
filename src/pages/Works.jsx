@@ -24,7 +24,7 @@ export function Works() {
 							</Link>
 						))
 					) : (
-						<div className='no-results-message'>Loading...</div>
+						<div className='no-results-message'>No projects found</div>
 					)}
 				</Masonry>
 			</div>

@@ -1,0 +1,514 @@
+{
+	"projects": [
+		{
+			"id": 1,
+			"title": "Leroy Merlin x CCP",
+			"imageUrl": "./imgs/main/Leroy/leroymUPI.jpg",
+			"images": [
+				"./imgs/main/Wasted/WR1.png",
+				"./imgs/main/Wasted/WR3.png",
+				"./imgs/main/Wasted/WR4.png",
+				"./imgs/main/Wasted/WR5.png",
+				"./imgs/main/Wasted/WR6.png",
+				"./imgs/main/Wasted/WR7.png",
+				"./imgs/main/Wasted/WR8.png"
+			],
+			"category": ["Identity", "Art Direction"],
+			"year": 2024,
+			"info": "Leroy Merlin together with CCP (Creativity Club of Portugal) created an open briefing challenging to develop an idea proposal that would creatively communicate Leroy Merlin store openings and reopenings using local and regional communication, language and concepts. My proposal involved expanding elements of the company logo and color palette, distilling it to a clean, hyper-recognizable format, while in conjunction with constructing stories of each city, highlighted sections of the Leroy Merlin logo that match both graphically and aesthetically to the sentiments of each local retail branch. My proposal was one of the finalists of the competition.",
+			"links": [
+				{
+					"name": "CCP x Leroy Merlin",
+					"link": "https://www.clubedacriatividade.pt/concursos/2024-brief-aberto-_-leroy-merlin/"
+				},
+				{
+					"name": "Project Proposal - PDF",
+					"link": "https://drive.google.com/file/d/1_ZGMV9EGPCM1rI7QxYg-EHAP2JlJq39f/view"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Wasted Rita",
+			"videoUrl": "./vid/WR_ANIMA.mp4",
+			"images": [
+				"./imgs/main/Wasted/WR1.png",
+				"./imgs/main/Wasted/WR3.png",
+				"./imgs/main/Wasted/WR4.png",
+				"./imgs/main/Wasted/WR5.png",
+				"./imgs/main/Wasted/WR6.png",
+				"./imgs/main/Wasted/WR7.png",
+				"./imgs/main/Wasted/WR8.png"
+			],
+			"category": ["Web Design", "Web Development"],
+			"year": 2023,
+			"info": "On Wasted Rita’s website, I used some elements drawn by the artist, like her logo, drawings for the main page, arrows and her handwriting typography to differentiate the collective and individual exhibitions. It’s a website with some effects on mouse hover with neutral colors but with a green that is reflected in her work."
+		},
+		{
+			"id": 3,
+			"title": "Meo Kalorama Festival x Underdogs Gallery",
+			"videoUrl": "./vid/KALORAMA_ANIMA.mp4",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": "Identity",
+			"year": 2022,
+			"info": "Underdogs Gallery hired me to create a visual identity piece for the exterior of poster tube mailers for early bird tickets for the Meo Kalorama festival 2023, one which would clearly incorporate identifying logos and signature palette of the brand. I was also charged with devising a closure solution for the tubes. I chose to design this as a large-scale, multi-colored, pixellated sticker with flaps that simultaneously functioned as a closure in a bold and highly visible style. Included in the mailer tube with vinyl stage pieces was an insert I designed with graphics related to the sticker which serves to explain the contents.",
+			"credits": "©Ana Pires, courtesy Underdogs Gallery"
+		},
+		{
+			"id": 4,
+			"title": "Stand Project x National Coach Museum",
+			"imageUrl": "./imgs/main/StandUmbigo/UMBIGOMOCKUP1.jpg",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": ["Identity", "Art Direction"],
+			"year": 2022,
+			"info": "Umbigo, an independent art magazine in Portgual, invited Stand Project to create a visual essay in collaboration with the National Coach Museum in Lisbon. As part of Stand’s team, I created a suite of visual compositions - hybrid creatures depicting an impossible crossing of historical facets of the legacy of coaches and popular symbols of the modern automobile tuning subculture."
+		},
+		{
+			"id": 5,
+			"title": "Novocine",
+			"videoUrl": "./vid/NC_ANIMA.mp4",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": ["Web Design", "Web Development"],
+			"year": 2022,
+			"info": "Novocine is an online cinema platform whose goal is to screen a new film, free for audiences, every twenty days. I was hired to design their project website as an undistracting, intuitive experience intended to seamlessly and easily allow users to focus on each film presented while maintaining a clear and recognizable Novocine identity."
+		},
+		{
+			"id": 6,
+			"title": "Alex Darling",
+			"videoUrl": "./vid/AD_ANIMA.mp4",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": ["Web Design", "Web Development"],
+			"year": 2022,
+			"info": "Alex Darling, a professional travel photographer, charged me with producing a site showcasing his work in a minimalist framework which would usher the user into a focused, clean experience, with the directive that it engage with the user to slow down time. I developed a site free from any typical distracting interfaces and relied solely on soft, ultra slow transitions, hidden links and dark backgrounds that both comfort the viewer, relax the eye and lull the user into focusing purely on the image served to them."
+		},
+		{
+			"id": 7,
+			"title": "Jonas&Lander",
+			"videoUrl": "./vid/JL_ANIMA.mp4",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": ["Web Design", "Web Development"],
+			"year": 2022,
+			"info": "Jonas & Lander is a duo of portuguese choreographers. They partnered with me to re-envision their website as a place which would reflect the universe of their collaboration as artists that included colorful aspects of their catalog, elements of surreality, folkloric compositions all strung together using archival performance imagery and playful mouse effects."
+		},
+		{
+			"id": 8,
+			"title": "Limit of Disappearance",
+			"imageUrl": "./imgs/main/Limit/LO1.jpg",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": ["Identity", "Posters"],
+			"year": 2022,
+			"info": "The portuguese visual artist Bruno José Silva hired me to create a Mupi poster for outdoor and design digital posters to share on social media for his exhibition Limit of Disappearance."
+		},
+		{
+			"id": 9,
+			"title": "Stand 1.0",
+			"imageUrl": "./imgs/main/StandBook/StandProject(1)_mainpage.jpg",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": ["Identity", "Editorial"],
+			"year": 2022,
+			"info": "Stand Project is a collaborative artistic project whose is focus to create and curate exhibitions that take place in unconventional spaces organized by a collective in Lisbon. The first cycle was made in a working car dealership in Lisbon between February 2020 to April 2021, which we named Stand 1.0. Because each event of that cycle was the result of a collaboration between two artists who hadn’t previously worked together, the book serves as a way to capture the ephemeral process as well as the events themselves, incorporating images of gatherings, teaser video stills, reproductions of messages amongst artists and the collective and poster art all framed with text written by guests about the work, visual reference details of the car dealership, full-bleed, color-saturated pages and signature colors. The book was launched in April 2022.",
+			"links": [
+				{
+					"name": "Instagram",
+					"link": "https://www.instagram.com/ostandproject/"
+				},
+				{
+					"name": "Youtube channel",
+					"link": "https://www.youtube.com/@standprojecto4351"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"title": "Filipa Nunes",
+			"videoUrl": "./vid/MN_ANIMA.mp4",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": ["Web Design", "Web Development"],
+			"year": 2021,
+			"info": "Filipa Nunes is a writer and curator based in Lisbon. I was asked to produce a site that worked as a seamless composition including a range of varied professional and personal interests which also worked in tandem with her strong attachment to color. I chose to shuffle the site in a bold color blocking style that cleanly represented her varied endeavors."
+		},
+		{
+			"id": 11,
+			"title": "Teorias da Inspiração - Filme by David Marques",
+			"videoUrl": "./vid/TI_ANIMA.mp4",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": "Video",
+			"year": 2021,
+			"info": "Theories of Inspiration - Film is a film collaboration with choreographer David Marques which served to mark the end of the first phase of creation for the stage piece of the same title, to be staged later at TBA, Teatro do Bairro Alto in Lisbon in 2022. Theory of Inspiration is a work whose aim is to draw into focus ephemeral sensations, memory, process work and translate them into a choreographic choreographic entity. To illustrate these concepts in film, I attempt to shoot with methods and details that would produce an atmosphere resembling memory; close up detail of movement, heightened audio, interlaced segments, muted colors and soft, hazy focus, pov video and images of abstract working notes.",
+			"links": [
+				{
+					"name": "Teatro do Bairro Alto",
+					"link": "https://www.teatrodobairroalto.pt/pt/evento/teorias-da-inspiracao-filme"
+				}
+			]
+		},
+		{
+			"id": 12,
+			"title": "Amadora-3",
+			"imageUrl": "./imgs/main/Amadora3/AMD1.jpg",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": "Individual Exhibition",
+			"year": 2021,
+			"info": "texto aqui",
+			"links": [
+				{
+					"name": "Umbigo Magazine review",
+					"link": "https://umbigomagazine.com/en/blog/2021/05/25/amadora-3-de-diogo-brito/"
+				}
+			],
+			"credits": "©Alex Darling"
+		},
+		{
+			"id": 13,
+			"title": "Esa Cosa Llamada Amor by Plataforma 285",
+			"imageUrl": "./imgs/main/EsaCosa/ESA_COSA.gif",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": "Editorial",
+			"year": 2021,
+			"info": "Esa Cosa Llamada Amor: 10 years is a performance by Plataforma285, a multidisciplinary art collective in Portugal. This play also serves as a frame of their performance history for their 10th anniversary as a collective. They hired me to design a fanzine style book to celebrate and commemorate the event. Included are collage-heavy pages, clean scans and reproductions of past ticket stubs, process images, moodboard writings, production stills and personal communications amongst the collective’s members, all serving to create a scrapbook-style publication.",
+			"links": [
+				{
+					"name": "CCB",
+					"link": "https://www.ccb.pt/evento/plataforma-285/2021-12-03/"
+				}
+			]
+		},
+		{
+			"id": 14,
+			"title": "Stand Project",
+			"videoUrl": "./vid/STAND_ANIMA.mp4",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": ["Art Direction", "Visual", "Video", "Posters"],
+			"year": 2021,
+			"info": "texto aqui"
+		},
+		{
+			"id": 15,
+			"title": "António Castro Studio",
+			"videoUrl": "./vid/AC_ANIMA.mp4",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": ["Web Design", "Web Development"],
+			"year": 2021,
+			"info": "This is a website for António Castro, a portuguese fashion designer, created to be a visual statement to the range of his design style and related collections. The website was shaped to have a feel similar to the glossy pages that are the signature of high fashion publications, complete with clean collage effects, rich color, chic transitions."
+		},
+		{
+			"id": 16,
+			"title": "Enjoy the Weather by Teresa Silva",
+			"imageUrl": "./imgs/main/EnjoyTWeather/EnjoytheWeather(1)_mainpage.jpg",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": ["Posters", "Identity"],
+			"year": 2021,
+			"info": "Enjoy the Weather is a project about investigation by the portuguese choreographer Teresa Silva in collaboration with five other artists. The project consisted of four artistic residences each of which concluded with a small show. The suite of posters I was asked to design was developed to demonstrate a visual unity and identity to the project as well as individually to present a collage of environmental elements related to each separate show; water, wind, beach, drops, flora and fauna, etc. Which included images from residency process work."
+		},
+		{
+			"id": 17,
+			"title": "Critique by David Marques & Tiago Cadete",
+			"videoUrl": "https://vod.api.video/vod/vi45ZM3vqRKfpNNFdLuKcf5v/mp4/source.mp4",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": "Video",
+			"year": 2020,
+			"info": "Critique was conceptualized by choreographer David Marques and artist Tiago Cadete as a digital spa which curated an open, relaxing atmosphere of critical thinking about the status of the performing arts in Portugal. I designed the site to promote a soothing atmosphere where familiar icons of tranquility and spa culture floated on a black background which invited the user to interact, reposition and compose the scene to their liking. Embedded behind each click and drag icon users would find thoughtful questions posed and pop-up videos from figures related to the critique of the arts. I added new icons and subsequent questions and video weekly, inviting users to return to the site and expanding the scope of artist’s original concept."
+		},
+		{
+			"id": 18,
+			"title": "Helmut Lang - Tshirt Contest",
+			"imageUrl": "./imgs/main/HelmutLang/HL1.png",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": "Identity",
+			"year": 2020,
+			"info": "In 2020, I entered a design contest announced by Helmut Lang, inviting the public to pitch an original graphic expressing the theme “STAY HOME” in the midst of of the early Covid-19 pandemic. I began with scanning, printing and collage based on rubber gloves I had been using daily on shopping trips. I settled on simplicity and using the gloves simultaneously as symbols of intimacy and distance, markers of human touch and as well as protection, but in rich colors devoid of the cold medicalized color palette. The concept of touch as a luxury. I chose to hand write the label instead of employing the official font and logo to further add to the air of individualism and reflect the almost D.I.Y. Nature of closeness and protection we had to decide on for ourselves in that time. Touch was one of 2,250 designs to integrate the 14 finalists.",
+			"links": [
+				{
+					"name": "Hyperbeast",
+					"link": "https://hypebeast.com/2020/5/helmut-lang-t-shirt-design-contest-finalists-spring-2020"
+				},
+				{
+					"name": "Vogue",
+					"link": "https://www.vogue.com/slideshow/helmut-lang-t-shirt-contest-instagram-quarantine"
+				}
+			]
+		},
+		{
+			"id": 19,
+			"title": "Dança sem Vergonha by David Marques",
+			"imageUrl": "./imgs/main/DancaVergonha/DSV1.jpg",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": "Video",
+			"year": 2020,
+			"info": "Dança sem Vergonha” (Shameless Dance) is a performance by David Marques that explores dance in various contexts, driven by different motivations and spanning across different periods. From the personal space of one’s room (domestic dance) to the vibrant atmosphere of a nightclub (social dance), from the controlled environment of a studio (dance among dances) to the grandeur of a theater stage (theatrical dance). For this production, David enlisted my expertise to contemplate how it could be conceivable to document domestic dance and how to bring the intimate actions of an individual onto the stage.",
+			"links": [
+				{
+					"name": "Teaser",
+					"link": "https://self-mistake.pt/projectos/danca-sem-vergonha-1/"
+				}
+			]
+		},
+		{
+			"id": 20,
+			"title": "Mistério da Cultura by David Marques",
+			"imageUrl": "./imgs/main/MisterioCultura/MDC1.jpg",
+			"images": [
+				"./imgs/main/Leroy/leroym1.jpg",
+				"./imgs/main/Leroy/leroym2.jpg",
+				"./imgs/main/Leroy/leroym3.jpg",
+				"./imgs/main/Leroy/leroym4.jpg",
+				"./imgs/main/Leroy/leroym5.jpg",
+				"./imgs/main/Leroy/leroym6.jpg",
+				"./imgs/main/Leroy/leroym7.jpg",
+				"./imgs/main/Leroy/leroym8.jpg",
+				"./imgs/main/Leroy/leroym9.jpg",
+				"./imgs/main/Leroy/leroym10.jpg",
+				"./imgs/main/Leroy/leroym11.jpg",
+				"./imgs/main/Leroy/leroym12.jpg",
+				"./imgs/main/Leroy/leroym13.jpg"
+			],
+			"category": "Video",
+			"year": 2019,
+			"info": "Mistério da cultura (Mystery of Culture) is a metatheatrical performance piece by David Marques both about what the performance itself could have contained, could have been and what transpired during the process of its making. In theory, it is about culture, art and their models of production, representation and support. During months of the creative process, I filmed with my Sony Handycam hi8 in all the residencies, their relevant discussions, auditions, moodboards/ ideas between David and the performers. For this piece, the concept was visually manifesting the difficulty, intensity and frustration of attempting to locate, navigate and unlock the puzzle of the bureaucracy of creation and whether or not the effort is worth the result. I attempted to achieve this through filming details, shadows, close-ups, writing, backstage environments to fashion the visual narrative.",
+			"links": [
+				{
+					"name": "Teatro do Bairro Alto",
+					"link": "https://www.teatrodobairroalto.pt/pt/evento/misterio-da-cultura"
+				}
+			]
+		}
+	]
+}

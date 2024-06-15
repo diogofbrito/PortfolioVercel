@@ -9,22 +9,21 @@ export function ProjectPage() {
 	const project = projects.find(p => p.id === parseInt(projectId));
 
 	if (!project) {
-		return <div>Projeto não encontrado</div>; 
+		return <div>Projeto não encontrado</div>;
 	}
 
+	const { title, videoUrl, imageUrl, images, category, year, info } = project;
+
+	
 	return (
 		<div className='container'>
-			<div className='hero__project'>
-				{project.videoUrl ? (
-					<div className='vimeo-wrapper' style={{ borderRadius: '15px'}}>
-						<iframe src={`${project.videoUrl}?autoplay=1&loop=1&muted=1&background=1&playsinline=1&controls=0&title=0&byline=0&portrait=0`} allow='autoplay; fullscreen; picture-in-picture'></iframe>
-					</div>
-				) : (
-					<img src={project.imageUrl} alt={project.title} loading='lazy' />
-				)}
-            </div>
-            
-			<h1>{project.title}</h1> {project.category}
+			<div className='work__container'>
+				{videoUrl ? <video src={videoUrl} autoPlay loop muted></video> : imageUrl && <img src={imageUrl} alt={title} loading='lazy' />}
+			</div>
+			<h1>{title}</h1>
+			<div>Category: {Array.isArray(category) ? category.join(', ') : category}</div>
+			<div>Year: {year}</div>
+			<p>{info}</p>
 		</div>
 	);
 }

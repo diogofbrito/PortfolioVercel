@@ -36,12 +36,8 @@ export function Header() {
 						)}
 					</div>
 
-					<div style={{ display: 'flex', gap: '1rem' }}>
-						<NavLink to='/about' className='navlink'>
-							About
-						</NavLink>
+						
 						<ThemeSwitch />
-					</div>
 				</div>
 			</div>
 		</div>
