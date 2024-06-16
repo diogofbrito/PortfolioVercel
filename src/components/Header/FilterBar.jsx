@@ -3,7 +3,6 @@ import { FilterContext } from '../../contexts/FilterContext.jsx';
 import { SearchByWords } from './SearchByWords.jsx';
 import { Category } from './Category.jsx';
 import { Years } from './Years.jsx';
-import { List } from 'lucide-react';
 
 export function FilterBar() {
 	const { searchTerm, setSearchTerm, uniqueYears, selectedYear, setSelectedYear, filteredProjects, selectedCategory, setSelectedCategory, uniqueCategories } = useContext(FilterContext);
@@ -14,9 +13,7 @@ export function FilterBar() {
 			<Years uniqueYears={uniqueYears} selectedYear={selectedYear} setSelectedYear={setSelectedYear} />
 			<Category uniqueCategories={uniqueCategories} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
 			<div className='results' >{filteredProjects.length} results</div>
-			<div className='listOption'>
-				<List />
-			</div>
+			
 		</div>
 	);
 }

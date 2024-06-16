@@ -3,6 +3,7 @@ import { FilterContext } from '../../contexts/FilterContext';
 import { FilterBar } from './FilterBar.jsx';
 import { NavLink, useLocation } from 'react-router-dom';
 import { ThemeSwitch } from './ThemeSwitch.jsx';
+import { List } from 'lucide-react';
 
 export function Header() {
 	const location = useLocation();
@@ -15,19 +16,19 @@ export function Header() {
 	
 	return (
 		<div className='navbar container'>
-			
-				<NavLink to='/' className='navlink'>
-					Diogo Brito
-				</NavLink>
+			<NavLink to='/' className='navlink'>
+				Diogo Brito
+			</NavLink>
 
-				<div style={{ display: 'flex', gap: '1rem' }}>
-					{currentPath !== '/works' && (
-						<NavLink to='/works' className='navlink'>
-							Works
-						</NavLink>
-					)}
+			<div className='filters'>
+				{currentPath !== '/works' && (
+					<NavLink to='/works' className='navlink'>
+						Works
+					</NavLink>
+				)}
 
-					{currentPath === '/works' && (
+				{currentPath === '/works' && (
+					<>
 						<FilterBar
 							searchTerm={searchTerm}
 							setSearchTerm={setSearchTerm}
@@ -36,12 +37,14 @@ export function Header() {
 							setSelectedYear={setSelectedYear}
 							filteredProjects={filteredProjects}
 						/>
-					)}
-				</div>
+						<div className='listOption'>
+							<List />
+						</div>
+					</>
+				)}
+			</div>
 
-				
-				<ThemeSwitch  />
-			
+			<ThemeSwitch />
 		</div>
 	);
 }

@@ -106,6 +106,12 @@ button {
 	justify-content: space-between;
 	align-items: center;
 }
+.filters {
+	display: flex;
+	gap: 1rem;
+}
+
+
 
 .navlink {
 	background-color: rgba(197, 197, 197, 0.5);
@@ -130,6 +136,11 @@ button {
 	justify-content: center;
 	align-items: center;
 	gap: 1rem;
+}
+@media (max-width: 768px) {
+	.filter__bar {
+	display: none
+}
 }
 
 /* SearchByWords */
@@ -344,7 +355,6 @@ button {
 	.bio,
 	.clients,
 	.contacts {
-		
 		padding: 1.2rem;
 	}
 }
