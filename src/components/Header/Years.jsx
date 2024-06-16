@@ -32,7 +32,7 @@ export function Years() {
 	return (
 		<div className='dropdown-container' ref={dropdownRef}>
 			<div className={`custom-select ${isOpen ? 'open' : ''}`} onClick={toggleDropdown}>
-				<button className='selected-value'>
+				<button className='selected-value' aria-label='Years'>
 					{selectedYear} {isOpen ? <ChevronUp  size={20} /> : <ChevronDown  size={20}/>}
 				</button>
 				{isOpen && (
