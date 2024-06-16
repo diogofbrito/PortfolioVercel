@@ -3,32 +3,42 @@ import { useParams } from 'react-router-dom';
 import { AppContext } from '../contexts/AppContext';
 
 export function WorkPage() {
-	const { projectId } = useParams();
+	const { id } = useParams();
 	const { projects } = useContext(AppContext);
 
-	const project = projects.find(p => p.id === parseInt(projectId));
+	const project = projects.find(p => p.id.toString() === id);
 
 	if (!project) {
 		return <div>Projeto não encontrado</div>;
 	}
 
-	const { title, videoUrl, imageUrl, images, category, year, info } = project;
-
-	const handleError = e => {
-		console.error('Erro ao carregar o vídeo:', e);
-		console.error('Detalhes do evento de erro:', e.nativeEvent);
-		console.error('URL do vídeo:', videoUrl);
-	};
-
 	return (
-		<div className='container'>
-			<div className='work__container'>
-				{videoUrl ? <video src={videoUrl} autoPlay loop muted playsInline onError={handleError}></video> : imageUrl && <img src={imageUrl} alt={title} loading='lazy' />}
-			</div>
-			<h1>{title}</h1>
-			<div>Category: {Array.isArray(category) ? category.join(', ') : category}</div>
-			<div>Year: {year}</div>
-			<p>{info}</p>
+		<div className='work-details'>
+			{/* Renderizar vídeo se existir */}
+			{project.videoUrl && (
+				<video
+					src={project.videoUrl}
+					controls
+					autoPlay
+					loop
+					playsInline
+					muted
+					onError={e => {
+						console.error(`Error loading video: ${project.videoUrl}`, e);
+					}}
+				></video>
+			)}
+
+			{/* Renderizar imagens se existirem */}
+			{project.images && project.images.map((image, index) => <img key={index} src={image} alt={`Image ${index}`} />)}
+
+			{/* Renderizar detalhes do projeto */}
+			<h2>{project.title}</h2>
+			<p>ID: {project.id}</p>
+			<p>Year: {project.year}</p>
+			<p>Category: {Array.isArray(project.category) ? project.category.join(', ') : project.category}</p>
+
+			<p>Outras informações e conteúdos do projeto aqui...</p>
 		</div>
 	);
 }

@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-export function ContentImgs({ project }) {
-	if (!project || !project.images || !Array.isArray(project.images)) {
-		return null; // Ou outra lógica apropriada para quando não há imagens
-	}
-	const { images } = project;
+export function ContentImgs({ images }) {
+	const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+	const handleImageClick = index => {
+		setCurrentImageIndex(index);
+	};
 
 	return (
-		<div className='content-images'>
-			<div className='image-grid'>
+		<div className='additional-images-carousel'>
+			<div className='thumbnails'>
 				{images.map((image, index) => (
-					<div key={index} className='image-item'>
-						<img src={image}  loading='lazy' />
-					</div>
+					<img key={index} src={image} alt={`Image ${index}`} onClick={() => handleImageClick(index)} className={index === currentImageIndex ? 'active' : ''} />
 				))}
+			</div>
+			<div className='main-image'>
+				<img src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
 			</div>
 		</div>
 	);
 }
+

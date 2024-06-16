@@ -31,6 +31,7 @@ export function Gallery() {
 									autoPlay
 									loop
 									muted
+									playsInline
 									onError={e => {
 										console.error(`Error loading video: ${project.videoUrl}`, e);
 									}}

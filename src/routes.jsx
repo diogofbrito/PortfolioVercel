@@ -19,7 +19,7 @@ export const router = createBrowserRouter([
 				element: <Works />,
 			},
 			{
-				path: '/works/:projectId',
+				path: '/works/:id',
 				element: <WorkPage />,
 			},
 

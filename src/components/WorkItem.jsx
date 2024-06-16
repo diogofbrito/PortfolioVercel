@@ -6,6 +6,7 @@ export function WorkItem({ project }) {
 
 	return (
 		<div style={{ paddingBottom: '1rem' }}>
+			
 			<div key={id} className='image-container'>
 				<LazyLoad>
 					{videoUrl ? (
