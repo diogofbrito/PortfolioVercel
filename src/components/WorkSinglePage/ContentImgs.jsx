@@ -1,23 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-export function ContentImgs({ images }) {
-	const [currentImageIndex, setCurrentImageIndex] = useState(0);
+export function ContentImgs({ mediaList }) {
+	const gridClasses = ['imgs__grid', mediaList.length >= 7 ? 'grid-four' : mediaList.length >= 4 ? 'grid-three' : 'grid-two'].join(' ');
 
-	const handleImageClick = index => {
-		setCurrentImageIndex(index);
-	};
 
 	return (
-		<div className='additional-images-carousel'>
-			<div className='thumbnails'>
-				{images.map((image, index) => (
-					<img key={index} src={image} alt={`Image ${index}`} onClick={() => handleImageClick(index)} className={index === currentImageIndex ? 'active' : ''} />
-				))}
-			</div>
-			<div className='main-image'>
-				<img src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
-			</div>
+		<div className={gridClasses}>
+			{mediaList.map((media, index) => (
+				<div key={index} className='media-item'>
+					{media.endsWith('.mp4') ? <video autoPlay loop playsInline muted src={media}></video> : <img src={media} alt={`Image ${index}`} />}
+				</div>
+			))}
 		</div>
 	);
 }
-

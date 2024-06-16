@@ -456,3 +456,85 @@ button {
 .work__list-item:hover {
 	background-color: rgba(197, 197, 197, 0.8);
 }
+
+/*?  WORKS PAGE */
+
+.wp__container {
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+
+.wp__container img,
+.wp__container video {
+	width: 100%;
+	height: 100%;
+	scale: 1.04;
+	transition: transform 0.3s ease;
+	object-fit: cover;
+}
+@media (max-width: 768px) {
+	.wp__container video {
+		scale: 1.07;
+	}
+}
+
+.imgs__grid {
+	display: grid;
+	grid-template: repeat(3, 1fr);
+	gap: 1rem;
+	padding-top: 1rem;
+}
+
+.media-item {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 12px;
+}
+
+.media-item img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.media-item video {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.wp__second {
+	padding-top: 1rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+}
+@media (max-width: 768px) {
+	.wp__second {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+.wp__second video {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 12px;
+}
+
+.text {
+	background-color: rgba(197, 197, 197, 0.5);
+	border-radius: 12px;
+	padding: 2rem;
+	font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+	.text {
+		font-size: 1rem;
+		padding: 1rem;
+	}
+}

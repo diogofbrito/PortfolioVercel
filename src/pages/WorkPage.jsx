@@ -1,6 +1,8 @@
 import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
+import { ContentImgs } from '../components/WorkSinglePage/ContentImgs.jsx';
 import { AppContext } from '../contexts/AppContext';
+import { ContentText } from '../components/WorkSinglePage/ContentText.jsx';
 
 export function WorkPage() {
 	const { id } = useParams();
@@ -12,33 +14,38 @@ export function WorkPage() {
 		return <div>Projeto não encontrado</div>;
 	}
 
+	const firstMedia = project.images.length > 0 ? project.images[0] : null;
+	const restMedia = project.images.slice(1);
+
 	return (
-		<div className='work-details'>
-			{/* Renderizar vídeo se existir */}
-			{project.videoUrl && (
-				<video
-					src={project.videoUrl}
-					controls
-					autoPlay
-					loop
-					playsInline
-					muted
-					onError={e => {
-						console.error(`Error loading video: ${project.videoUrl}`, e);
-					}}
-				></video>
-			)}
+		<div className='container'>
+			<div className='wp__container'>
+				{project.videoUrl && <video src={project.videoUrl} autoPlay playsInline loop muted className='wp__video'></video>}
+				{project.imageUrl && (
+					<div className='o'>
+						<img src={project.imageUrl} alt='Project Image' />
+					</div>
+				)}
+			</div>
 
-			{/* Renderizar imagens se existirem */}
-			{project.images && project.images.map((image, index) => <img key={index} src={image} alt={`Image ${index}`} />)}
+			<div className='wp__second'>
+				<div className='vid'>
+					{firstMedia && firstMedia.endsWith('.mp4') ? (
+						<video src={firstMedia} autoPlay playsInline loop muted className='wp__video'></video>
+					) : (
+						<div className='wp__image'>{firstMedia && <img src={firstMedia} alt={`Image 0`} />}</div>
+					)}
+				</div>
 
-			{/* Renderizar detalhes do projeto */}
-			<h2>{project.title}</h2>
-			<p>ID: {project.id}</p>
-			<p>Year: {project.year}</p>
-			<p>Category: {Array.isArray(project.category) ? project.category.join(', ') : project.category}</p>
+				<div className='text'>
+					<h2>{project.title}</h2>
+					<p>{Array.isArray(project.category) ? project.category.join(', ') : project.category}</p>
+					<br></br>
+					<p>{project.info}</p>
+				</div>
+			</div>
 
-			<p>Outras informações e conteúdos do projeto aqui...</p>
+			<ContentImgs mediaList={restMedia} />
 		</div>
 	);
 }
