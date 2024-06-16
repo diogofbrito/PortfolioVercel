@@ -28,20 +28,19 @@ export function About() {
 					</div>
 					<div className='contacts'>
 						<div className='title'>Contacts</div>
-						Email <a href='mailto:diogobrito74@gmail.com'>click here</a>
+						<a href='mailto:diogobrito74@gmail.com'>E-mail</a>
 						<br></br>
-						instagram{' '}
 						<a href='https://www.instagram.com/diogofcbrito/' target='_blank'>
-							click here
+							Instagram
 						</a>
 						<br></br>
-						Linkedin{' '}
 						<a href='https://www.linkedin.com/in/diogofcbrito/' target='_blank'>
-							here
+							Linkedin
 						</a>
 						<br></br>
-						Github <a href='https://github.com/diogofbrito/' target='_blank'>
-							click here</a>
+						<a href='https://github.com/diogofbrito/' target='_blank'>
+							Github
+						</a>
 					</div>
 				</div>
 			</div>
