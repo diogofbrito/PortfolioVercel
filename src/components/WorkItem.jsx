@@ -13,6 +13,7 @@ export function WorkItem({ project }) {
 							src={videoUrl}
 							autoPlay
 							loop
+							playsInline
 							muted
 							onError={e => {
 								console.error(`Error loading video: ${videoUrl}`, e);
