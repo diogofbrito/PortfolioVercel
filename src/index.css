@@ -304,6 +304,13 @@ button {
 	overflow: hidden;
 }
 
+@media (max-width: 768px) {
+    .swiper {
+        display: none;
+    }
+}
+
+
 /*? COMPONENTS:: ABOUT */
 .about {
 	width: 100%;
