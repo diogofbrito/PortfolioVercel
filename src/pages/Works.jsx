@@ -19,7 +19,7 @@ export function Works() {
 				<Masonry breakpointCols={breakpointColumnsObj} className='image-grid' columnClassName='image-grid_column'>
 					{filteredProjects.length > 0 ? (
 						filteredProjects.map(project => (
-							<Link to={`/works/${project.id}`} key={project.id}>
+							<Link to={`/works/${project.id}`} key={project.id} >
 								<WorkItem project={project} />
 							</Link>
 						))
