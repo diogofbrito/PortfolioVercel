@@ -13,7 +13,7 @@ export function FilterBar() {
 			<SearchByWords searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 			<Years uniqueYears={uniqueYears} selectedYear={selectedYear} setSelectedYear={setSelectedYear} />
 			<Category uniqueCategories={uniqueCategories} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
-			<div className='results'>{filteredProjects.length} results</div>
+			<div className='results' >{filteredProjects.length} results</div>
 			<div className='listOption'>
 				<List />
 			</div>

@@ -12,7 +12,7 @@ export function Gallery() {
 	const { projects } = useContext(AppContext);
 
 	return (
-		<>
+		<div className='container'>
 			<Swiper
 				spaceBetween={30}
 				effect={'fade'}
@@ -42,6 +42,6 @@ export function Gallery() {
 					</SwiperSlide>
 				))}
 			</Swiper>
-		</>
+		</div>
 	);
 }

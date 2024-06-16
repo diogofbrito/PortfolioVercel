@@ -9,7 +9,7 @@ export function SearchByWords() {
 		<div className='search'>
 			<input type='text' placeholder='Search' value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
 			<span className='search__icon'>
-				<Search color='var(--background-color-dark)' />
+				<Search color='var(--background-color-dark)' size={20} />
 			</span>
 		</div>
 	);

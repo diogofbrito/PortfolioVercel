@@ -5,7 +5,7 @@ export function WorkItem({ project }) {
 	const { id, title, imageUrl, videoUrl, category } = project;
 
 	return (
-		<>
+		<div div style={{ paddingBottom: '1rem' }}>
 			<div key={id} className='image-container'>
 				<LazyLoad>
 					{videoUrl ? (
@@ -27,6 +27,6 @@ export function WorkItem({ project }) {
 				<div className='name__proj'>{title}</div>
 				<div className='name__type'>{Array.isArray(category) ? category.map((cat, index) => <div key={index}>{cat}</div>) : <div>{category}</div>}</div>
 			</div>
-		</>
+		</div>
 	);
 }

@@ -163,7 +163,7 @@
 		{
 			"id": 8,
 			"title": "Limit of Disappearance",
-			"imageUrl": "./imgs/main/Limit/LO1.jpg",
+			"imageUrl": "./imgs/main/Limit/LD1.jpg",
 			"images": [
 				"./imgs/main/Leroy/leroym1.jpg",
 				"./imgs/main/Leroy/leroym2.jpg",
@@ -399,7 +399,7 @@
 		{
 			"id": 17,
 			"title": "Critique by David Marques & Tiago Cadete",
-			"videoUrl": "https://vod.api.video/vod/vi45ZM3vqRKfpNNFdLuKcf5v/mp4/source.mp4",
+			"videoUrl": "./vid/CR_ANIMA.mp4",
 			"images": [
 				"./imgs/main/Leroy/leroym1.jpg",
 				"./imgs/main/Leroy/leroym2.jpg",
@@ -422,7 +422,7 @@
 		{
 			"id": 18,
 			"title": "Helmut Lang - Tshirt Contest",
-			"imageUrl": "./imgs/main/HelmutLang/HL1.png",
+			"imageUrl": "./imgs/main/HelmutLang/HL2.jpg",
 			"images": [
 				"./imgs/main/Leroy/leroym1.jpg",
 				"./imgs/main/Leroy/leroym2.jpg",

@@ -33,7 +33,7 @@ export function Years() {
 		<div className='dropdown-container' ref={dropdownRef}>
 			<div className={`custom-select ${isOpen ? 'open' : ''}`} onClick={toggleDropdown}>
 				<button className='selected-value'>
-					{selectedYear} {isOpen ? <ChevronUp /> : <ChevronDown />}
+					{selectedYear} {isOpen ? <ChevronUp  size={20} /> : <ChevronDown  size={20}/>}
 				</button>
 				{isOpen && (
 					<ul className='options'>

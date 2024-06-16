@@ -34,7 +34,7 @@ export function Category() {
 			<div className={`custom-select ${isOpen ? 'open' : ''}`} onClick={toggleDropdown}>
 				<button className='selected-value'>
 					{selectedCategory}
-					{isOpen ? <ChevronUp /> : <ChevronDown />}
+					{isOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
 				</button>
 
 				{isOpen && (

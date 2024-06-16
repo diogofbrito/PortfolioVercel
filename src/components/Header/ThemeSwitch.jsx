@@ -27,8 +27,8 @@ export function ThemeSwitch() {
 	}, [theme]);
 
 	return (
-		<button style={{ width: '70px' }} onClick={toggleTheme}>
-			{theme === 'light' ? <Moon /> : <Sun />}
+		<button className='navlink__toggle'  onClick={toggleTheme}>
+			{theme === 'light' ? <Moon size={20} /> : <Sun  size={20} />}
 		</button>
 	);
 }
