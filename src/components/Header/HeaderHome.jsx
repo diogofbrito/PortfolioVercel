@@ -13,8 +13,8 @@ export function HeaderHome() {
 
 
 	return (
-		<div className='navbarhome container' style={{ paddingBottom: '1rem' }}>
-			<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+		<div className='navbarhome' >
+			<div className='navlinks'>
 				<NavLink to='/works' className='navlink' onClick={scrollToTop}>
 					Works
 				</NavLink>
