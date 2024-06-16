@@ -3,15 +3,10 @@
 		{
 			"id": 1,
 			"title": "Leroy Merlin x CCP",
-			"imageUrl": "./imgs/main/Leroy/leroymUPI.jpg",
+			"imageUrl": "./imgs/main/Leroy/leroymUPI.webp",
 			"images": [
-				"./imgs/main/Wasted/WR1.png",
-				"./imgs/main/Wasted/WR3.png",
-				"./imgs/main/Wasted/WR4.png",
-				"./imgs/main/Wasted/WR5.png",
-				"./imgs/main/Wasted/WR6.png",
-				"./imgs/main/Wasted/WR7.png",
-				"./imgs/main/Wasted/WR8.png"
+				"./imgs/main/Wasted/WR1.webp",
+				"./imgs/main/Wasted/WR2.webp"
 			],
 			"category": ["Identity", "Art Direction"],
 			"year": 2024,
@@ -32,13 +27,13 @@
 			"title": "Wasted Rita",
 			"videoUrl": "./vid/WR_ANIMA.mp4",
 			"images": [
-				"./imgs/main/Wasted/WR1.png",
-				"./imgs/main/Wasted/WR3.png",
-				"./imgs/main/Wasted/WR4.png",
-				"./imgs/main/Wasted/WR5.png",
-				"./imgs/main/Wasted/WR6.png",
-				"./imgs/main/Wasted/WR7.png",
-				"./imgs/main/Wasted/WR8.png"
+				"./imgs/main/Wasted/WR2.webp",
+				"./imgs/main/Wasted/WR3.webp",
+				"./imgs/main/Wasted/WR4.webp",
+				"./imgs/main/Wasted/WR5.webp",
+				"./imgs/main/Wasted/WR6.webp",
+				"./imgs/main/Wasted/WR7.webp",
+				"./imgs/main/Wasted/WR8.webp"
 			],
 			"category": ["Web Design", "Web Development"],
 			"year": 2023,
@@ -49,19 +44,7 @@
 			"title": "Meo Kalorama Festival x Underdogs Gallery",
 			"videoUrl": "./vid/KALORAMA_ANIMA.mp4",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": "Identity",
 			"year": 2022,
@@ -71,21 +54,9 @@
 		{
 			"id": 4,
 			"title": "Stand Project x National Coach Museum",
-			"imageUrl": "./imgs/main/StandUmbigo/UMBIGOMOCKUP1.jpg",
+			"imageUrl": "./imgs/main/StandUmbigo/UMBIGOMOCKUP1.webp",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": ["Identity", "Art Direction"],
 			"year": 2022,
@@ -96,19 +67,7 @@
 			"title": "Novocine",
 			"videoUrl": "./vid/NC_ANIMA.mp4",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": ["Web Design", "Web Development"],
 			"year": 2022,
@@ -119,19 +78,7 @@
 			"title": "Alex Darling",
 			"videoUrl": "./vid/AD_ANIMA.mp4",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": ["Web Design", "Web Development"],
 			"year": 2022,
@@ -142,19 +89,7 @@
 			"title": "Jonas&Lander",
 			"videoUrl": "./vid/JL_ANIMA.mp4",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": ["Web Design", "Web Development"],
 			"year": 2022,
@@ -163,21 +98,9 @@
 		{
 			"id": 8,
 			"title": "Limit of Disappearance",
-			"imageUrl": "./imgs/main/Limit/LD1.jpg",
+			"imageUrl": "./imgs/main/Limit/LD1.webp",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": ["Identity", "Posters"],
 			"year": 2022,
@@ -186,21 +109,9 @@
 		{
 			"id": 9,
 			"title": "Stand 1.0",
-			"imageUrl": "./imgs/main/StandBook/StandProject(1)_mainpage.jpg",
+			"imageUrl": "./imgs/main/StandBook/StandProject(1)_mainpage.webp",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": ["Identity", "Editorial"],
 			"year": 2022,
@@ -221,19 +132,7 @@
 			"title": "Filipa Nunes",
 			"videoUrl": "./vid/MN_ANIMA.mp4",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": ["Web Design", "Web Development"],
 			"year": 2021,
@@ -244,19 +143,7 @@
 			"title": "Teorias da Inspiração - Filme by David Marques",
 			"videoUrl": "./vid/TI_ANIMA.mp4",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": "Video",
 			"year": 2021,
@@ -271,21 +158,9 @@
 		{
 			"id": 12,
 			"title": "Amadora-3",
-			"imageUrl": "./imgs/main/Amadora3/AMD1.jpg",
+			"imageUrl": "./imgs/main/Amadora3/AMD1.webp",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": "Individual Exhibition",
 			"year": 2021,
@@ -303,19 +178,7 @@
 			"title": "Esa Cosa Llamada Amor by Plataforma 285",
 			"imageUrl": "./imgs/main/EsaCosa/ESA_COSA.gif",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": "Editorial",
 			"year": 2021,
@@ -332,19 +195,7 @@
 			"title": "Stand Project",
 			"videoUrl": "./vid/STAND_ANIMA.mp4",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": ["Art Direction", "Visual", "Video", "Posters"],
 			"year": 2021,
@@ -355,19 +206,7 @@
 			"title": "António Castro Studio",
 			"videoUrl": "./vid/AC_ANIMA.mp4",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": ["Web Design", "Web Development"],
 			"year": 2021,
@@ -376,21 +215,9 @@
 		{
 			"id": 16,
 			"title": "Enjoy the Weather by Teresa Silva",
-			"imageUrl": "./imgs/main/EnjoyTWeather/EnjoytheWeather(1)_mainpage.jpg",
+			"imageUrl": "./imgs/main/EnjoyTWeather/EnjoytheWeather(1)_mainpage.webp",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": ["Posters", "Identity"],
 			"year": 2021,
@@ -401,19 +228,7 @@
 			"title": "Critique by David Marques & Tiago Cadete",
 			"videoUrl": "./vid/CR_ANIMA.mp4",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": "Video",
 			"year": 2020,
@@ -422,21 +237,9 @@
 		{
 			"id": 18,
 			"title": "Helmut Lang - Tshirt Contest",
-			"imageUrl": "./imgs/main/HelmutLang/HL2.jpg",
+			"imageUrl": "./imgs/main/HelmutLang/HL2.webp",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": "Identity",
 			"year": 2020,
@@ -455,21 +258,9 @@
 		{
 			"id": 19,
 			"title": "Dança sem Vergonha by David Marques",
-			"imageUrl": "./imgs/main/DancaVergonha/DSV1.jpg",
+			"imageUrl": "./imgs/main/DancaVergonha/DSV1.webp",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": "Video",
 			"year": 2020,
@@ -484,21 +275,9 @@
 		{
 			"id": 20,
 			"title": "Mistério da Cultura by David Marques",
-			"imageUrl": "./imgs/main/MisterioCultura/MDC1.jpg",
+			"imageUrl": "./imgs/main/MisterioCultura/MDC1.webp",
 			"images": [
-				"./imgs/main/Leroy/leroym1.jpg",
-				"./imgs/main/Leroy/leroym2.jpg",
-				"./imgs/main/Leroy/leroym3.jpg",
-				"./imgs/main/Leroy/leroym4.jpg",
-				"./imgs/main/Leroy/leroym5.jpg",
-				"./imgs/main/Leroy/leroym6.jpg",
-				"./imgs/main/Leroy/leroym7.jpg",
-				"./imgs/main/Leroy/leroym8.jpg",
-				"./imgs/main/Leroy/leroym9.jpg",
-				"./imgs/main/Leroy/leroym10.jpg",
-				"./imgs/main/Leroy/leroym11.jpg",
-				"./imgs/main/Leroy/leroym12.jpg",
-				"./imgs/main/Leroy/leroym13.jpg"
+				"./imgs/main/Leroy/leroym1.webp"
 			],
 			"category": "Video",
 			"year": 2019,
