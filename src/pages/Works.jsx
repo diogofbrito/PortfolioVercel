@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { WorkItem } from '../components/WorkItem.jsx';
+import { WorkItem } from '../components/WorkItem';
 import { Link } from 'react-router-dom';
 import { FilterContext } from '../contexts/FilterContext.jsx';
 import Masonry from 'react-masonry-css';

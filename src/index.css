@@ -111,8 +111,6 @@ button {
 	gap: 1rem;
 }
 
-
-
 .navlink {
 	background-color: rgba(197, 197, 197, 0.5);
 	border-radius: 12px;
@@ -139,8 +137,8 @@ button {
 }
 @media (max-width: 768px) {
 	.filter__bar {
-	display: none
-}
+		display: none;
+	}
 }
 
 /* SearchByWords */
@@ -271,6 +269,15 @@ button {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+	.title__intro {
+		display: flex;
+		flex-direction: column;
+		align-items: baseline;
+		gap: 0.20rem;
+	}
 }
 .name__type {
 	display: flex;
