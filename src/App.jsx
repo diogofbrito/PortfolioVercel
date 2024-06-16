@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import { Header } from './components/Header/Header';
 import { AppProvider } from './contexts/AppContext';
+import { ViewProvider } from './contexts/ViewContext';
 import './index.css';
 import './assets/font/stylesheet.css';
 import { FilterProvider } from './contexts/FilterContext';
@@ -10,8 +11,10 @@ function App() {
 	return (
 		<AppProvider>
 			<FilterProvider>
-				<Header />
-				<Outlet />
+				<ViewProvider>
+					<Header />
+					<Outlet />
+				</ViewProvider>
 			</FilterProvider>
 		</AppProvider>
 	);

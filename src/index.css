@@ -266,7 +266,7 @@ button {
 }
 @media (max-width: 768px) {
 	.image-container video {
-		scale: 1.05;
+		scale: 1.07;
 	}
 }
 .title__intro {
@@ -416,4 +416,32 @@ button {
 	.navlinks {
 		justify-content: space-between;
 	}
+}
+
+/*? COMPONENTS:: WORKS LIST */
+.works__list {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	padding-bottom: 1rem;
+}
+.work__list-item {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	width: 100%;
+	background-color: rgba(197, 197, 197, 0.5);
+	border-radius: 12px;
+}
+@media (max-width: 768px) {
+	.work__list-item {
+		width: 100%;
+	}
+}
+
+.work__list-item:hover {
+	background-color: rgba(197, 197, 197, 0.8);
 }

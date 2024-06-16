@@ -41,6 +41,10 @@ export function About() {
 						<a href='https://github.com/diogofbrito/' target='_blank'>
 							Github
 						</a>
+						<br></br>
+						<a href='https://drive.google.com/file/d/1DTWFEIm2G74Rl5byl4UD59I19pTH-FPx/view?usp=sharing' target='_blank'>
+							CV - Resume
+						</a>
 					</div>
 				</div>
 			</div>

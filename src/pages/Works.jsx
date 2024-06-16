@@ -1,11 +1,14 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { WorkItem } from '../components/WorkItem';
+import { WorksList } from '../components/WorksList';
 import { Link } from 'react-router-dom';
 import { FilterContext } from '../contexts/FilterContext.jsx';
+import { ViewContext } from '../contexts/ViewContext.jsx';
 import Masonry from 'react-masonry-css';
 
 export function Works() {
 	const { filteredProjects } = useContext(FilterContext);
+	const { isListView } = useContext(ViewContext);
 
 	const breakpointColumnsObj = {
 		default: 3,
@@ -14,20 +17,24 @@ export function Works() {
 	};
 
 	return (
-		<>
+		<div>
 			<div className='projects container'>
-				<Masonry breakpointCols={breakpointColumnsObj} className='image-grid' columnClassName='image-grid_column'>
-					{filteredProjects.length > 0 ? (
-						filteredProjects.map(project => (
-							<Link to={`/works/${project.id}`} key={project.id} >
-								<WorkItem project={project} />
-							</Link>
-						))
-					) : (
-						<div className='no-results-message'>No projects found</div>
-					)}
-				</Masonry>
+				{isListView ? (
+					<WorksList projects={filteredProjects} />
+				) : (
+					<Masonry breakpointCols={breakpointColumnsObj} className='image-grid' columnClassName='image-grid_column'>
+						{filteredProjects.length > 0 ? (
+							filteredProjects.map(project => (
+								<Link to={`/works/${project.id}`} key={project.id}>
+									<WorkItem project={project} />
+								</Link>
+							))
+						) : (
+							<div className='no-results-message'>No projects found</div>
+						)}
+					</Masonry>
+				)}
 			</div>
-		</>
+		</div>
 	);
 }
