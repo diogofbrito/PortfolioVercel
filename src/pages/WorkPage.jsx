@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import { ContentImgs } from '../components/WorkSinglePage/ContentImgs.jsx';
 import { AppContext } from '../contexts/AppContext';
-import { ContentText } from '../components/WorkSinglePage/ContentText.jsx';
 
 export function WorkPage() {
 	const { id } = useParams();
@@ -15,17 +14,14 @@ export function WorkPage() {
 	}
 
 	const firstMedia = project.images.length > 0 ? project.images[0] : null;
-	const restMedia = project.images.slice(1);
+	const lastMedia = project.images.length > 1 ? project.images[project.images.length - 1] : null;
+	const restMedia = project.images.length > 2 ? project.images.slice(1, -1) : [];
 
 	return (
 		<div className='container'>
 			<div className='wp__container'>
-				{project.videoUrl && <video src={project.videoUrl} autoPlay playsInline loop muted className='wp__video'></video>}
-				{project.imageUrl && (
-					<div className='o'>
-						<img src={project.imageUrl} alt='Project Image' />
-					</div>
-				)}
+				{project.videoUrl && <video src={project.videoUrl} autoPlay playsInline loop muted></video>}
+				{project.imageUrl && <img src={project.imageUrl} alt='Project Image' />}
 			</div>
 
 			<div className='wp__second'>
@@ -42,10 +38,13 @@ export function WorkPage() {
 					<p>{Array.isArray(project.category) ? project.category.join(', ') : project.category}</p>
 					<br></br>
 					<p>{project.info}</p>
+					<br />
+					<p>{project.credits}</p>
+					<p>{project.moreinfo}</p>
 				</div>
 			</div>
 
-			<ContentImgs mediaList={restMedia} />
+			<ContentImgs restMedia={restMedia} lastMedia={lastMedia} />
 		</div>
 	);
 }

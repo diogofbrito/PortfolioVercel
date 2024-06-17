@@ -482,9 +482,25 @@ button {
 
 .imgs__grid {
 	display: grid;
-	grid-template: repeat(3, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 	gap: 1rem;
 	padding-top: 1rem;
+}
+@media (max-width: 768px) {
+	.imgs__grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1rem;
+		padding-top: 1rem;
+	}
+}
+
+.imgs__grid-last {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .media-item {
@@ -526,11 +542,19 @@ button {
 	border-radius: 12px;
 }
 
+.wp__second img {
+	object-fit: fill;
+	height: 100%;
+	width: 100%;
+	border-radius: 12px;
+}
+
 .text {
 	background-color: rgba(197, 197, 197, 0.5);
 	border-radius: 12px;
 	padding: 2rem;
 	font-size: 1.2rem;
+	line-height: 1.2;
 }
 @media (max-width: 768px) {
 	.text {

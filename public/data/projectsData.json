@@ -3,8 +3,8 @@
 		{
 			"id": 1,
 			"title": "Leroy Merlin x CCP",
-			"imageUrl": "/imgs/main/Leroy/leroymUPI.webp",
-			"images": [],
+			"imageUrl": "/imgs/main/Leroy/LM1.webp",
+			"images": ["/imgs/main/Leroy/LM2.webp", "/imgs/main/Leroy/LM3.webp", "/imgs/main/Leroy/LM1.webp", "/imgs/main/Leroy/LM4.webp", "/imgs/main/Leroy/LM6.webp", "/imgs/main/Leroy/LM5.webp"],
 			"category": ["Identity", "Art Direction"],
 			"year": 2024,
 			"info": "Leroy Merlin together with CCP (Creativity Club of Portugal) created an open briefing challenging to develop an idea proposal that would creatively communicate Leroy Merlin store openings and reopenings using local and regional communication, language and concepts. My proposal involved expanding elements of the company logo and color palette, distilling it to a clean, hyper-recognizable format, while in conjunction with constructing stories of each city, highlighted sections of the Leroy Merlin logo that match both graphically and aesthetically to the sentiments of each local retail branch. My proposal was one of the finalists of the competition.",
@@ -41,11 +41,12 @@
 			"id": 3,
 			"title": "Meo Kalorama Festival x Underdogs Gallery",
 			"videoUrl": "/vid/KALORAMA_ANIMA.mp4",
-			"images": [],
+			"images": ["/imgs/main/Kalorama/KA1.webp", "/imgs/main/Kalorama/KA4.webp", "/imgs/main/Kalorama/KA3.webp", "/imgs/main/Kalorama/KA5.webp", "/imgs/main/Kalorama/KA6.webp", "/imgs/main/Kalorama/KA7.webp"],
 			"category": "Identity",
 			"year": 2022,
 			"info": "Underdogs Gallery hired me to create a visual identity piece for the exterior of poster tube mailers for early bird tickets for the Meo Kalorama festival 2023, one which would clearly incorporate identifying logos and signature palette of the brand. I was also charged with devising a closure solution for the tubes. I chose to design this as a large-scale, multi-colored, pixellated sticker with flaps that simultaneously functioned as a closure in a bold and highly visible style. Included in the mailer tube with vinyl stage pieces was an insert I designed with graphics related to the sticker which serves to explain the contents.",
-			"credits": "©Ana Pires, courtesy Underdogs Gallery"
+			"credits": "©Ana Pires, courtesy Underdogs Gallery",
+			"moreinfo": "The videos are part of NOS Instagram advertising"
 		},
 		{
 			"id": 4,
