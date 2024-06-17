@@ -158,10 +158,19 @@
 			"id": 12,
 			"title": "Amadora-3",
 			"imageUrl": "/imgs/main/Amadora3/AMD1.webp",
-			"images": [],
+			"images": [
+				"/imgs/main/Amadora3/AMD1.webp",
+				"/imgs/main/Amadora3/AMD5.webp",
+				"/imgs/main/Amadora3/AMD4.webp",
+				"/imgs/main/Amadora3/AMD6.webp",
+				"/imgs/main/Amadora3/AMD7.webp",
+				"/imgs/main/Amadora3/AMD8.webp",
+				"/imgs/main/Amadora3/AMD9.webp",
+				"/imgs/main/Amadora3/AMD10.webp"
+			],
 			"category": "Individual Exhibition",
 			"year": 2021,
-			"info": "texto aqui",
+			"info": " <i>3, 2, 1 \n today is a special day \n wait; start over \n you have a sweaty voice) \n \n today is a special day: \n i start my professional activity \n \n Diogo started his professional activity called other artists on the 16th of july of 2019 at the finance office amadora-3. we decided to invite you to celebrate this moment with us – the presentation of the exhibition amadora-3: how to emerge? the emergence as the elevation of the artist who finally proves the relevance of his intellectual and artistic production, as well as seeing the remaining conditions that allow him to emerge approved.</i> \n\nFilipa Nunes",
 			"links": [
 				{
 					"name": "Umbigo Magazine review",

@@ -17,11 +17,13 @@ export function WorkPage() {
 	const lastMedia = project.images.length > 1 ? project.images[project.images.length - 1] : null;
 	const restMedia = project.images.length > 2 ? project.images.slice(1, -1) : [];
 
+	const formattedText = project.info.replace(/\n/g, '<br>');
+
 	return (
 		<div className='container'>
 			<div className='wp__container'>
 				{project.videoUrl && <video src={project.videoUrl} autoPlay playsInline loop muted></video>}
-				{project.imageUrl && <img src={project.imageUrl} alt='Project Image' />}
+				{project.imageUrl && <img src={project.imageUrl} alt={project.title} />}
 			</div>
 
 			<div className='wp__second'>
@@ -29,7 +31,7 @@ export function WorkPage() {
 					{firstMedia && firstMedia.endsWith('.mp4') ? (
 						<video src={firstMedia} autoPlay playsInline loop muted className='wp__video'></video>
 					) : (
-						<div className='wp__image'>{firstMedia && <img src={firstMedia} alt={`Image 0`} />}</div>
+						<div className='wp__image'>{firstMedia && <img src={firstMedia} alt={project.title} />}</div>
 					)}
 				</div>
 
@@ -37,7 +39,7 @@ export function WorkPage() {
 					<h2>{project.title}</h2>
 					<p>{Array.isArray(project.category) ? project.category.join(', ') : project.category}</p>
 					<br></br>
-					<p>{project.info}</p>
+					<p dangerouslySetInnerHTML={{ __html: formattedText }}></p>
 					<br />
 					<p>{project.credits}</p>
 					<p>{project.moreinfo}</p>
