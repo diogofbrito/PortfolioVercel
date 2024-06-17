@@ -96,8 +96,8 @@
 		{
 			"id": 9,
 			"title": "Stand 1.0",
-			"imageUrl": "/imgs/main/StandBook/StandProject(1)_mainpage.webp",
-			"images": [],
+			"imageUrl": "/imgs/main/StandBook/SP0.webp",
+			"images": ["/imgs/main/StandBook/SP1.webp", "/imgs/main/StandBook/SP2.webp", "/imgs/main/StandBook/SP3.webp", "/imgs/main/StandBook/SP6.webp"],
 			"category": ["Identity", "Editorial"],
 			"year": 2022,
 			"info": "Stand Project is a collaborative artistic project whose is focus to create and curate exhibitions that take place in unconventional spaces organized by a collective in Lisbon. The first cycle was made in a working car dealership in Lisbon between February 2020 to April 2021, which we named Stand 1.0. Because each event of that cycle was the result of a collaboration between two artists who hadn’t previously worked together, the book serves as a way to capture the ephemeral process as well as the events themselves, incorporating images of gatherings, teaser video stills, reproductions of messages amongst artists and the collective and poster art all framed with text written by guests about the work, visual reference details of the car dealership, full-bleed, color-saturated pages and signature colors. The book was launched in April 2022.",
