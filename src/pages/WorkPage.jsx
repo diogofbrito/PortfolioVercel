@@ -38,7 +38,9 @@ export function WorkPage() {
 				<div className='text'>
 					<h2>{project.title}</h2>
 					<p>{Array.isArray(project.category) ? project.category.join(', ') : project.category}</p>
-					<br></br>
+					
+					<p>{project.year}</p>
+					<br />
 					<p dangerouslySetInnerHTML={{ __html: formattedText }}></p>
 					<br />
 					<p>{project.credits}</p>
