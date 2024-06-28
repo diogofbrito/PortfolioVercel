@@ -49,8 +49,14 @@ body.dark-mode a {
 }
 
 .container {
-	margin:  1rem 3rem;
+	margin: 1rem 3rem;
 }
+@media (max-width: 768px) {
+	.container {
+		margin: 1rem;
+	}
+}
+
 ul {
 	list-style: none;
 	padding: 0;
@@ -553,7 +559,6 @@ button {
 	padding: 2rem;
 	font-size: 1.2rem;
 	line-height: 1.2;
-
 }
 @media (max-width: 768px) {
 	.text {
@@ -562,19 +567,18 @@ button {
 	}
 }
 
-.grid{
+.grid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 1rem;
 }
 @media (max-width: 768px) {
 	.grid {
-			grid-template-columns: repeat(1, 1fr);
-
+		grid-template-columns: repeat(1, 1fr);
 	}
 }
 
-.oi{
+.oi {
 	display: flex;
 	gap: 1rem;
 	flex-direction: column;
