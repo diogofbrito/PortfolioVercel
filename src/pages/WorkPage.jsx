@@ -2,6 +2,10 @@ import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import { ContentImgs } from '../components/WorkSinglePage/ContentImgs.jsx';
 import { AppContext } from '../contexts/AppContext';
+import { ExhibitionsCredits } from '../components/WorkPageComponents/ExhibitionsCredits.jsx';
+import { VideoCredits } from '../components/WorkPageComponents/VideoCredits.jsx';
+import { EditorialCredits } from '../components/WorkPageComponents/EditorialCredits.jsx';
+import { GraphicCredits } from '../components/WorkPageComponents/GraphicCredits.jsx';
 
 export function WorkPage() {
 	const { id } = useParams();
@@ -38,17 +42,21 @@ export function WorkPage() {
 				<div className='text'>
 					<h2>{project.title}</h2>
 					<p>{Array.isArray(project.category) ? project.category.join(', ') : project.category}</p>
-					
+
 					<p>{project.year}</p>
 					<br />
 					<p dangerouslySetInnerHTML={{ __html: formattedText }}></p>
-					<br />
-					<p>{project.credits}</p>
-					<p>{project.moreinfo}</p>
 				</div>
 			</div>
 
 			<ContentImgs restMedia={restMedia} lastMedia={lastMedia} />
+
+			<div style={{ paddingBottom: '1rem' }}>
+				{project.exhibitions && <ExhibitionsCredits project={project} />}
+				{project.editorial && <EditorialCredits project={project} />}
+				{project.video && <VideoCredits project={project} />}
+				{project.graphic && <GraphicCredits project={project} />}
+			</div>
 		</div>
 	);
 }
