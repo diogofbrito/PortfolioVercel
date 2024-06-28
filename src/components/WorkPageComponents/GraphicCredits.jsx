@@ -2,7 +2,7 @@ import React from 'react';
 
 export function GraphicCredits({ graphic }) {
 	if (!graphic) {
-		return null; // Retorna null se não houver informações gráficas
+		return null; 
 	}
 
 	return (

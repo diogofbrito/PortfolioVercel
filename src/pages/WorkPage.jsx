@@ -51,8 +51,8 @@ export function WorkPage() {
 
 			<ContentImgs restMedia={restMedia} lastMedia={lastMedia} />
 
-			<div style={{ paddingBottom: '1rem' }}>
-				{project.exhibitions && <ExhibitionsCredits project={project} />}
+			<div className='facultative'>
+				{project.exhibitions && <Exhibition sCredits project={project} />}
 				{project.editorial && <EditorialCredits project={project} />}
 				{project.video && <VideoCredits project={project} />}
 				{project.graphic && <GraphicCredits project={project} />}

@@ -498,9 +498,7 @@ button {
 .imgs__grid-last {
 	display: grid;
 	grid-template-columns: 1fr;
-	gap: 1rem;
 	padding-top: 1rem;
-	padding-bottom: 1rem;
 }
 
 .media-item {
@@ -555,6 +553,7 @@ button {
 	padding: 2rem;
 	font-size: 1.2rem;
 	line-height: 1.2;
+
 }
 @media (max-width: 768px) {
 	.text {
@@ -579,4 +578,9 @@ button {
 	display: flex;
 	gap: 1rem;
 	flex-direction: column;
+}
+
+.facultative {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }

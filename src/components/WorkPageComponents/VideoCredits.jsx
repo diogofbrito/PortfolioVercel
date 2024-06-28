@@ -2,7 +2,7 @@ import React from 'react';
 
 export function VideoCredits({ video }) {
 	if (!video) {
-		return null; // Retorna null se não houver informações de vídeo
+		return null; 
 	}
 
 	return (
