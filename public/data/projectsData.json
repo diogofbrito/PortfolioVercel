@@ -270,7 +270,6 @@
 				"/imgs/main/FilipaNunes/MN3.webp",
 				"/imgs/main/FilipaNunes/MN4.webp",
 				"/imgs/main/FilipaNunes/MN5.webp",
-				
 				"/imgs/main/FilipaNunes/MN6.webp"
 			],
 			"category": ["Web Design", "Web Development"],
@@ -281,18 +280,62 @@
 			"id": "TeoriasDaInspiracao",
 			"title": "Teorias da Inspiração - Filme by David Marques",
 			"videoUrl": "/vid/TI_ANIMA.mp4",
-			"images": [],
+			"images": ["/imgs/main/Teorias/TDI0.webp", "/imgs/main/Teorias/TDI1.webp", "/imgs/main/Teorias/TDI2.webp", "/imgs/main/Teorias/TDI3.webp", "/imgs/main/Teorias/TDI5.webp","/imgs/main/Teorias/TDI4.webp"],
 			"category": "Video",
 			"year": 2021,
-			"info": "Theories of Inspiration - Film is a film collaboration with choreographer David Marques which served to mark the end of the first phase of creation for the stage piece of the same title, to be staged later at TBA, Teatro do Bairro Alto in Lisbon in 2022. Theory of Inspiration is a work whose aim is to draw into focus ephemeral sensations, memory, process work and translate them into a choreographic choreographic entity. To illustrate these concepts in film, I attempt to shoot with methods and details that would produce an atmosphere resembling memory; close up detail of movement, heightened audio, interlaced segments, muted colors and soft, hazy focus, pov video and images of abstract working notes.",
-			"video": {
-				"links": [
-					{
-						"title": "Teatro do Bairro Alto",
-						"link": "https://www.teatrodobairroalto.pt/pt/evento/teorias-da-inspiracao-filme"
-					}
-				]
-			}
+			"info": "Theories of Inspiration - Film is a film collaboration with choreographer David Marques which served to mark the end of the first phase of creation for the stage piece of the same title, to be staged later at TBA, Teatro do Bairro Alto in Lisbon in 2022. \n Theory of Inspiration is a work whose aim is to draw into focus ephemeral sensations, memory, process work and translate them into a choreographic choreographic entity. To illustrate these concepts in film, I attempt to shoot with methods and details that would produce an atmosphere resembling memory; close up detail of movement, heightened audio, interlaced segments, muted colors and soft, hazy focus, pov video and images of abstract working notes.",
+			"video": [
+
+				{
+					"info": [
+						{
+							"title": "Title",
+							"content": "Teorias da Inspiração - Filme"
+						},
+						{
+							"title": "Cast",
+							"content": "Nina Botkay, Luís Guerra, Francisco Rolo"
+						},
+						{
+							"title": "Conception",
+							"content": "David Marques"
+						},
+						{
+							"title": "Production",
+							"content": "David Marques, Diogo Brito"
+						},
+						{
+							"title": "Camera and Photography",
+							"content": "Diogo Brito"
+						},
+						{
+							"title": "Sound Design",
+							"content": "Miguel Lucas Mendes"
+						},
+						{
+							"title": "Set Design and Light Design",
+							"content": "Tiago Cadete"
+						},
+						{
+							"title": "Costume Design",
+							"content": "Marisa Escaldeira"
+						},
+						{
+							"title": "Video",
+							"content": "16:9 format, with color and sound, 39 min."
+						}
+					]
+				},
+
+				{
+					"links": [
+						{
+							"title": "Teatro do Bairro Alto",
+							"link": "https://www.teatrodobairroalto.pt/pt/evento/teorias-da-inspiracao-filme"
+						}
+					]
+				}
+			]
 		},
 		{
 			"id": "Amadora3",
@@ -399,18 +442,65 @@
 			"id": "StandProject",
 			"title": "Stand Project",
 			"videoUrl": "/vid/STAND_ANIMA.mp4",
-			"images": [],
+			"images": [
+				"/imgs/main/StandProject/ST1.webp",
+				"/imgs/main/StandProject/ST2.webp",
+				"/imgs/main/StandProject/ST3.gif",
+				"/imgs/main/StandProject/ST4.gif",
+				"/imgs/main/StandProject/ST5.webp",
+				"/imgs/main/StandProject/ST7.webp",
+				"/imgs/main/StandProject/ST6.gif",
+				"/imgs/main/StandProject/ST8.gif",
+				"/imgs/main/StandProject/ST6.webp",
+				"/imgs/main/StandProject/ST11.webp",
+				"/imgs/main/StandProject/ST9.mp4",
+				"/imgs/main/StandProject/ST10.webp"
+			],
 			"category": ["Art Direction", "Visual", "Video", "Posters"],
 			"year": 2021,
+			"info": "The Stand Project is an artistic enjoyment project. It is a space with a double life, designed to conceive diverse artistic projects in a car dealership - Siampauto LDA in Lisbon. \nIt operates through programming cycles, utilizing the inauguration event as a moment to exist as a space for meetings and leisure. The first season of The Stand took place between February 2020 and April 2021. \n Six exhibition projects were developed by pairs of 12 artists, culminating in a series of six public presentations.",
 			"exhibitions": [
-				{ "curator": "Filipa Nunes" },
-				{ "Production": "Reina Del Mar" },
-				{ "Comunication Design": "Diogo Brito" },
-				{ "photography": "Frederico Gomes, Inês Henriques, João Monteiro, Reina Del Mar, Samuel Duarte" },
-				{ "partners": "Siampauto - Soc. de Investimentos no Comércio de Automóveis LDA, João Mau" },
 				{
-					"Acknowledgements": "Adriano Vicente, Alex Darling, André Campos, Andreia Tilman, Beatriz Dias, Carolina Garfo, David Marques, Diogo Pinto, Fábio Colaço, Fernando Nabais, Frederico Gomes, Gabriela Coimbra, Gabriela Cunha, Gonçalo Poças, Guida Moura, Henrique Pavão, Horácio Frutuoso, Inês Brites, Inês Henriques, João Monteiro, Lea Managil, Madalena Fragoso, Maria João Petrucci, Marco António, Pedro Santos, Poças, Raphaël Machon, Rita GT, Rita Oliveira, Sara Mealha, Sandra Cardoso, Sofia Mascate, Sofia Ferreira, Susana Santo, Telma Correia, Vitor Alves Brotas, Vitor Grilo"
+					"info": [
+						{
+							"title": "Stand Project is",
+							"content": "Filipa Nunes, Reina Del Mar, Diogo Brito"
+						},
+						{
+							"title": "Curator",
+							"content": "Filipa Nunes"
+						},
+						{
+							"title": "Production",
+							"content": "Reina Del Mar"
+						},
+						{
+							"title": "Graphic and Communication designer",
+							"content": "Diogo Brito"
+						},
+						{
+							"title": "Partners",
+							"content": "Siampauto - Soc. de Investimentos no Comúnio de Automóveis LDA, Poças Wine, João Mau"
+						},
+						{
+							"title": "Artists and collaborators",
+							"content": "Inês Brites, Sara Mealha, Horácio Frutuoso, Henrique Pavão, Fábio Colaço, Carolina Garfo, Maria João Petrucci, Diogo Pinto, Sofia Mascate, Lea Managil"
+						},
+						{
+							"title": "Artists at the book launch",
+							"content": "Maria Antunes, Mariana Barros"
+						},
+						{
+							"title": "Photographer at the book launch",
+							"content": "Gadutra"
+						},
+						{
+							"title": "Acknowledgements",
+							"content": "Adriano Vicente, Alex Darling, André Campos, Andreia Tilman, Beatriz Dias, Carolina Garfo, David Marques, Diogo Pinto, Fábio Colaço, Fernando Nabais, Frederico Gomes, Gabriela Coimbra, Gabriela Cunha, Gonçalo Poças, Guida Moura, Henrique Pavão, Horácio Frutuoso, Inês Brites, Inês Henriques, João Monteiro, Lea Managil, Madalena Fragoso, Maria João Petrucci, Marco António, Pedro Santos, Raphaël Machon, Rita GT, Rita Oliveira, Sara Mealha, Sandra Cardoso, Sofia Mascate, Sofia Ferreira, Susana Santo, Telma Correia, Vitor Alves Brotas, Vitor Grilo"
+						}
+					]
 				},
+
 				{
 					"links": [
 						{
@@ -418,7 +508,7 @@
 							"link": "https://www.instagram.com/ostandproject/"
 						},
 						{
-							"title": "Youtube channel",
+							"title": "All promotional videos",
 							"link": "https://www.youtube.com/@standprojecto4351"
 						}
 					]

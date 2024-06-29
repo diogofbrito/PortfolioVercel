@@ -1,44 +1,46 @@
 import React from 'react';
 
-export function VideoCredits({ video }) {
+export function VideoCredits({ project }) {
+	const { video } = project;
+
 	if (!video) {
-		return null; 
+		return null;
 	}
+
+	const photographyCredit = video.find(item => item.photography);
+	const links = video.find(item => item.links)?.links || [];
+	const infoItems = video.find(item => item.info)?.info || [];
 
 	return (
 		<div className='text grid'>
-			<div></div>
 			<div>
-				{video.director && (
-					<div className='video-item'>
-						<h3>Director</h3>
-						<p>{video.director}</p>
-					</div>
+				Credits<br></br>
+			</div>
+			<div>
+				{photographyCredit && (
+					<>
+						<p>Photos</p> {photographyCredit.photography}
+					</>
 				)}
-				{video.editor && (
-					<div className='video-item'>
-						<h3>Editor</h3>
-						<p>{video.editor}</p>
+
+				{infoItems.map((info, index) => (
+					<div key={index}>
+						<div style={{ paddingTop: '1rem' }}>
+							<p>{info.title}</p> {info.content}
+						</div>
 					</div>
-				)}
-				{video.cinematography && (
-					<div className='video-item'>
-						<h3>Cinematography</h3>
-						<p>{video.cinematography}</p>
-					</div>
-				)}
-				{video.links && video.links.length > 0 && (
-					<div className='video-item'>
-						<h3>Video Links</h3>
-						<ul>
-							{video.links.map((link, linkIndex) => (
-								<li key={linkIndex}>
-									<a href={link.link} target='_blank' rel='noopener noreferrer'>
-										{link.title}
-									</a>
-								</li>
-							))}
-						</ul>
+				))}
+
+				{links.length > 0 && (
+					<div style={{ paddingTop: '1rem' }}>
+						<p>Links</p>
+						{links.map((link, index) => (
+							<div key={index}>
+								<a href={link.link} target='_blank'>
+									<u>{link.title}</u>
+								</a>
+							</div>
+						))}
 					</div>
 				)}
 			</div>
