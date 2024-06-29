@@ -537,6 +537,9 @@ button {
 	.wp__second {
 		grid-template-columns: repeat(1, 1fr);
 	}
+	.wp__second .vid {
+    order: 2;
+  }
 }
 
 .wp__second video {
