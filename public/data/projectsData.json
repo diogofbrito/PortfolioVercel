@@ -262,10 +262,20 @@
 			"id": "FilipaNunes",
 			"title": "Filipa Nunes",
 			"videoUrl": "/vid/MN_ANIMA.mp4",
-			"images": [],
+			"images": [
+				"/vid/MN_ANIMA1.mp4",
+				"/imgs/main/FilipaNunes/MN1.webp",
+				"/imgs/main/FilipaNunes/MN2.webp",
+				"/vid/MN_ANIMA2.mp4",
+				"/imgs/main/FilipaNunes/MN3.webp",
+				"/imgs/main/FilipaNunes/MN4.webp",
+				"/imgs/main/FilipaNunes/MN5.webp",
+				
+				"/imgs/main/FilipaNunes/MN6.webp"
+			],
 			"category": ["Web Design", "Web Development"],
 			"year": 2021,
-			"info": "Filipa Nunes is a writer and curator based in Lisbon. I was asked to produce a site that worked as a seamless composition including a range of varied professional and personal interests which also worked in tandem with her strong attachment to color. I chose to shuffle the site in a bold color blocking style that cleanly represented her varied endeavors."
+			"info": "Filipa Nunes is a writer and curator based in Lisbon. \n I was asked to produce a site that worked as a seamless composition including a range of varied professional and personal interests which also worked in tandem with her strong attachment to color. I chose to shuffle the site in a bold color blocking style that cleanly represented her varied endeavors."
 		},
 		{
 			"id": "TeoriasDaInspiracao",
