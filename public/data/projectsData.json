@@ -1,7 +1,30 @@
 {
 	"projects": [
 		{
-			"id": 1,
+			"id": "Percurso",
+			"title": "Percurso - José Teixeira",
+			"imageUrl": "/imgs/main/Percurso/PER1.webp",
+			"images": ["/imgs/main/Percurso/PER1.webp"],
+			"category": ["Editorial"],
+			"year": 2024,
+			"info": "Leroy Merlin together with CCP (Creativity Club of Portugal) created an open briefing challenging to develop an idea proposal that would creatively communicate Leroy Merlin store openings and reopenings using local and regional communication, language and concepts. My proposal involved expanding elements of the company logo and color palette, distilling it to a clean, hyper-recognizable format, while in conjunction with constructing stories of each city, highlighted sections of the Leroy Merlin logo that match both graphically and aesthetically to the sentiments of each local retail branch. My proposal was one of the finalists of the competition.",
+			"editorial": [
+				{
+					"links": [
+						{
+							"title": "CCP x Leroy Merlin",
+							"link": "https://www.clubedacriatividade.pt/concursos/2024-brief-aberto-_-leroy-merlin/"
+						},
+						{
+							"title": "Project Proposal - PDF",
+							"link": "https://drive.google.com/file/d/1_ZGMV9EGPCM1rI7QxYg-EHAP2JlJq39f/view"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "LeroyMerlin",
 			"title": "Leroy Merlin x CCP",
 			"imageUrl": "/imgs/main/Leroy/LM1.webp",
 			"images": ["/imgs/main/Leroy/LM2.webp", "/imgs/main/Leroy/LM3.webp", "/imgs/main/Leroy/LM1.webp", "/imgs/main/Leroy/LM4.webp", "/imgs/main/Leroy/LM6.webp", "/imgs/main/Leroy/LM5.webp"],
@@ -24,7 +47,7 @@
 			]
 		},
 		{
-			"id": 2,
+			"id": "WastedRita",
 			"title": "Wasted Rita",
 			"videoUrl": "/vid/WR_ANIMA.mp4",
 			"images": [
@@ -42,7 +65,7 @@
 			"info": "On Wasted Rita’s website, I used some elements drawn by the artist, like her logo, drawings for the main page, arrows and her handwriting typography to differentiate the collective and individual exhibitions. It’s a website with some effects on mouse hover with neutral colors but with a green that is reflected in her work."
 		},
 		{
-			"id": 3,
+			"id": "Kalorama",
 			"title": "Meo Kalorama Festival x Underdogs Gallery",
 			"videoUrl": "/vid/KALORAMA_ANIMA.mp4",
 			"images": [
@@ -72,7 +95,7 @@
 		},
 
 		{
-			"id": 4,
+			"id": "StandUmbigo",
 			"title": "Stand Project x National Coach Museum",
 			"imageUrl": "/imgs/main/StandUmbigo/MC1.gif",
 			"images": [
@@ -126,51 +149,52 @@
 			]
 		},
 		{
-			"id": 5,
+			"id": "Novocine",
 			"title": "Novocine",
 			"videoUrl": "/vid/NC_ANIMA.mp4",
-			"images": [
-				"/vid/NC_ANIMA1.mp4",
-				"/imgs/main/Novocine/NC2.webp",
-				"/imgs/main/Novocine/NC3.webp",
-				"/imgs/main/Novocine/NC4.webp",
-				"/imgs/main/Novocine/NC5.webp",
-				"/imgs/main/Novocine/NC6.webp"
-			],
+			"images": ["/vid/NC_ANIMA1.mp4", "/imgs/main/Novocine/NC2.webp", "/imgs/main/Novocine/NC3.webp", "/imgs/main/Novocine/NC4.webp", "/imgs/main/Novocine/NC5.webp", "/imgs/main/Novocine/NC6.webp"],
 			"category": ["Web Design", "Web Development"],
 			"year": 2022,
-			"info": "Novocine is an online cinema platform whose goal is to screen a new film, free for audiences, every twenty days. I was hired to design their project website as an undistracting, intuitive experience intended to seamlessly and easily allow users to focus on each film presented while maintaining a clear and recognizable Novocine identity."
-			
+			"info": "Novocine is an online cinema platform whose goal is to screen a new film, free for audiences, every twenty days. \n I was hired to design their project website as an undistracting, intuitive experience intended to seamlessly and easily allow users to focus on each film presented while maintaining a clear and recognizable Novocine identity."
 		},
 		{
-			"id": 6,
+			"id": "AlexDarling",
 			"title": "Alex Darling",
 			"videoUrl": "/vid/AD_ANIMA.mp4",
-			"images": ["/imgs/main/Darling/AD1.webp"],
+			"images": ["/vid/AD_ANIMA1.mp4", "/imgs/main/Darling/AD1.webp", "/imgs/main/Darling/AD4.webp", "/imgs/main/Darling/AD3.webp", "/imgs/main/Darling/AD5.webp", "/imgs/main/Darling/AD2.webp"],
 			"category": ["Web Design", "Web Development"],
 			"year": 2022,
 			"info": "Alex Darling, a professional travel photographer, charged me with producing a site showcasing his work in a minimalist framework which would usher the user into a focused, clean experience, with the directive that it engage with the user to slow down time. I developed a site free from any typical distracting interfaces and relied solely on soft, ultra slow transitions, hidden links and dark backgrounds that both comfort the viewer, relax the eye and lull the user into focusing purely on the image served to them."
 		},
 		{
-			"id": 7,
+			"id": "JonasLander",
 			"title": "Jonas&Lander",
 			"videoUrl": "/vid/JL_ANIMA.mp4",
-			"images": [],
+			"images": [
+				"/vid/JL_ANIMA1.mp4",
+				"/imgs/main/JonasLander/JL2.webp",
+				"/imgs/main/JonasLander/JL4.webp",
+				"/imgs/main/JonasLander/JL7.webp",
+				"/imgs/main/JonasLander/JL3.webp",
+				"/imgs/main/JonasLander/JL5.webp",
+				"/imgs/main/JonasLander/JL6.webp",
+				"/vid/JL_ANIMA2.mp4"
+			],
 			"category": ["Web Design", "Web Development"],
 			"year": 2022,
-			"info": "Jonas & Lander is a duo of portuguese choreographers. They partnered with me to re-envision their website as a place which would reflect the universe of their collaboration as artists that included colorful aspects of their catalog, elements of surreality, folkloric compositions all strung together using archival performance imagery and playful mouse effects."
+			"info": "Jonas & Lander is a duo of portuguese choreographers. \n They partnered with me to re-envision their website as a place which would reflect the universe of their collaboration as artists that included colorful aspects of their catalog, elements of surreality, folkloric compositions all strung together using archival performance imagery and playful mouse effects."
 		},
 		{
-			"id": 8,
+			"id": "Limit",
 			"title": "Limit of Disappearance",
 			"imageUrl": "/imgs/main/Limit/LD1.webp",
-			"images": [],
+			"images": ["/imgs/main/Limit/LD4.webp", "/imgs/main/Limit/LD5.webp", "/imgs/main/Limit/LD3.webp", "/imgs/main/Limit/LD2.webp"],
 			"category": ["Identity", "Posters"],
 			"year": 2022,
-			"info": "The portuguese visual artist Bruno José Silva hired me to create a Mupi poster for outdoor and design digital posters to share on social media for his exhibition Limit of Disappearance."
+			"info": "The portuguese visual artist Bruno Silva invited me to design the communication for his exhibition <i>Limit of Disappearance</i>, creating a Mupi poster, digital posters for social media and designing his exhibition leaflet."
 		},
 		{
-			"id": 9,
+			"id": "Stand1.0",
 			"title": "Stand 1.0",
 			"imageUrl": "/imgs/main/StandBook/SP0.webp",
 			"images": [
@@ -235,7 +259,7 @@
 			]
 		},
 		{
-			"id": 10,
+			"id": "FilipaNunes",
 			"title": "Filipa Nunes",
 			"videoUrl": "/vid/MN_ANIMA.mp4",
 			"images": [],
@@ -244,7 +268,7 @@
 			"info": "Filipa Nunes is a writer and curator based in Lisbon. I was asked to produce a site that worked as a seamless composition including a range of varied professional and personal interests which also worked in tandem with her strong attachment to color. I chose to shuffle the site in a bold color blocking style that cleanly represented her varied endeavors."
 		},
 		{
-			"id": 11,
+			"id": "TeoriasDaInspiracao",
 			"title": "Teorias da Inspiração - Filme by David Marques",
 			"videoUrl": "/vid/TI_ANIMA.mp4",
 			"images": [],
@@ -261,7 +285,7 @@
 			}
 		},
 		{
-			"id": 12,
+			"id": "Amadora3",
 			"title": "Amadora-3",
 			"imageUrl": "/imgs/main/Amadora3/AMD1.webp",
 			"images": [
@@ -278,14 +302,28 @@
 			"year": 2021,
 			"info": "<i>3, 2, 1 \n today is a special day \n wait; start over \n you have a sweaty voice) \n \n today is a special day: \n i start my professional activity \n \n Diogo started his professional activity called other artists on the 16th of july of 2019 at the finance office amadora-3. we decided to invite you to celebrate this moment with us – the presentation of the exhibition amadora-3: how to emerge? the emergence as the elevation of the artist who finally proves the relevance of his intellectual and artistic production, as well as seeing the remaining conditions that allow him to emerge approved.</i> \n\n Filipa Nunes",
 			"exhibitions": [
-				{ "location": "Gaivotas6 Gallery, Lisbon" },
-				{ "curator": "Filipa Nunes" },
-				{ "photography": "© Alex Darling" },
+				{
+					"photography": "© Alex Darling"
+				},
+
+				{
+					"info": [
+						{
+							"title": "Exhibition at",
+							"content": "Gaivotas6 Gallery, Lisbon"
+						},
+						{
+							"title": "Curated by",
+							"content": "Filipa Nunes"
+						}
+					]
+				},
+
 				{
 					"links": [
 						{
 							"title": "Exhibition Handout",
-							"link": "https://umbigomagazine.com/en/blog/2021/05/25/amadora-3-de-diogo-brito/"
+							"link": "https://drive.google.com/file/d/1jj-ag_Kc0U9SFqU-jwKikRsrJq9pnctI/view?usp=drive_link"
 						},
 						{
 							"title": "Umbigo Magazine review",
@@ -296,7 +334,7 @@
 			]
 		},
 		{
-			"id": 13,
+			"id": "EsaCosa",
 			"title": "Esa Cosa Llamada Amor by Plataforma 285",
 			"imageUrl": "/imgs/main/EsaCosa/ESA_COSA.gif",
 			"images": [
@@ -348,7 +386,7 @@
 			]
 		},
 		{
-			"id": 14,
+			"id": "StandProject",
 			"title": "Stand Project",
 			"videoUrl": "/vid/STAND_ANIMA.mp4",
 			"images": [],
@@ -378,7 +416,7 @@
 			]
 		},
 		{
-			"id": 15,
+			"id": "AntónioCastro",
 			"title": "António Castro Studio",
 			"videoUrl": "/vid/AC_ANIMA.mp4",
 			"images": [],
@@ -387,7 +425,7 @@
 			"info": "This is a website for António Castro, a portuguese fashion designer, created to be a visual statement to the range of his design style and related collections. The website was shaped to have a feel similar to the glossy pages that are the signature of high fashion publications, complete with clean collage effects, rich color, chic transitions."
 		},
 		{
-			"id": 16,
+			"id": "EnjoyWeather",
 			"title": "Enjoy the Weather by Teresa Silva",
 			"imageUrl": "/imgs/main/EnjoyTWeather/EnjoytheWeather(1)_mainpage.webp",
 			"images": [],
@@ -396,7 +434,7 @@
 			"info": "Enjoy the Weather is a project about investigation by the portuguese choreographer Teresa Silva in collaboration with five other artists. The project consisted of four artistic residences each of which concluded with a small show. The suite of posters I was asked to design was developed to demonstrate a visual unity and identity to the project as well as individually to present a collage of environmental elements related to each separate show; water, wind, beach, drops, flora and fauna, etc. Which included images from residency process work."
 		},
 		{
-			"id": 17,
+			"id": "Critique",
 			"title": "Critique by David Marques & Tiago Cadete",
 			"videoUrl": "/vid/CR_ANIMA.mp4",
 			"images": [],
@@ -405,7 +443,7 @@
 			"info": "Critique was conceptualized by choreographer David Marques and artist Tiago Cadete as a digital spa which curated an open, relaxing atmosphere of critical thinking about the status of the performing arts in Portugal. I designed the site to promote a soothing atmosphere where familiar icons of tranquility and spa culture floated on a black background which invited the user to interact, reposition and compose the scene to their liking. Embedded behind each click and drag icon users would find thoughtful questions posed and pop-up videos from figures related to the critique of the arts. I added new icons and subsequent questions and video weekly, inviting users to return to the site and expanding the scope of artist’s original concept."
 		},
 		{
-			"id": 18,
+			"id": "HelmutLang",
 			"title": "Helmut Lang - Tshirt Contest",
 			"imageUrl": "/imgs/main/HelmutLang/HL2.webp",
 			"images": [],
@@ -426,7 +464,7 @@
 			}
 		},
 		{
-			"id": 19,
+			"id": "DancaSemVergonha",
 			"title": "Dança sem Vergonha by David Marques",
 			"imageUrl": "/imgs/main/DancaVergonha/DSV1.webp",
 			"images": [],
@@ -443,7 +481,7 @@
 			}
 		},
 		{
-			"id": 20,
+			"id": "MisterioDaCultura",
 			"title": "Mistério da Cultura by David Marques",
 			"imageUrl": "/imgs/main/MisterioCultura/MDC1.webp",
 			"images": [],

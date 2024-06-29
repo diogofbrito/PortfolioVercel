@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import { ContentImgs } from '../components/WorkSinglePage/ContentImgs.jsx';
 import { AppContext } from '../contexts/AppContext';
-import { ExhibitionsCredits } from '../components/WorkPageComponents/ExhibitionsCredits.jsx';
+import { ExhibitionCredits } from '../components/WorkPageComponents/ExhibitionCredits.jsx';
 import { VideoCredits } from '../components/WorkPageComponents/VideoCredits.jsx';
 import { EditorialCredits } from '../components/WorkPageComponents/EditorialCredits.jsx';
 import { GraphicCredits } from '../components/WorkPageComponents/GraphicCredits.jsx';
@@ -52,7 +52,7 @@ export function WorkPage() {
 			<ContentImgs restMedia={restMedia} lastMedia={lastMedia} />
 
 			<div className='facultative'>
-				{project.exhibitions && <Exhibition sCredits project={project} />}
+				{project.exhibitions && <ExhibitionCredits project={project} />}
 				{project.editorial && <EditorialCredits project={project} />}
 				{project.video && <VideoCredits project={project} />}
 				{project.graphic && <GraphicCredits project={project} />}
