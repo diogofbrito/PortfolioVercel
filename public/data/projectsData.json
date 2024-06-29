@@ -55,13 +55,18 @@
 			],
 			"category": "Identity",
 			"year": 2022,
-			"info": "Underdogs Gallery hired me to create a visual identity piece for the exterior of poster tube mailers for early bird tickets for the Meo Kalorama festival 2023, one which would clearly incorporate identifying logos and signature palette of the brand. I was also charged with devising a closure solution for the tubes. I chose to design this as a large-scale, multi-colored, pixellated sticker with flaps that simultaneously functioned as a closure in a bold and highly visible style. Included in the mailer tube with vinyl stage pieces was an insert I designed with graphics related to the sticker which serves to explain the contents.",
+			"info": "Underdogs Gallery hired me to create a visual identity piece for the exterior of poster tube mailers for early bird tickets for the Meo Kalorama festival 2023, one which would clearly incorporate identifying logos and signature palette of the brand. I was also charged with devising a closure solution for the tubes. I chose to design this as a large-scale, multi-colored, pixellated sticker with flaps that simultaneously functioned as a closure in a bold and highly visible style. \n Included in the mailer tube with vinyl stage pieces was an insert I designed with graphics related to the sticker which serves to explain the contents.",
 			"graphic": [
 				{
 					"photography": "© Ana Pires, courtesy Underdogs Gallery"
 				},
 				{
-					"info": "The videos are part of NOS Instagram advertising"
+					"info": [
+						{
+							"title": "Note",
+							"content": "The videos are part of NOS Instagram advertising"
+						}
+					]
 				}
 			]
 		},
@@ -69,26 +74,79 @@
 		{
 			"id": 4,
 			"title": "Stand Project x National Coach Museum",
-			"imageUrl": "/imgs/main/StandUmbigo/UMBIGOMOCKUP1.webp",
-			"images": [],
+			"imageUrl": "/imgs/main/StandUmbigo/MC1.gif",
+			"images": [
+				"/imgs/main/StandUmbigo/MC6.webp",
+				"/imgs/main/StandUmbigo/MC4.webp",
+				"/imgs/main/StandUmbigo/MC2.webp",
+				"/imgs/main/StandUmbigo/MC3.webp",
+				"/imgs/main/StandUmbigo/MC5.webp",
+				"/vid/UMB_ANIMA.mp4"
+			],
 			"category": ["Identity", "Art Direction"],
 			"year": 2022,
-			"info": "Umbigo, an independent art magazine in Portgual, invited Stand Project to create a visual essay in collaboration with the National Coach Museum in Lisbon. As part of Stand’s team, I created a suite of visual compositions - hybrid creatures depicting an impossible crossing of historical facets of the legacy of coaches and popular symbols of the modern automobile tuning subculture."
+			"info": "Umbigo, an independent art magazine in Portgual, invited Stand Project to create a visual essay in collaboration with the National Coach Museum in Lisbon.\n As part of Stand’s team, I created a suite of visual compositions - hybrid creatures depicting an impossible crossing of historical facets of the legacy of coaches and popular symbols of the modern automobile tuning subculture.\n The project can be found in issue #82 of the magazine.",
+			"graphic": [
+				{
+					"photography": "© Filipa Nunes, Reina Del Mar, Diogo Brito",
+
+					"info": [
+						{
+							"title": "Issue",
+							"content": "Umbigo Magazine #82"
+						},
+						{
+							"title": "Project",
+							"content": "Stand Project"
+						},
+						{
+							"title": "Text",
+							"content": "José Pardal Pina"
+						},
+						{
+							"title": "Curatorial Text",
+							"content": "Filipa Nunes"
+						},
+						{
+							"title": "Drift Slogans",
+							"content": "Reina del Mar"
+						},
+						{
+							"title": "Graphic Design",
+							"content": "Diogo Brito"
+						}
+					],
+					"links": [
+						{
+							"title": "Umbigo Magazine #82",
+							"link": "https://umbigomagazine.com/loja/produto/82-pt-edicao-em-portugues-capa-1/"
+						}
+					]
+				}
+			]
 		},
 		{
 			"id": 5,
 			"title": "Novocine",
 			"videoUrl": "/vid/NC_ANIMA.mp4",
-			"images": [],
+			"images": [
+				"/vid/NC_ANIMA1.mp4",
+				"/imgs/main/Novocine/NC2.webp",
+				"/imgs/main/Novocine/NC3.webp",
+				"/imgs/main/Novocine/NC4.webp",
+				"/imgs/main/Novocine/NC5.webp",
+				"/imgs/main/Novocine/NC6.webp"
+			],
 			"category": ["Web Design", "Web Development"],
 			"year": 2022,
 			"info": "Novocine is an online cinema platform whose goal is to screen a new film, free for audiences, every twenty days. I was hired to design their project website as an undistracting, intuitive experience intended to seamlessly and easily allow users to focus on each film presented while maintaining a clear and recognizable Novocine identity."
+			
 		},
 		{
 			"id": 6,
 			"title": "Alex Darling",
 			"videoUrl": "/vid/AD_ANIMA.mp4",
-			"images": [],
+			"images": ["/imgs/main/Darling/AD1.webp"],
 			"category": ["Web Design", "Web Development"],
 			"year": 2022,
 			"info": "Alex Darling, a professional travel photographer, charged me with producing a site showcasing his work in a minimalist framework which would usher the user into a focused, clean experience, with the directive that it engage with the user to slow down time. I developed a site free from any typical distracting interfaces and relied solely on soft, ultra slow transitions, hidden links and dark backgrounds that both comfort the viewer, relax the eye and lull the user into focusing purely on the image served to them."
@@ -132,7 +190,7 @@
 			"info": "Stand Project is a collaborative artistic project whose is focus to create and curate exhibitions that take place in unconventional spaces organized by a collective in Lisbon. \n The first cycle was made in a working car dealership in Lisbon between February 2020 to April 2021, which we named Stand 1.0. Because each event of that cycle was the result of a collaboration between two artists who hadn’t previously worked together, the book serves as a way to capture the ephemeral process as well as the events themselves, incorporating images of gatherings, teaser video stills, reproductions of messages amongst artists and the collective and poster art all framed with text written by guests about the work, visual reference details of the car dealership, full-bleed, color-saturated pages and signature colors.",
 			"editorial": [
 				{
-					"photography": "João Monteiro"
+					"photography": "© João Monteiro"
 				},
 				{
 					"info": [

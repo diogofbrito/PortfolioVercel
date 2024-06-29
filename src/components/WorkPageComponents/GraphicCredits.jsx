@@ -1,38 +1,49 @@
 import React from 'react';
 
-export function GraphicCredits({ graphic }) {
+export function GraphicCredits({ project }) {
+	const { graphic } = project;
+
 	if (!graphic) {
-		return null; 
+		return null;
 	}
+
+	const photography = graphic.find(item => item.photography);
+	const links = graphic.find(item => item.links)?.links || [];
+	const info = graphic.find(item => item.info)?.info || [];
 
 	return (
 		<div className='text grid'>
-			<div></div>
 			<div>
-				{graphic.designer && (
-					<div className='graphic-item'>
-						<h3>Designer</h3>
-						<p>{graphic.designer}</p>
+				Credits<br></br>
+			</div>
+			<div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+				{photography && (
+					<div>
+						<p>Photos</p> {photography.photography}
 					</div>
 				)}
-				{graphic.software && (
-					<div className='graphic-item'>
-						<h3>Software</h3>
-						<p>{graphic.software}</p>
+
+				{info.length > 0 && (
+					<div>
+						{info.map((info, index) => (
+							<div key={index}>
+								<div style={{ paddingTop: '1rem' }}>
+									<p>{info.title}</p> {info.content}
+								</div>
+							</div>
+						))}
 					</div>
 				)}
-				{graphic.links && graphic.links.length > 0 && (
-					<div className='graphic-item'>
-						<h3>Graphic Links</h3>
-						<ul>
-							{graphic.links.map((link, linkIndex) => (
-								<li key={linkIndex}>
-									<a href={link.link} target='_blank' rel='noopener noreferrer'>
-										{link.title}
-									</a>
-								</li>
-							))}
-						</ul>
+				{links.length > 0 && (
+					<div>
+						<p>Links</p>
+						{links.map((link, index) => (
+							<div key={index}>
+								<a href={link.link} target='_blank'>
+									<u>{link.title}</u>
+								</a>
+							</div>
+						))}
 					</div>
 				)}
 			</div>
