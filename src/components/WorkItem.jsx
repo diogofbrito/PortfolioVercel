@@ -26,7 +26,7 @@ export function WorkItem({ project }) {
 				</LazyLoad>
 			</div>
 			<div className='title__intro'>
-				<p style={{ fontWeight: 'bold' }}>{title}</p>
+				<p>{title}</p>
 				<div className='name__type'>{Array.isArray(category) ? category.map((cat, index) => <div key={index}>{cat}</div>) : <div>{category}</div>}</div>
 			</div>
 		</div>
