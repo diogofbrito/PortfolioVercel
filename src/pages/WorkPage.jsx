@@ -51,12 +51,26 @@ export function WorkPage() {
 
 			<ContentImgs restMedia={restMedia} lastMedia={lastMedia} />
 
-			<div className='facultative'>
-				{project.exhibitions && <ExhibitionCredits project={project} />}
-				{project.editorial && <EditorialCredits project={project} />}
-				{project.video && <VideoCredits project={project} />}
-				{project.graphic && <GraphicCredits project={project} />}
-			</div>
+			{project.exhibitions && (
+				<div className='facultative'>
+					<ExhibitionCredits project={project} />
+				</div>
+			)}
+			{project.editorial && (
+				<div className='facultative'>
+					<EditorialCredits project={project} />
+				</div>
+			)}
+			{project.video && (
+				<div className='facultative'>
+					<VideoCredits project={project} />
+				</div>
+			)}
+			{project.graphic && (
+				<div className='facultative'>
+					<GraphicCredits project={project} />
+				</div>
+			)}
 		</div>
 	);
 }

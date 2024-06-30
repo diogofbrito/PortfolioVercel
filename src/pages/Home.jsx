@@ -6,12 +6,12 @@ import { HeaderHome } from '../components/Header/HeaderHome';
 
 export function Home() {
 	return (
-		<div>
+		<div className='container'>
 			<Link to='/works'>
 				<Gallery />
 			</Link>
 
-			<div className='mobile__home container'>
+			<div className='mobile__home'>
 				<About />
 				<HeaderHome />
 			</div>

@@ -7,17 +7,41 @@
 			"images": ["/imgs/main/Percurso/PER1.webp"],
 			"category": ["Editorial"],
 			"year": 2024,
-			"info": "Leroy Merlin together with CCP (Creativity Club of Portugal) created an open briefing challenging to develop an idea proposal that would creatively communicate Leroy Merlin store openings and reopenings using local and regional communication, language and concepts. My proposal involved expanding elements of the company logo and color palette, distilling it to a clean, hyper-recognizable format, while in conjunction with constructing stories of each city, highlighted sections of the Leroy Merlin logo that match both graphically and aesthetically to the sentiments of each local retail branch. My proposal was one of the finalists of the competition.",
+			"info": "",
 			"editorial": [
 				{
-					"links": [
+					"info": [
 						{
-							"title": "CCP x Leroy Merlin",
-							"link": "https://www.clubedacriatividade.pt/concursos/2024-brief-aberto-_-leroy-merlin/"
+							"title": "Tile",
+							"content": "Percurso - José Teixeira"
 						},
 						{
-							"title": "Project Proposal - PDF",
-							"link": "https://drive.google.com/file/d/1_ZGMV9EGPCM1rI7QxYg-EHAP2JlJq39f/view"
+							"title": "Texts",
+							"content": "Filipa Nunes"
+						},
+						{
+							"title": "Graphic Design",
+							"content": "Diogo Brito"
+						},
+						{
+							"title": "Editor Coordenation",
+							"content": "Carolina Garfo"
+						},
+						{
+							"title": "Monitoring",
+							"content": "Maria Carvalho, João Carvalho"
+						},
+						{
+							"title": "Photography",
+							"content": "Arte da Terra archive, João Monteiro"
+						},
+						{
+							"title": "Print run",
+							"content": "450 copies"
+						},
+						{
+							"title": "Printing and Binding",
+							"content": "Arena Natural Smooth 100 grams paper and flyleaves in Arena Natural Smooth 170 grams"
 						}
 					]
 				}
@@ -280,12 +304,18 @@
 			"id": "TeoriasDaInspiracao",
 			"title": "Teorias da Inspiração - Filme by David Marques",
 			"videoUrl": "/vid/TI_ANIMA.mp4",
-			"images": ["/imgs/main/Teorias/TDI0.webp", "/imgs/main/Teorias/TDI1.webp", "/imgs/main/Teorias/TDI2.webp", "/imgs/main/Teorias/TDI3.webp", "/imgs/main/Teorias/TDI5.webp","/imgs/main/Teorias/TDI4.webp"],
+			"images": [
+				"/imgs/main/Teorias/TDI0.webp",
+				"/imgs/main/Teorias/TDI1.webp",
+				"/imgs/main/Teorias/TDI2.webp",
+				"/imgs/main/Teorias/TDI3.webp",
+				"/imgs/main/Teorias/TDI5.webp",
+				"/imgs/main/Teorias/TDI4.webp"
+			],
 			"category": "Video",
 			"year": 2021,
 			"info": "Theories of Inspiration - Film is a film collaboration with choreographer David Marques which served to mark the end of the first phase of creation for the stage piece of the same title, to be staged later at TBA, Teatro do Bairro Alto in Lisbon in 2022. \n Theory of Inspiration is a work whose aim is to draw into focus ephemeral sensations, memory, process work and translate them into a choreographic choreographic entity. To illustrate these concepts in film, I attempt to shoot with methods and details that would produce an atmosphere resembling memory; close up detail of movement, heightened audio, interlaced segments, muted colors and soft, hazy focus, pov video and images of abstract working notes.",
 			"video": [
-
 				{
 					"info": [
 						{
@@ -480,7 +510,7 @@
 						},
 						{
 							"title": "Partners",
-							"content": "Siampauto - Soc. de Investimentos no Comúnio de Automóveis LDA, Poças Wine, João Mau"
+							"content": "Siampauto - Soc. de Investimentos no Comércio de Automóveis LDA, Poças Wine, João Mau"
 						},
 						{
 							"title": "Artists and collaborators",
@@ -519,49 +549,61 @@
 			"id": "AntónioCastro",
 			"title": "António Castro Studio",
 			"videoUrl": "/vid/AC_ANIMA.mp4",
-			"images": [],
+			"images": [
+				"/vid/AC_ANIMA1.mp4",
+				"/imgs/main/AntonioCastro/AC1.webp",
+				"/vid/AC_ANIMA2.mp4",
+				"/imgs/main/AntonioCastro/AC2.webp",
+				"/vid/AC_ANIMA3.mp4",
+				"/imgs/main/AntonioCastro/AC3.webp",
+				"/imgs/main/AntonioCastro/AC4.webp",
+				"/imgs/main/AntonioCastro/AC1.webp"
+			],
 			"category": ["Web Design", "Web Development"],
 			"year": 2021,
-			"info": "This is a website for António Castro, a portuguese fashion designer, created to be a visual statement to the range of his design style and related collections. The website was shaped to have a feel similar to the glossy pages that are the signature of high fashion publications, complete with clean collage effects, rich color, chic transitions."
+			"info": "This is a website for António Castro, a portuguese fashion designer, created to be a visual statement to the range of his design style and related collections. \n The website was shaped to have a feel similar to the glossy pages that are the signature of high fashion publications, complete with clean collage effects, rich color, chic transitions."
 		},
 		{
 			"id": "EnjoyWeather",
 			"title": "Enjoy the Weather by Teresa Silva",
-			"imageUrl": "/imgs/main/EnjoyTWeather/EnjoytheWeather(1)_mainpage.webp",
-			"images": [],
+			"imageUrl": "/imgs/main/EnjoyTWeather/EW1.webp",
+			"images": ["/imgs/main/EnjoyTWeather/EW1.webp", "/imgs/main/EnjoyTWeather/EW2.webp", "/imgs/main/EnjoyTWeather/EW3.webp", "/imgs/main/EnjoyTWeather/EW4.webp"],
 			"category": ["Posters", "Identity"],
 			"year": 2021,
-			"info": "Enjoy the Weather is a project about investigation by the portuguese choreographer Teresa Silva in collaboration with five other artists. The project consisted of four artistic residences each of which concluded with a small show. The suite of posters I was asked to design was developed to demonstrate a visual unity and identity to the project as well as individually to present a collage of environmental elements related to each separate show; water, wind, beach, drops, flora and fauna, etc. Which included images from residency process work."
+			"info": "Enjoy the Weather is a project about investigation by the portuguese choreographer Teresa Silva in collaboration with five other artists. \n The project consisted of four artistic residences each of which concluded with a small show. The suite of posters I was asked to design was developed to demonstrate a visual unity and identity to the project as well as individually to present a collage of environmental elements related to each separate show; water, wind, beach, drops, flora and fauna, etc. Which included images from residency process work."
 		},
 		{
 			"id": "Critique",
 			"title": "Critique by David Marques & Tiago Cadete",
 			"videoUrl": "/vid/CR_ANIMA.mp4",
-			"images": [],
+			"images": ["/vid/CR_ANIMA1.mp4", "/imgs/main/Critique/CR1.webp", "/imgs/main/Critique/CR2.webp", "/imgs/main/Critique/CR3.webp", "/imgs/main/Critique/CR4.webp", "/imgs/main/Critique/CR5.webp"],
 			"category": "Video",
 			"year": 2020,
-			"info": "Critique was conceptualized by choreographer David Marques and artist Tiago Cadete as a digital spa which curated an open, relaxing atmosphere of critical thinking about the status of the performing arts in Portugal. I designed the site to promote a soothing atmosphere where familiar icons of tranquility and spa culture floated on a black background which invited the user to interact, reposition and compose the scene to their liking. Embedded behind each click and drag icon users would find thoughtful questions posed and pop-up videos from figures related to the critique of the arts. I added new icons and subsequent questions and video weekly, inviting users to return to the site and expanding the scope of artist’s original concept."
+			"info": "Critique was conceptualized by choreographer David Marques and artist Tiago Cadete as a digital spa which curated an open, relaxing atmosphere of critical thinking about the status of the performing arts in Portugal. \n I designed the site to promote a soothing atmosphere where familiar icons of tranquility and spa culture floated on a black background which invited the user to interact, reposition and compose the scene to their liking. Embedded behind each click and drag icon users would find thoughtful questions posed and pop-up videos from figures related to the critique of the arts. I added new icons and subsequent questions and video weekly, inviting users to return to the site and expanding the scope of artist’s original concept."
 		},
 		{
 			"id": "HelmutLang",
 			"title": "Helmut Lang - Tshirt Contest",
 			"imageUrl": "/imgs/main/HelmutLang/HL2.webp",
-			"images": [],
+			"images": ["/imgs/main/HelmutLang/HL1.webp", "/imgs/main/HelmutLang/HL3.webp", "/imgs/main/HelmutLang/HL5.webp","/imgs/main/HelmutLang/HL4.webp"],
 			"category": "Identity",
 			"year": 2020,
-			"info": "In 2020, I entered a design contest announced by Helmut Lang, inviting the public to pitch an original graphic expressing the theme “STAY HOME” in the midst of of the early Covid-19 pandemic. I began with scanning, printing and collage based on rubber gloves I had been using daily on shopping trips. I settled on simplicity and using the gloves simultaneously as symbols of intimacy and distance, markers of human touch and as well as protection, but in rich colors devoid of the cold medicalized color palette. The concept of touch as a luxury. I chose to hand write the label instead of employing the official font and logo to further add to the air of individualism and reflect the almost D.I.Y. Nature of closeness and protection we had to decide on for ourselves in that time. Touch was one of 2,250 designs to integrate the 14 finalists.",
-			"graphic": {
-				"links": [
-					{
-						"title": "Hyperbeast",
-						"link": "https://hypebeast.com/2020/5/helmut-lang-t-shirt-design-contest-finalists-spring-2020"
-					},
-					{
-						"title": "Vogue",
-						"link": "https://www.vogue.com/slideshow/helmut-lang-t-shirt-contest-instagram-quarantine"
-					}
-				]
-			}
+			"info": "In 2020, I entered a design contest announced by Helmut Lang, inviting the public to pitch an original graphic expressing the theme “STAY HOME” in the midst of of the early Covid-19 pandemic. \n I began with scanning, printing and collage based on rubber gloves I had been using daily on shopping trips. I settled on simplicity and using the gloves simultaneously as symbols of intimacy and distance, markers of human touch and as well as protection, but in rich colors devoid of the cold medicalized color palette. \n The concept of touch as a luxury. I chose to hand write the label instead of employing the official font and logo to further add to the air of individualism and reflect the almost D.I.Y. Nature of closeness and protection we had to decide on for ourselves in that time. \n Touch was one of 2,250 designs to integrate the 14 finalists.",
+			"graphic": [
+				{
+					
+					"links": [
+						{
+							"title": "Hyperbeast",
+							"link": "https://hypebeast.com/2020/5/helmut-lang-t-shirt-design-contest-finalists-spring-2020"
+						},
+						{
+							"title": "Vogue",
+							"link": "https://www.vogue.com/slideshow/helmut-lang-t-shirt-contest-instagram-quarantine"
+						}
+					]
+				}
+			]
 		},
 		{
 			"id": "DancaSemVergonha",
