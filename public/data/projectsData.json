@@ -577,7 +577,7 @@
 			"title": "Critique by David Marques & Tiago Cadete",
 			"videoUrl": "/vid/CR_ANIMA.mp4",
 			"images": ["/vid/CR_ANIMA1.mp4", "/imgs/main/Critique/CR1.webp", "/imgs/main/Critique/CR2.webp", "/imgs/main/Critique/CR3.webp", "/imgs/main/Critique/CR4.webp", "/imgs/main/Critique/CR5.webp"],
-			"category": "Video",
+			"category": ["Web Design", "Web Development"],
 			"year": 2020,
 			"info": "Critique was conceptualized by choreographer David Marques and artist Tiago Cadete as a digital spa which curated an open, relaxing atmosphere of critical thinking about the status of the performing arts in Portugal. \n I designed the site to promote a soothing atmosphere where familiar icons of tranquility and spa culture floated on a black background which invited the user to interact, reposition and compose the scene to their liking. Embedded behind each click and drag icon users would find thoughtful questions posed and pop-up videos from figures related to the critique of the arts. I added new icons and subsequent questions and video weekly, inviting users to return to the site and expanding the scope of artist’s original concept."
 		},
@@ -585,13 +585,12 @@
 			"id": "HelmutLang",
 			"title": "Helmut Lang - Tshirt Contest",
 			"imageUrl": "/imgs/main/HelmutLang/HL2.webp",
-			"images": ["/imgs/main/HelmutLang/HL1.webp", "/imgs/main/HelmutLang/HL3.webp", "/imgs/main/HelmutLang/HL5.webp","/imgs/main/HelmutLang/HL4.webp"],
+			"images": ["/imgs/main/HelmutLang/HL1.webp", "/imgs/main/HelmutLang/HL3.webp", "/imgs/main/HelmutLang/HL5.webp", "/imgs/main/HelmutLang/HL4.webp"],
 			"category": "Identity",
 			"year": 2020,
 			"info": "In 2020, I entered a design contest announced by Helmut Lang, inviting the public to pitch an original graphic expressing the theme “STAY HOME” in the midst of of the early Covid-19 pandemic. \n I began with scanning, printing and collage based on rubber gloves I had been using daily on shopping trips. I settled on simplicity and using the gloves simultaneously as symbols of intimacy and distance, markers of human touch and as well as protection, but in rich colors devoid of the cold medicalized color palette. \n The concept of touch as a luxury. I chose to hand write the label instead of employing the official font and logo to further add to the air of individualism and reflect the almost D.I.Y. Nature of closeness and protection we had to decide on for ourselves in that time. \n Touch was one of 2,250 designs to integrate the 14 finalists.",
 			"graphic": [
 				{
-					
 					"links": [
 						{
 							"title": "Hyperbeast",
@@ -608,19 +607,65 @@
 		{
 			"id": "DancaSemVergonha",
 			"title": "Dança sem Vergonha by David Marques",
-			"imageUrl": "/imgs/main/DancaVergonha/DSV1.webp",
-			"images": [],
+			"imageUrl": "/imgs/main/DancaVergonha/DSV4.webp",
+			"images": [
+				"/imgs/main/DancaVergonha/DSV3.webp",
+				"/imgs/main/DancaVergonha/DSV5.webp",
+				"/imgs/main/DancaVergonha/DSV6.webp",
+				"/imgs/main/DancaVergonha/DSV7.webp",
+				"/imgs/main/DancaVergonha/DSV1.webp",
+				"/imgs/main/DancaVergonha/DSV2.webp"
+			],
 			"category": "Video",
 			"year": 2020,
-			"info": "Dança sem Vergonha” (Shameless Dance) is a performance by David Marques that explores dance in various contexts, driven by different motivations and spanning across different periods. From the personal space of one’s room (domestic dance) to the vibrant atmosphere of a nightclub (social dance), from the controlled environment of a studio (dance among dances) to the grandeur of a theater stage (theatrical dance). For this production, David enlisted my expertise to contemplate how it could be conceivable to document domestic dance and how to bring the intimate actions of an individual onto the stage.",
-			"video": {
-				"links": [
-					{
-						"title": "Teaser",
-						"link": "https://self-mistake.pt/projectos/danca-sem-vergonha-1/"
-					}
-				]
-			}
+			"info": "Dança sem Vergonha” (Shameless Dance) is a performance by David Marques that explores dance in various contexts, driven by different motivations and spanning across different periods. \n From the personal space of one’s room (domestic dance) to the vibrant atmosphere of a nightclub (social dance), from the controlled environment of a studio (dance among dances) to the grandeur of a theater stage (theatrical dance). \n For this production, David enlisted my expertise to contemplate how it could be conceivable to document domestic dance and how to bring the intimate actions of an individual onto the stage.",
+			"video": [
+				{
+					"photography": "© Mia Persson"
+				},
+				{
+					"info": [
+						{
+							"title": "Title",
+							"content": "Dança sem Vergonha"
+						},
+						{
+							"title": "Created and danced by",
+							"content": "David Marques"
+						},
+						{
+							"title": "Video",
+							"content": "Diogo Brito"
+						},
+
+						{
+							"title": "Live DJ",
+							"content": "Joe Delon"
+						},
+						{
+							"title": "Space Design",
+							"content": "Tiago Cadete"
+						},
+						{
+							"title": "Costume",
+							"content": "Tiago Loureiro"
+						},
+						{
+							"title": "Video",
+							"content": "1080P format, with color, no sound, 33 min."
+						}
+					]
+				},
+
+				{
+					"links": [
+						{
+							"title": "Teaser",
+							"link": "https://self-mistake.pt/projectos/danca-sem-vergonha-1/"
+						}
+					]
+				}
+			]
 		},
 		{
 			"id": "MisterioDaCultura",
@@ -629,15 +674,59 @@
 			"images": [],
 			"category": "Video",
 			"year": 2019,
-			"info": "Mistério da cultura (Mystery of Culture) is a metatheatrical performance piece by David Marques both about what the performance itself could have contained, could have been and what transpired during the process of its making. In theory, it is about culture, art and their models of production, representation and support. During months of the creative process, I filmed with my Sony Handycam hi8 in all the residencies, their relevant discussions, auditions, moodboards/ ideas between David and the performers. For this piece, the concept was visually manifesting the difficulty, intensity and frustration of attempting to locate, navigate and unlock the puzzle of the bureaucracy of creation and whether or not the effort is worth the result. I attempted to achieve this through filming details, shadows, close-ups, writing, backstage environments to fashion the visual narrative.",
-			"video": {
-				"links": [
-					{
-						"name": "Teatro do Bairro Alto",
-						"link": "https://www.teatrodobairroalto.pt/pt/evento/misterio-da-cultura"
-					}
-				]
-			}
+			"info": "Mistério da cultura (Mystery of Culture) is a metatheatrical performance piece by David Marques both about what the performance itself could have contained, could have been and what transpired during the process of its making. \n In theory, it is about culture, art and their models of production, representation and support. During months of the creative process, I filmed with my Sony Handycam hi8 in all the residencies, their relevant discussions, auditions, moodboards/ ideas between David and the performers. For this piece, the concept was visually manifesting the difficulty, intensity and frustration of attempting to locate, navigate and unlock the puzzle of the bureaucracy of creation and whether or not the effort is worth the result. \nI attempted to achieve this through filming details, shadows, close-ups, writing, backstage environments to fashion the visual narrative.",
+			"video": [
+				{
+					"info": [
+						{
+							"title": "Title",
+							"content": "Mistério da Cultura"
+						},
+						{
+							"title": "Created by",
+							"content": "David Marques"
+						},
+						{
+							"title": "With",
+							"content": "Madeleine Fournier, Johann Nöhles, Nuno Pinheiro, Marco da Silva Ferreira, Francisco Rolo, Teresa Silva"
+						},
+
+						{
+							"title": "Video",
+							"content": "Diogo Brito"
+						},
+						{
+							"title": "Space Design",
+							"content": "Tiago Pinhal Costa"
+						},
+						{
+							"title": "Light Design",
+							"content": "Tiago Cadete"
+						},
+						{
+							"title": "Sound Design",
+							"content": "Miguel Lucas Mendes"
+						},
+						{
+							"title": "Costume",
+							"content": "Tiago Loureiro"
+						},
+						{
+							"title": "Video",
+							"content": "4:3 format, with color, no sound, 49 min."
+						}
+					]
+				},
+
+				{
+					"links": [
+						{
+							"title": "Teatro do Bairro Alto",
+							"link": "https://www.teatrodobairroalto.pt/pt/evento/misterio-da-cultura"
+						}
+					]
+				}
+			]
 		}
 	]
 }
