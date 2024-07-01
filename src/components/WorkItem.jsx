@@ -2,27 +2,14 @@ import React from 'react';
 import LazyLoad from 'react-lazyload';
 
 export function WorkItem({ project }) {
-	const { id, title, imageUrl, videoUrl, category } = project;
+	const { id, title, placeholder, category } = project;
 
 	return (
 		<div style={{ paddingBottom: '2rem' }}>
 			
 			<div key={id} className='image-container'>
 				<LazyLoad>
-					{videoUrl ? (
-						<video
-							src={videoUrl}
-							autoPlay
-							loop
-							playsInline
-							muted
-							onError={e => {
-								console.error(`Error loading video: ${videoUrl}`, e);
-							}}
-						></video>
-					) : (
-						<img src={imageUrl} alt={title} loading='lazy' />
-					)}
+					<img src={placeholder} alt={title} />
 				</LazyLoad>
 			</div>
 			<div className='title__intro'>
