@@ -6,15 +6,17 @@ import { HeaderHome } from '../components/Header/HeaderHome';
 
 export function Home() {
 	return (
-		<div className='container'>
-			<Link to='/works'>
-				<Gallery />
-			</Link>
+		<>
+			<div className='container'>
+				<Link to='/works'>
+					<Gallery />
+				</Link>
 
-			<div className='mobile__home'>
-				<About />
-				<HeaderHome />
+				<div className='mobile__home'>
+					<HeaderHome />
+					<About />
+				</div>
 			</div>
-		</div>
+		</>
 	);
 }

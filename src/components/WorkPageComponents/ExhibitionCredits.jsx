@@ -16,7 +16,7 @@ export function ExhibitionCredits({ project }) {
 	return (
 		<div className='text grid'>
 			<div>
-				Credits<br></br>
+				Credits
 			</div>
 			<div>
 				{photographyCredit && (

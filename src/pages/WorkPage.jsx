@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { ContentImgs } from '../components/WorkSinglePage/ContentImgs.jsx';
 import { AppContext } from '../contexts/AppContext';
 import { ExhibitionCredits } from '../components/WorkPageComponents/ExhibitionCredits.jsx';
+import { BtnsPrevNext } from '../components/WorkSinglePage/BtnsPrevNext.jsx';
 import { VideoCredits } from '../components/WorkPageComponents/VideoCredits.jsx';
 import { EditorialCredits } from '../components/WorkPageComponents/EditorialCredits.jsx';
 import { GraphicCredits } from '../components/WorkPageComponents/GraphicCredits.jsx';
@@ -74,6 +75,8 @@ export function WorkPage() {
 					<GraphicCredits project={project} />
 				</div>
 			)}
+
+			<BtnsPrevNext currentProjectId={id} projects={projects} />
 		</div>
 	);
 }

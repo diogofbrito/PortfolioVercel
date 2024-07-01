@@ -10,6 +10,6 @@ export async function getProjects() {
 		return response.data;
 	} catch (error) {
 		console.error('Erro ao obter dados do servidor:', error);
-		throw error; 
+		throw error;
 	}
 }

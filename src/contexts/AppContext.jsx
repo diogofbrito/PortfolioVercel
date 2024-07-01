@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from 'react';
-import { getProjects } from '../services/api';
+import { getProjects} from '../services/api';
 
 export const AppContext = createContext();
 
@@ -11,16 +11,16 @@ export function AppProvider({ children }) {
 	const [projects, setProjects] = useState(initialState.projects);
 
 	useEffect(() => {
-		async function fetchProj() {
+		async function fetchProjects() {
 			try {
-				const projeto = await getProjects();
-				setProjects(projeto.projects);
+				const projects = await getProjects();
+				setProjects(projects.projects);
 			} catch (error) {
 				console.log('ERRO', error);
 			}
 		}
 
-		fetchProj();
+		fetchProjects();
 	}, []);
 
 	return <AppContext.Provider value={{ projects }}>{children}</AppContext.Provider>;

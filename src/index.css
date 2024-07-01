@@ -534,6 +534,7 @@ button {
 		display: grid;
 		grid-template-columns: 1fr;
 		padding-top: 1rem;
+		padding-bottom: 1rem;
 	}
 }
 
@@ -610,6 +611,7 @@ button {
 @media (max-width: 768px) {
 	.grid {
 		grid-template-columns: repeat(1, 1fr);
+		gap: 2rem
 	}
 }
 
@@ -626,6 +628,19 @@ button {
 @media (max-width: 768px) {
 	.facultative {
 		padding-top: -1rem;
+		padding-bottom: 1rem;
+	}
+}
+
+.btns-prev-next {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	padding-bottom: 2rem;
+}
+@media (max-width: 768px) {
+	.btns-prev-next {
+		gap: 1rem;
 		padding-bottom: 1rem;
 	}
 }

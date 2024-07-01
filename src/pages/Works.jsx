@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { WorkItem } from '../components/WorkItem';
 import { WorksList } from '../components/WorksList';
 import { Link } from 'react-router-dom';
@@ -19,6 +19,7 @@ export function Works() {
 
 	const breakpointColumnsObj = {
 		default: 3,
+		1200: 2,
 		768: 1,
 	};
 
