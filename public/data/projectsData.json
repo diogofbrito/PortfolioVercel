@@ -3,8 +3,9 @@
 		{
 			"id": "Percurso",
 			"title": "Percurso - José Teixeira",
-			"imageUrl": "/imgs/main/Percurso/PER1.webp",
-			"images": ["/imgs/main/Percurso/PER1.webp"],
+			"placeholder": "/imgs/main/Percurso/PER1.webp",
+			"imageUrl": "/imgs/main/Percurso/PER2.webp",
+			"images": ["/imgs/main/Percurso/PER3.webp", "/imgs/main/Percurso/PER7.webp", "/imgs/main/Percurso/PER3.webp"],
 			"category": ["Editorial"],
 			"year": 2024,
 			"info": "",
@@ -50,6 +51,7 @@
 		{
 			"id": "LeroyMerlin",
 			"title": "Leroy Merlin x CCP",
+			"placeholder": "/imgs/main/Leroy/LM1.webp",
 			"imageUrl": "/imgs/main/Leroy/LM1.webp",
 			"images": ["/imgs/main/Leroy/LM2.webp", "/imgs/main/Leroy/LM3.webp", "/imgs/main/Leroy/LM1.webp", "/imgs/main/Leroy/LM4.webp", "/imgs/main/Leroy/LM6.webp", "/imgs/main/Leroy/LM5.webp"],
 			"category": ["Identity", "Art Direction"],
@@ -73,6 +75,7 @@
 		{
 			"id": "WastedRita",
 			"title": "Wasted Rita",
+			"placeholder": "/imgs/main/Wasted/WR_placeholder.webp",
 			"videoUrl": "/vid/WR_ANIMA.mp4",
 			"images": [
 				"/imgs/main/Wasted/WR1.mp4",
@@ -91,6 +94,7 @@
 		{
 			"id": "Kalorama",
 			"title": "Meo Kalorama Festival x Underdogs Gallery",
+			"placeholder": "/imgs/main/Kalorama/KA_placeholder.webp",
 			"videoUrl": "/vid/KALORAMA_ANIMA.mp4",
 			"images": [
 				"/imgs/main/Kalorama/KA1.webp",
@@ -121,6 +125,7 @@
 		{
 			"id": "StandUmbigo",
 			"title": "Stand Project x National Coach Museum",
+			"placeholder": "/imgs/main/StandUmbigo/MC2.webp",
 			"imageUrl": "/imgs/main/StandUmbigo/MC1.gif",
 			"images": [
 				"/imgs/main/StandUmbigo/MC6.webp",
@@ -175,6 +180,7 @@
 		{
 			"id": "Novocine",
 			"title": "Novocine",
+			"placeholder": "/imgs/main/Novocine/NC_placeholder.webp",
 			"videoUrl": "/vid/NC_ANIMA.mp4",
 			"images": ["/vid/NC_ANIMA1.mp4", "/imgs/main/Novocine/NC2.webp", "/imgs/main/Novocine/NC3.webp", "/imgs/main/Novocine/NC4.webp", "/imgs/main/Novocine/NC5.webp", "/imgs/main/Novocine/NC6.webp"],
 			"category": ["Web Design", "Web Development"],
@@ -184,6 +190,7 @@
 		{
 			"id": "AlexDarling",
 			"title": "Alex Darling",
+			"placeholder": "/imgs/main/Darling/AD_placeholder.webp",
 			"videoUrl": "/vid/AD_ANIMA.mp4",
 			"images": ["/vid/AD_ANIMA1.mp4", "/imgs/main/Darling/AD1.webp", "/imgs/main/Darling/AD4.webp", "/imgs/main/Darling/AD3.webp", "/imgs/main/Darling/AD5.webp", "/imgs/main/Darling/AD2.webp"],
 			"category": ["Web Design", "Web Development"],
@@ -193,6 +200,7 @@
 		{
 			"id": "JonasLander",
 			"title": "Jonas&Lander",
+			"placeholder": "/imgs/main/JonasLander/JL_placeholder.webp",
 			"videoUrl": "/vid/JL_ANIMA.mp4",
 			"images": [
 				"/vid/JL_ANIMA1.mp4",
@@ -211,6 +219,7 @@
 		{
 			"id": "Limit",
 			"title": "Limit of Disappearance",
+			"placeholder": "/imgs/main/Limit/LD1.webp",
 			"imageUrl": "/imgs/main/Limit/LD1.webp",
 			"images": ["/imgs/main/Limit/LD4.webp", "/imgs/main/Limit/LD5.webp", "/imgs/main/Limit/LD3.webp", "/imgs/main/Limit/LD2.webp"],
 			"category": ["Identity", "Posters"],
@@ -220,6 +229,7 @@
 		{
 			"id": "Stand1.0",
 			"title": "Stand 1.0",
+			"placeholder": "/imgs/main/StandBook/SP1.webp",
 			"imageUrl": "/imgs/main/StandBook/SP0.webp",
 			"images": [
 				"/imgs/main/StandBook/SP1.webp",
@@ -285,6 +295,7 @@
 		{
 			"id": "FilipaNunes",
 			"title": "Filipa Nunes",
+			"placeholder": "/imgs/main/FilipaNunes/MN_placeholder.webp",
 			"videoUrl": "/vid/MN_ANIMA.mp4",
 			"images": [
 				"/vid/MN_ANIMA1.mp4",
@@ -302,6 +313,7 @@
 		},
 		{
 			"id": "TeoriasDaInspiracao",
+			"placeholder": "/imgs/main/Teorias/TDI0.webp",
 			"title": "Teorias da Inspiração - Filme by David Marques",
 			"videoUrl": "/vid/TI_ANIMA.mp4",
 			"images": [
@@ -370,6 +382,7 @@
 		{
 			"id": "Amadora3",
 			"title": "Amadora-3",
+			"placeholder": "/imgs/main/Amadora3/AMD1.webp",
 			"imageUrl": "/imgs/main/Amadora3/AMD1.webp",
 			"images": [
 				"/imgs/main/Amadora3/AMD1.webp",
@@ -419,6 +432,7 @@
 		{
 			"id": "EsaCosa",
 			"title": "Esa Cosa Llamada Amor by Plataforma 285",
+			"placeholder": "/imgs/main/EsaCosa/ESA_placeholder.webp",
 			"imageUrl": "/imgs/main/EsaCosa/ESA_COSA.gif",
 			"images": [
 				"/imgs/main/EsaCosa/ESA0.webp",
@@ -471,6 +485,7 @@
 		{
 			"id": "StandProject",
 			"title": "Stand Project",
+			"placeholder": "/imgs/main/StandProject/ST1.webp",
 			"videoUrl": "/vid/STAND_ANIMA.mp4",
 			"images": [
 				"/imgs/main/StandProject/ST1.webp",
@@ -548,6 +563,7 @@
 		{
 			"id": "AntónioCastro",
 			"title": "António Castro Studio",
+			"placeholder": "/imgs/main/AntonioCastro/AC_placeholder.webp",
 			"videoUrl": "/vid/AC_ANIMA.mp4",
 			"images": [
 				"/vid/AC_ANIMA1.mp4",
@@ -566,6 +582,7 @@
 		{
 			"id": "EnjoyWeather",
 			"title": "Enjoy the Weather by Teresa Silva",
+			"placeholder": "/imgs/main/EnjoyTWeather/EW1.webp",
 			"imageUrl": "/imgs/main/EnjoyTWeather/EW1.webp",
 			"images": ["/imgs/main/EnjoyTWeather/EW1.webp", "/imgs/main/EnjoyTWeather/EW2.webp", "/imgs/main/EnjoyTWeather/EW3.webp", "/imgs/main/EnjoyTWeather/EW4.webp"],
 			"category": ["Posters", "Identity"],
@@ -575,6 +592,7 @@
 		{
 			"id": "Critique",
 			"title": "Critique by David Marques & Tiago Cadete",
+			"placeholder": "/imgs/main/Critique/CR_placeholder.webp",
 			"videoUrl": "/vid/CR_ANIMA.mp4",
 			"images": ["/vid/CR_ANIMA1.mp4", "/imgs/main/Critique/CR1.webp", "/imgs/main/Critique/CR2.webp", "/imgs/main/Critique/CR3.webp", "/imgs/main/Critique/CR4.webp", "/imgs/main/Critique/CR5.webp"],
 			"category": ["Web Design", "Web Development"],
@@ -584,6 +602,7 @@
 		{
 			"id": "HelmutLang",
 			"title": "Helmut Lang - Tshirt Contest",
+			"placeholder": "/imgs/main/HelmutLang/HL2.webp",
 			"imageUrl": "/imgs/main/HelmutLang/HL2.webp",
 			"images": ["/imgs/main/HelmutLang/HL1.webp", "/imgs/main/HelmutLang/HL3.webp", "/imgs/main/HelmutLang/HL5.webp", "/imgs/main/HelmutLang/HL4.webp"],
 			"category": "Identity",
@@ -607,6 +626,7 @@
 		{
 			"id": "DancaSemVergonha",
 			"title": "Dança sem Vergonha by David Marques",
+			"placeholder": "/imgs/main/DancaVergonha/DSV_placeholder.webp",
 			"imageUrl": "/imgs/main/DancaVergonha/DSV4.webp",
 			"images": [
 				"/imgs/main/DancaVergonha/DSV3.webp",
@@ -670,6 +690,7 @@
 		{
 			"id": "MisterioDaCultura",
 			"title": "Mistério da Cultura by David Marques",
+			"placeholder": "/imgs/main/MisterioCultura/MDC1.webp",
 			"imageUrl": "/imgs/main/MisterioCultura/MDC1.webp",
 			"images": [],
 			"category": "Video",
