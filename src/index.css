@@ -361,8 +361,10 @@ button {
 
 @media (max-width: 768px) {
 	.about {
+		padding-top: 1rem;
 		display: flex;
 		flex-direction: column;
+		gap: 1rem
 	}
 }
 
@@ -370,6 +372,11 @@ button {
 	display: flex;
 	gap: 2rem;
 	flex-direction: column;
+}
+@media (max-width: 768px) {
+	.clients__contacts {
+	gap: 1rem;
+}
 }
 
 .bio,
