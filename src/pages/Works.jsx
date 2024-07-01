@@ -10,12 +10,6 @@ export function Works() {
 	const { filteredProjects } = useContext(FilterContext);
 	const { isListView } = useContext(ViewContext);
 
-	const scrollToTop = () => {
-		window.scrollTo({
-			top: 0,
-			behavior: 'smooth',
-		});
-	};
 
 	const breakpointColumnsObj = {
 		default: 3,
@@ -32,7 +26,7 @@ export function Works() {
 					<Masonry breakpointCols={breakpointColumnsObj} className='image-grid' columnClassName='image-grid_column'>
 						{filteredProjects.length > 0 ? (
 							filteredProjects.map(project => (
-								<Link to={`/works/${project.id}`} key={project.id} onClick={scrollToTop}>
+								<Link to={`/works/${project.id}`} key={project.id} >
 									<WorkItem project={project} />
 								</Link>
 							))

@@ -15,15 +15,16 @@ export function WorkPage() {
 
 	const project = projects.find(p => p.id.toString() === id);
 
+	useEffect(() => {
+		if (wpSecondRef.current) {
+			wpSecondRef.current.scrollIntoView({ behavior: 'smooth' });
+		}
+	}, [id]);
+
 	if (!project) {
 		return <div>Projeto não encontrado</div>;
 	}
 
-	 useEffect(() => {
-			if (wpSecondRef.current) {
-				wpSecondRef.current.scrollIntoView({ behavior: 'smooth' });
-			}
-		}, [id]);
 
 	const firstMedia = project.images.length > 0 ? project.images[0] : null;
 	const lastMedia = project.images.length > 1 ? project.images[project.images.length - 1] : null;
