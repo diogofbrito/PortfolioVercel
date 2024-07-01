@@ -5,11 +5,25 @@
 			"title": "Percurso - José Teixeira",
 			"placeholder": "/imgs/main/Percurso/PER1.webp",
 			"imageUrl": "/imgs/main/Percurso/PER2.webp",
-			"images": ["/imgs/main/Percurso/PER3.webp", "/imgs/main/Percurso/PER7.webp", "/imgs/main/Percurso/PER3.webp"],
+			"images": [
+				"/imgs/main/Percurso/PER3.webp",
+				"/imgs/main/Percurso/PER7.webp",
+				"/imgs/main/Percurso/PER8.webp",
+				"/imgs/main/Percurso/PER5.webp",
+				"/imgs/main/Percurso/PER12.webp",
+				"/imgs/main/Percurso/PER11.webp",
+				"/imgs/main/Percurso/PER9.webp",
+				"/imgs/main/Percurso/PER13.webp",
+				"/imgs/main/Percurso/PER1.webp",
+				"/imgs/main/Percurso/PER10.webp"
+			],
 			"category": ["Editorial"],
 			"year": 2024,
 			"info": "",
 			"editorial": [
+				{
+					"photography": "© PAIS Agency"
+				},
 				{
 					"info": [
 						{

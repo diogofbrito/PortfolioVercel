@@ -40,10 +40,13 @@ export function WorkPage() {
 				</div>
 
 				<div className='text'>
-					<h2>{project.title}</h2>
-					<p>{Array.isArray(project.category) ? project.category.join(', ') : project.category}</p>
-
-					<p>{project.year}</p>
+					<div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+						<div>
+							<h2>{project.title}</h2>
+							<div className='name__type'>{Array.isArray(project.category) ? project.category.map((cat, index) => <div key={index}>{cat}</div>) : <div>{project.category}</div>}</div>
+						</div>
+						<p style={{ fontWeight: 'bold' }}>{project.year}</p>
+					</div>
 					<br />
 					<p dangerouslySetInnerHTML={{ __html: formattedText }}></p>
 				</div>
