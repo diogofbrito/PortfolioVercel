@@ -1,35 +1,25 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export function BtnsPrevNext({ currentProjectId, projects }) {
-	const currentIndex = projects.findIndex(project => project.id.toString() === currentProjectId);
+	const navigate = useNavigate();
 
-	const prevProject = currentIndex > 0 ? projects[currentIndex - 1] : null;
-    const nextProject = currentIndex < projects.length - 1 ? projects[currentIndex + 1] : null;
-    
-    const scrollToTop = () => {
-			window.scrollTo({
-				top: 0,
-				behavior: 'smooth',
-			});
-		};
+	const projectIndex = projects.findIndex(p => p.id.toString() === currentProjectId);
+	const previousProjectId = projectIndex > 0 ? projects[projectIndex - 1].id : null;
+	const nextProjectId = projectIndex < projects.length - 1 ? projects[projectIndex + 1].id : null;
+
+	const handleNavigation = projectId => {
+		navigate(`/works/${projectId}`);
+	};
 
 	return (
 		<div className='btns-prev-next'>
-			{prevProject && (
-				<div className='navlink'>
-					<Link to={`/works/${prevProject.id}`} onClick={scrollToTop}>
-						Previous Project
-					</Link>
-				</div>
-			)}
-			{nextProject && (
-				<div className='navlink'>
-					<Link to={`/works/${nextProject.id}`} onClick={scrollToTop}>
-						Next Project
-					</Link>
-				</div>
-			)}
+			<button onClick={() => handleNavigation(previousProjectId)} disabled={!previousProjectId} className='navlink'>
+				Previous
+			</button>
+			<button onClick={() => handleNavigation(nextProjectId)} disabled={!nextProjectId} className='navlink'>
+				Next
+			</button>
 		</div>
 	);
 }
