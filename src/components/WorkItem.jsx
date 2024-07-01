@@ -5,7 +5,7 @@ export function WorkItem({ project }) {
 	const { id, title, placeholder, category } = project;
 
 	return (
-		<div style={{ paddingBottom: '2rem' }}>
+		<div className='work__item'>
 			
 			<div key={id} className='image-container'>
 				<LazyLoad>

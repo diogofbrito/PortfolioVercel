@@ -102,6 +102,15 @@ button {
 	background-clip: padding-box;
 }
 
+.work__item {
+	margin-bottom: 2rem;
+}
+@media (max-width: 768px) {
+	.work__item {
+		margin-bottom: 1rem;
+	}
+}
+
 /*? COMPONENTS:: HEADER PAGE */
 /* Header */
 .navbar {
@@ -361,10 +370,10 @@ button {
 
 @media (max-width: 768px) {
 	.about {
-		padding-top: 1rem;
+		padding-top: 0;
 		display: flex;
 		flex-direction: column;
-		gap: 1rem
+		gap: 1rem;
 	}
 }
 
@@ -375,8 +384,8 @@ button {
 }
 @media (max-width: 768px) {
 	.clients__contacts {
-	gap: 1rem;
-}
+		gap: 1rem;
+	}
 }
 
 .bio,
@@ -451,6 +460,13 @@ button {
 	gap: 2rem;
 	padding-bottom: 2rem;
 }
+@media (max-width: 768px) {
+	.works__list {
+		padding-bottom: 1rem;
+		gap: 1rem;
+	}
+}
+
 .work__list-item {
 	display: flex;
 	justify-content: space-between;
@@ -513,6 +529,13 @@ button {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
+@media (max-width: 768px) {
+	.imgs__grid-last {
+		display: grid;
+		grid-template-columns: 1fr;
+		padding-top: 1rem;
+	}
+}
 
 .media-item {
 	width: 100%;
@@ -542,7 +565,10 @@ button {
 }
 @media (max-width: 768px) {
 	.wp__second {
+		padding-top: 1rem;
+
 		grid-template-columns: repeat(1, 1fr);
+		gap: 1rem;
 	}
 	.wp__second .vid {
 		order: 2;
@@ -596,4 +622,10 @@ button {
 .facultative {
 	padding-top: -2rem;
 	padding-bottom: 2rem;
+}
+@media (max-width: 768px) {
+	.facultative {
+		padding-top: -1rem;
+		padding-bottom: 1rem;
+	}
 }
