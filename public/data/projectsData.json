@@ -27,7 +27,7 @@
 				{
 					"info": [
 						{
-							"title": "Tile",
+							"title": "Title",
 							"content": "Percurso - José Teixeira"
 						},
 						{
@@ -65,12 +65,12 @@
 		{
 			"id": "LeroyMerlin",
 			"title": "Leroy Merlin x CCP",
-			"placeholder": "/imgs/main/Leroy/LM1.webp",
+			"placeholder": "/imgs/main/Leroy/LM0.webp",
 			"imageUrl": "/imgs/main/Leroy/LM1.webp",
 			"images": ["/imgs/main/Leroy/LM2.webp", "/imgs/main/Leroy/LM3.webp", "/imgs/main/Leroy/LM1.webp", "/imgs/main/Leroy/LM4.webp", "/imgs/main/Leroy/LM6.webp", "/imgs/main/Leroy/LM5.webp"],
 			"category": ["Identity", "Art Direction"],
 			"year": 2024,
-			"info": "Leroy Merlin together with CCP (Creativity Club of Portugal) created an open briefing challenging to develop an idea proposal that would creatively communicate Leroy Merlin store openings and reopenings using local and regional communication, language and concepts. My proposal involved expanding elements of the company logo and color palette, distilling it to a clean, hyper-recognizable format, while in conjunction with constructing stories of each city, highlighted sections of the Leroy Merlin logo that match both graphically and aesthetically to the sentiments of each local retail branch. My proposal was one of the finalists of the competition.",
+			"info": "Leroy Merlin together with CCP (Creativity Club of Portugal) created an open briefing challenging to develop an idea proposal that would creatively communicate Leroy Merlin store openings and reopenings using local and regional communication, language and concepts. \n My proposal involved expanding elements of the company logo and color palette, distilling it to a clean, hyper-recognizable format, while in conjunction with constructing stories of each city, highlighted sections of the Leroy Merlin logo that match both graphically and aesthetically to the sentiments of each local retail branch. \n  My proposal was one of the finalists of the competition.",
 			"graphic": [
 				{
 					"links": [
