@@ -112,6 +112,7 @@
 			"id": "Kalorama",
 			"title": "Meo Kalorama Festival x Underdogs Gallery",
 			"placeholder": "/imgs/main/Kalorama/KA_placeholder.webp",
+			"imageMobile": "/imgs/main/Kalorama/KA_mobile.webp",
 			"videoUrl": "/vid/KALORAMA_ANIMA.mp4",
 			"images": [
 				"/imgs/main/Kalorama/KA1.webp",
