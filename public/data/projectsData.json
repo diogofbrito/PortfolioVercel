@@ -92,6 +92,7 @@
 			"id": "WastedRita",
 			"title": "Wasted Rita",
 			"placeholder": "/imgs/main/Wasted/WR_placeholder.webp",
+			"videoMobile": "/imgs/main/Wasted/WR_mobile.mp4",
 			"videoUrl": "/vid/WR_ANIMA.mp4",
 			"images": [
 				"/imgs/main/Wasted/WR1.mp4",
@@ -143,6 +144,7 @@
 			"title": "Stand Project x National Coach Museum",
 			"placeholder": "/imgs/main/StandUmbigo/MC2.webp",
 			"imageUrl": "/imgs/main/StandUmbigo/MC1.gif",
+			"imageMobile": "/imgs/main/StandUmbigo/MC_mobile.webp",
 			"images": [
 				"/imgs/main/StandUmbigo/MC6.webp",
 				"/imgs/main/StandUmbigo/MC4.webp",
@@ -237,6 +239,7 @@
 			"title": "Limit of Disappearance",
 			"placeholder": "/imgs/main/Limit/LD1.webp",
 			"imageUrl": "/imgs/main/Limit/LD1.webp",
+			"imageMobile": "/imgs/main/Limit/LD_mobile.webp",
 			"images": ["/imgs/main/Limit/LD4.webp", "/imgs/main/Limit/LD5.webp", "/imgs/main/Limit/LD3.webp", "/imgs/main/Limit/LD2.webp"],
 			"category": ["Identity", "Posters"],
 			"year": 2022,
@@ -502,6 +505,7 @@
 			"id": "StandProject",
 			"title": "Stand Project",
 			"placeholder": "/imgs/main/StandProject/ST1.webp",
+			"videoMobile": "/imgs/main/StandProject/SP_mobile.mp4",
 			"videoUrl": "/vid/STAND_ANIMA.mp4",
 			"images": [
 				"/imgs/main/StandProject/ST1.webp",
