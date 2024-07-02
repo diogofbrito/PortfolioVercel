@@ -5,6 +5,7 @@
 			"title": "Percurso - José Teixeira",
 			"placeholder": "/imgs/main/Percurso/PER1.webp",
 			"imageUrl": "/imgs/main/Percurso/PER2.webp",
+			"imageMobile": "/imgs/main/Percurso/PER_mobile.webp",
 			"images": [
 				"/imgs/main/Percurso/PER3.webp",
 				"/imgs/main/Percurso/PER4.webp",
@@ -67,6 +68,7 @@
 			"title": "Leroy Merlin x CCP",
 			"placeholder": "/imgs/main/Leroy/LM0.webp",
 			"imageUrl": "/imgs/main/Leroy/LM1.webp",
+			"imageMobile": "/imgs/main/Leroy/LM_mobile.webp",
 			"images": ["/imgs/main/Leroy/LM2.webp", "/imgs/main/Leroy/LM3.webp", "/imgs/main/Leroy/LM1.webp", "/imgs/main/Leroy/LM4.webp", "/imgs/main/Leroy/LM6.webp", "/imgs/main/Leroy/LM5.webp"],
 			"category": ["Identity", "Art Direction"],
 			"year": 2024,
@@ -550,7 +552,7 @@
 							"content": "Maria Antunes, Mariana Barros"
 						},
 						{
-							"title": "Photographer at the book launch",
+							"title": "Photography and Video of the book launch",
 							"content": "Gadutra"
 						},
 						{
