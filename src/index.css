@@ -334,18 +334,25 @@ button {
 	width: 100%;
 	border-radius: 12px;
 }
+@media (max-width: 1280px) {
+	.swiper {
+		height: 50vh;
+	}
+}
 
 .swiper-slide img {
 	display: block;
 	height: 100%;
 	width: 100%;
+	object-fit: cover;
 }
 @media (max-width: 1280px) {
 	.swiper-slide img {
-		height: 100vh;
-		object-fit: cover;
-	}
+	height: 50vh;
+	
 }
+}
+
 .swiper-slide video {
 	display: block;
 	object-fit: cover;
@@ -355,12 +362,15 @@ button {
 	background-color: #333;
 	overflow: hidden;
 }
-
-@media (max-width: 768px) {
-	.gallery {
-		display: none;
+@media (max-width: 1280px) {
+	.swiper-slide video {
+		height: 50vh;
+		object-fit: cover;
 	}
 }
+
+
+
 
 /*? COMPONENTS:: ABOUT */
 .about {
