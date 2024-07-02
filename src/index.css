@@ -49,7 +49,7 @@ body.dark-mode a {
 }
 
 .container {
-	margin: 2rem;
+	margin: .75rem;
 }
 @media (max-width: 768px) {
 	.container {
@@ -101,14 +101,14 @@ button {
 }
 .image-grid {
 	display: flex;
-	gap: 2rem;
+	gap: .75rem;
 }
 .image-grid_column {
 	background-clip: padding-box;
 }
 
 .work__item {
-	margin-bottom: 2rem;
+	margin-bottom: 0.75rem;
 }
 @media (max-width: 768px) {
 	.work__item {
@@ -126,7 +126,7 @@ button {
 }
 .filters {
 	display: flex;
-	gap: 1rem;
+	gap: .75rem;
 }
 
 .navlink {
@@ -151,7 +151,7 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 1rem;
+	gap: .75rem;
 }
 @media (max-width: 768px) {
 	.filter__bar {
@@ -254,6 +254,10 @@ button {
 
 .dark-mode .options {
 	background-color: #7c7c7c;
+	  box-shadow: 0px 0px 12px #0000007a;
+
+	
+	
 }
 .options li {
 	padding: 10px 15px;
@@ -277,7 +281,7 @@ button {
 }
 
 .image-grid_column {
-	padding-bottom: 1rem;
+	padding-bottom: .75rem;
 }
 .image-container img,
 .image-container video {
@@ -330,7 +334,7 @@ button {
 
 .swiper {
 	position: absolute;
-	height: calc(100vh - 4rem);
+	height: calc(100vh - 1.5rem);
 	width: 100%;
 	border-radius: 12px;
 }
@@ -366,11 +370,11 @@ button {
 .about {
 	width: 100%;
 	display: grid;
-	gap: 2rem;
+	gap: .75rem;
 	grid-template-columns: 2fr 1fr;
 	font-size: 1rem;
 	line-height: 1.3;
-	padding-top: 2rem;
+	padding-top: .75rem;
 }
 
 @media (max-width: 768px) {
@@ -384,7 +388,7 @@ button {
 
 .clients__contacts {
 	display: flex;
-	gap: 2rem;
+	gap: .75rem;
 	flex-direction: column;
 }
 @media (max-width: 768px) {
@@ -398,7 +402,7 @@ button {
 .contacts {
 	background-color: rgba(197, 197, 197, 0.5);
 	border-radius: 12px;
-	padding: 2rem;
+	padding: 1.5rem;
 }
 @media (max-width: 768px) {
 	.bio,
@@ -430,12 +434,12 @@ button {
 /*? COMPONENTS:: NAVBAR HOME */
 
 .navbarhome {
-	padding-top: 2rem;
+	padding-top: .75rem;
 }
 
 .navlinks {
 	display: flex;
-	gap: 1rem;
+	gap: .75rem;
 	justify-content: center;
 }
 
@@ -515,8 +519,8 @@ button {
 .imgs__grid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 2rem;
-	padding-top: 2rem;
+	gap: .75rem;
+	padding-top: .75rem;
 }
 @media (max-width: 768px) {
 	.imgs__grid {
@@ -530,8 +534,8 @@ button {
 .imgs__grid-last {
 	display: grid;
 	grid-template-columns: 1fr;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
 }
 @media (max-width: 768px) {
 	.imgs__grid-last {
@@ -563,10 +567,10 @@ button {
 }
 
 .wp__second {
-	padding-top: 2rem;
+	padding-top: .75rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 2rem;
+	gap: .75rem;
 }
 @media (max-width: 768px) {
 	.wp__second {
@@ -597,7 +601,7 @@ button {
 .text {
 	background-color: rgba(197, 197, 197, 0.5);
 	border-radius: 12px;
-	padding: 2rem;
+	padding: 1.5rem;
 	font-size: 1rem;
 	line-height: 1.2;
 }
@@ -621,13 +625,13 @@ button {
 
 .oi {
 	display: flex;
-	gap: 1rem;
+	gap: .75rem;
 	flex-direction: column;
 }
 
 .facultative {
 	padding-top: -2rem;
-	padding-bottom: 2rem;
+	padding-bottom: .75rem;
 }
 @media (max-width: 768px) {
 	.facultative {
@@ -639,8 +643,8 @@ button {
 .btns-prev-next {
 	display: flex;
 	justify-content: center;
-	gap: 2rem;
-	padding-bottom: 2rem;
+	gap: .75rem;
+	padding-bottom: .75rem;
 }
 @media (max-width: 768px) {
 	.btns-prev-next {

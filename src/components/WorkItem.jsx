@@ -12,10 +12,10 @@ export function WorkItem({ project }) {
 					<img src={placeholder} alt={title} loading='lazy'/>
 				</LazyLoad>
 			</div>
-			<div className='title__intro'>
+			 <div className='title__intro'>
 				<p>{title}</p>
-				<div className='name__type'>{Array.isArray(category) ? category.map((cat, index) => <div key={index}>{cat}</div>) : <div>{category}</div>}</div>
-			</div>
+				 <div className='name__type'>{Array.isArray(category) ? category.map((cat, index) => <div key={index}>{cat}</div>) : <div>{category}</div>}</div> 
+			</div> 
 		</div>
 	);
 }
