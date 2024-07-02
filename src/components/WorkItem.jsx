@@ -9,7 +9,7 @@ export function WorkItem({ project }) {
 			
 			<div key={id} className='image-container'>
 				<LazyLoad>
-					<img src={placeholder} alt={title} />
+					<img src={placeholder} alt={title} loading='lazy'/>
 				</LazyLoad>
 			</div>
 			<div className='title__intro'>

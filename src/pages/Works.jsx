@@ -13,7 +13,7 @@ export function Works() {
 
 	const breakpointColumnsObj = {
 		default: 3,
-		1200: 2,
+		1000: 2,
 		768: 1,
 	};
 
