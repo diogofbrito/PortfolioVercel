@@ -15,10 +15,10 @@ export function BtnsPrevNext({ currentProjectId, projects }) {
 	return (
 		<div className='btns-prev-next'>
 			<button onClick={() => handleNavigation(previousProjectId)} disabled={!previousProjectId} className='navlink'>
-				Previous
+				Previous Project
 			</button>
 			<button onClick={() => handleNavigation(nextProjectId)} disabled={!nextProjectId} className='navlink'>
-				Next
+				Next Project
 			</button>
 		</div>
 	);
