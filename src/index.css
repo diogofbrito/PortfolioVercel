@@ -51,11 +51,7 @@ body.dark-mode a {
 .container {
 	margin: .75rem;
 }
-@media (max-width: 768px) {
-	.container {
-		margin: 1rem;
-	}
-}
+
 
 ul {
 	list-style: none;
@@ -112,7 +108,7 @@ button {
 }
 @media (max-width: 768px) {
 	.work__item {
-		margin-bottom: 1rem;
+		margin-bottom: .75rem;
 	}
 }
 
