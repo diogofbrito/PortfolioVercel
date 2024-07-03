@@ -211,7 +211,7 @@
 			"id": "AlexDarling",
 			"title": "Alex Darling",
 			"placeholder": "/imgs/main/Darling/AD_placeholder.webp",
-			"videoMobile": "/imgs/main/Darling/AD_mobile.mp4",
+			"videoMobile": "/imgs/main/Darling/AD1_mobile.mp4",
 			"videoUrl": "/vid/AD_ANIMA.mp4",
 			"images": ["/vid/AD_ANIMA1.mp4", "/imgs/main/Darling/AD1.webp", "/imgs/main/Darling/AD4.webp", "/imgs/main/Darling/AD3.webp", "/imgs/main/Darling/AD5.webp", "/imgs/main/Darling/AD2.webp"],
 			"category": ["Web Design", "Web Development"],
@@ -458,7 +458,7 @@
 			"id": "EsaCosa",
 			"title": "Esa Cosa Llamada Amor by Plataforma 285",
 			"placeholder": "/imgs/main/EsaCosa/ESA_placeholder.webp",
-			"imageMobile": "/imgs/main/EsaCosa/ESA_mobile.mp4",
+			"imageMobile": "/imgs/main/EsaCosa/ESA_mobile.webp",
 			"imageUrl": "/imgs/main/EsaCosa/ESA_COSA.gif",
 			"images": [
 				"/imgs/main/EsaCosa/ESA0.webp",
