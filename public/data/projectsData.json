@@ -338,6 +338,7 @@
 			"id": "TeoriasDaInspiracao",
 			"placeholder": "/imgs/main/Teorias/TDI0.webp",
 			"title": "Teorias da Inspiração - Filme by David Marques",
+			"videoMobile": "/vid/TI_ANIMA.mp4",
 			"videoUrl": "/vid/TI_ANIMA.mp4",
 			"images": [
 				"/imgs/main/Teorias/TDI0.webp",
@@ -406,6 +407,7 @@
 			"id": "Amadora3",
 			"title": "Amadora-3",
 			"placeholder": "/imgs/main/Amadora3/AMD1.webp",
+			"imageMobile": "/imgs/main/Amadora3/AMD_mobile.mp4",
 			"imageUrl": "/imgs/main/Amadora3/AMD1.webp",
 			"images": [
 				"/imgs/main/Amadora3/AMD1.webp",
@@ -456,6 +458,7 @@
 			"id": "EsaCosa",
 			"title": "Esa Cosa Llamada Amor by Plataforma 285",
 			"placeholder": "/imgs/main/EsaCosa/ESA_placeholder.webp",
+			"imageMobile": "/imgs/main/EsaCosa/ESA_mobile.mp4",
 			"imageUrl": "/imgs/main/EsaCosa/ESA_COSA.gif",
 			"images": [
 				"/imgs/main/EsaCosa/ESA0.webp",
