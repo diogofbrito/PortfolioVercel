@@ -353,6 +353,9 @@ button {
 	overflow: hidden;
 }
 
+.galleryMobile {
+	display: none;
+}
 
 @media (max-width: 768px) {
 	.galleryMobile {
