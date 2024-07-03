@@ -200,6 +200,7 @@
 			"id": "Novocine",
 			"title": "Novocine",
 			"placeholder": "/imgs/main/Novocine/NC_placeholder.webp",
+			"videoMobile": "/imgs/main/Novocine/NC_mobile.mp4",
 			"videoUrl": "/vid/NC_ANIMA.mp4",
 			"images": ["/vid/NC_ANIMA1.mp4", "/imgs/main/Novocine/NC2.webp", "/imgs/main/Novocine/NC3.webp", "/imgs/main/Novocine/NC4.webp", "/imgs/main/Novocine/NC5.webp", "/imgs/main/Novocine/NC6.webp"],
 			"category": ["Web Design", "Web Development"],
@@ -210,6 +211,7 @@
 			"id": "AlexDarling",
 			"title": "Alex Darling",
 			"placeholder": "/imgs/main/Darling/AD_placeholder.webp",
+			"videoMobile": "/imgs/main/Darling/AD_mobile.mp4",
 			"videoUrl": "/vid/AD_ANIMA.mp4",
 			"images": ["/vid/AD_ANIMA1.mp4", "/imgs/main/Darling/AD1.webp", "/imgs/main/Darling/AD4.webp", "/imgs/main/Darling/AD3.webp", "/imgs/main/Darling/AD5.webp", "/imgs/main/Darling/AD2.webp"],
 			"category": ["Web Design", "Web Development"],
@@ -250,6 +252,7 @@
 			"id": "Stand1.0",
 			"title": "Stand 1.0",
 			"placeholder": "/imgs/main/StandBook/SP1.webp",
+			"imageMobile": "/imgs/main/StandBook/SP_mobile.webp",
 			"imageUrl": "/imgs/main/StandBook/SP0.webp",
 			"images": [
 				"/imgs/main/StandBook/SP1.webp",

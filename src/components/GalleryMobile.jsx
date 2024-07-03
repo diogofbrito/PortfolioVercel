@@ -17,7 +17,7 @@ export function GalleryMobile() {
 				spaceBetween={30}
 				effect={'fade'}
 				autoplay={{
-					delay: 2000,
+					delay: 3000,
 					disableOnInteraction: false,
 				}}
 				modules={[EffectFade, Autoplay, Pagination]}
