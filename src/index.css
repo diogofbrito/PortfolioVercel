@@ -465,8 +465,8 @@ button {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 2rem;
-	padding-bottom: 2rem;
+	gap: .75rem;
+	padding-bottom: .75rem;
 }
 @media (max-width: 768px) {
 	.works__list {
