@@ -590,6 +590,7 @@
 			"id": "AntónioCastro",
 			"title": "António Castro Studio",
 			"placeholder": "/imgs/main/AntonioCastro/AC_placeholder.webp",
+			"videoMobile": "/imgs/main/AntonioCastro/AC_mobile.mp4",
 			"videoUrl": "/vid/AC_ANIMA.mp4",
 			"images": [
 				"/vid/AC_ANIMA1.mp4",
@@ -609,6 +610,7 @@
 			"id": "EnjoyWeather",
 			"title": "Enjoy the Weather by Teresa Silva",
 			"placeholder": "/imgs/main/EnjoyTWeather/EW1.webp",
+			"videoMobile": "/imgs/main/EnjoyTWeather/EW_mobile.mp4",
 			"imageUrl": "/imgs/main/EnjoyTWeather/EW1.webp",
 			"images": ["/imgs/main/EnjoyTWeather/EW1.webp", "/imgs/main/EnjoyTWeather/EW2.webp", "/imgs/main/EnjoyTWeather/EW3.webp", "/imgs/main/EnjoyTWeather/EW4.webp"],
 			"category": ["Posters", "Identity"],
@@ -629,6 +631,7 @@
 			"id": "HelmutLang",
 			"title": "Helmut Lang - Tshirt Contest",
 			"placeholder": "/imgs/main/HelmutLang/HL2.webp",
+			"imageMobile": "/imgs/main/HelmutLang/HL_mobile.webp",
 			"imageUrl": "/imgs/main/HelmutLang/HL2.webp",
 			"images": ["/imgs/main/HelmutLang/HL1.webp", "/imgs/main/HelmutLang/HL3.webp", "/imgs/main/HelmutLang/HL5.webp", "/imgs/main/HelmutLang/HL4.webp"],
 			"category": "Identity",
@@ -653,6 +656,7 @@
 			"id": "DancaSemVergonha",
 			"title": "Dança sem Vergonha by David Marques",
 			"placeholder": "/imgs/main/DancaVergonha/DSV_placeholder.webp",
+			"imageMobile": "/imgs/main/DancaVergonha/DSV_mobile.webp",
 			"imageUrl": "/imgs/main/DancaVergonha/DSV4.webp",
 			"images": [
 				"/imgs/main/DancaVergonha/DSV3.webp",
