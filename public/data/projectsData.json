@@ -317,6 +317,7 @@
 			"id": "FilipaNunes",
 			"title": "Filipa Nunes",
 			"placeholder": "/imgs/main/FilipaNunes/MN_placeholder.webp",
+			"videoMobile": "/imgs/main/FilipaNunes/MN_mobile.mp4",
 			"videoUrl": "/vid/MN_ANIMA.mp4",
 			"images": [
 				"/vid/MN_ANIMA1.mp4",
