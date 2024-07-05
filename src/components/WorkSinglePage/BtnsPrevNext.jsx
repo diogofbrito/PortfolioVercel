@@ -13,11 +13,19 @@ export function BtnsPrevNext({ currentProjectId, projects }) {
 	};
 
 	return (
-		<div className='btns-prev-next'>
-			<button onClick={() => handleNavigation(previousProjectId)} disabled={!previousProjectId} className='navlink'>
+		<div className='flex justify-center gap-3 '>
+			<button
+				onClick={() => handleNavigation(previousProjectId)}
+				disabled={!previousProjectId}
+				className='bg-[#c5c5c5]/50 rounded-custom py-2.6 px-4 flex items-center disabled:opacity-50 disabled:pointer-events-none'
+			>
 				Previous Project
 			</button>
-			<button onClick={() => handleNavigation(nextProjectId)} disabled={!nextProjectId} className='navlink'>
+			<button
+				onClick={() => handleNavigation(nextProjectId)}
+				disabled={!nextProjectId}
+				className='bg-[#c5c5c5]/50 rounded-custom py-2.6 px-4 flex items-center disabled:opacity-50 disabled:pointer-events-none'
+			>
 				Next Project
 			</button>
 		</div>

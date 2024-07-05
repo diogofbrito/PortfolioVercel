@@ -12,7 +12,7 @@ export function GalleryMobile() {
 	const { projects } = useContext(AppContext);
 
 	return (
-		<div className='galleryMobile'>
+		<div className='hidden max-md:block'>
 			<Swiper
 				spaceBetween={30}
 				effect={'fade'}

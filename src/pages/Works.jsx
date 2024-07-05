@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { WorkItem } from '../components/WorkItem';
-import { WorksList } from '../components/WorksList';
+import { WorkItem } from '../components/WorkItem.jsx';
+import { WorksList } from '../components/WorksList.jsx';
 import { Link } from 'react-router-dom';
 import { FilterContext } from '../contexts/FilterContext.jsx';
 import { ViewContext } from '../contexts/ViewContext.jsx';
@@ -19,19 +19,19 @@ export function Works() {
 
 	return (
 		<div>
-			<div className='projects container'>
+			<div className='flex flex-col margin-general '>
 				{isListView ? (
 					<WorksList projects={filteredProjects} />
 				) : (
-					<Masonry breakpointCols={breakpointColumnsObj} className='image-grid' columnClassName='image-grid_column'>
+					<Masonry breakpointCols={breakpointColumnsObj} className='flex gap-3' columnClassName='bg-clip-padding'>
 						{filteredProjects.length > 0 ? (
 							filteredProjects.map(project => (
-								<Link to={`/works/${project.id}`} key={project.id} >
+								<Link to={`/works/${project.id}`} key={project.id}>
 									<WorkItem project={project} />
 								</Link>
 							))
 						) : (
-							<div className='no-results-message'>No projects found</div>
+							<div>No projects found</div>
 						)}
 					</Masonry>
 				)}

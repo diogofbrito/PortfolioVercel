@@ -12,11 +12,11 @@ export function GraphicCredits({ project }) {
 	const info = graphic.find(item => item.info)?.info || [];
 
 	return (
-		<div className='text grid'>
-			<div>
-				Credits<br></br>
-			</div>
-			<div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+		<div className='bg-[#c5c5c5]/50 rounded-custom p-6 text-base leading-5 grid grid-cols-2 max-md:p-4 max-md:grid-cols-1'>
+			<p className='font-bold'>
+				Credits
+			</p>
+			<div >
 				{photography && (
 					<div>
 						<p>Photos</p> {photography.photography}
@@ -27,7 +27,7 @@ export function GraphicCredits({ project }) {
 					<div>
 						{info.map((info, index) => (
 							<div key={index}>
-								<div style={{ paddingTop: '1rem' }}>
+								<div className='pt-4'>
 									<p>{info.title}</p> {info.content}
 								</div>
 							</div>
@@ -35,7 +35,7 @@ export function GraphicCredits({ project }) {
 					</div>
 				)}
 				{links.length > 0 && (
-					<div>
+					<div className='pt-4'>
 						<p>Links</p>
 						{links.map((link, index) => (
 							<div key={index}>

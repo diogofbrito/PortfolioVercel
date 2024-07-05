@@ -17,14 +17,14 @@ export function Header() {
 	}
 
 	return (
-		<div className='navbar container'>
-			<NavLink to='/' className='navlink'>
+		<div className='margin-general z-50 flex justify-between items-center'>
+			<NavLink to='/' className='bg-[#c5c5c5]/50 rounded-custom py-2.6 px-4 flex items-center'>
 				Diogo Brito
 			</NavLink>
 
-			<div className='filters'>
+			<div className='flex gap-3'>
 				{currentPath !== '/works' && (
-					<NavLink to='/works' className='navlink'>
+					<NavLink to='/works' className='bg-[#c5c5c5]/50 rounded-custom py-2.6 px-4 flex items-center'>
 						Works
 					</NavLink>
 				)}
@@ -39,7 +39,7 @@ export function Header() {
 							setSelectedYear={setSelectedYear}
 							filteredProjects={filteredProjects}
 						/>
-						<button className='listOption' onClick={toggleViewMode}>
+						<button className='bg-[#c5c5c5]/50 rounded-custom py-2 px-4 flex items-center' onClick={toggleViewMode}>
 							{isListView ? <LayoutGrid size={20} /> : <List size={20} />}
 						</button>
 					</>

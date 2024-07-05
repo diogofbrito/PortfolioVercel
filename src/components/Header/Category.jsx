@@ -30,17 +30,17 @@ export function Category() {
 	}, []);
 
 	return (
-		<div className='dropdown-container' ref={dropdownRef}>
-			<div className={`custom-select ${isOpen ? 'open' : ''}`} onClick={toggleDropdown}>
-				<button className='selected-value' aria-label='Category'>
+		<div className='relative w-56 mx-auto' ref={dropdownRef}>
+			<div className={`flex flex-col w-full cursor-pointer relative ${isOpen ? 'open' : ''}`} onClick={toggleDropdown}>
+				<button className='bg-[#c5c5c5]/50 rounded-custom py-2 px-4 flex items-center justify-between ' aria-label='Category'>
 					{selectedCategory}
 					{isOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
 				</button>
 
 				{isOpen && (
-					<ul className='options'>
+					<ul className='list-none pt-0 mt-10 rounded-custom bg-[#e2e2e2] max-h-200 overflow-y-auto absolute w-full z-10 darkOptions'>
 						{uniqueCategories.map(category => (
-							<li key={category} onClick={() => handleOptionClick(category)}>
+							<li key={category} onClick={() => handleOptionClick(category)} className='py-2 px-4 OptionsHover'>
 								{category}
 							</li>
 						))}

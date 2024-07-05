@@ -8,13 +8,14 @@ import { GalleryMobile } from '../components/GalleryMobile';
 export function Home() {
 	return (
 		<>
-			<div className='container'>
-				<Link to='/works'>
-					<Gallery />
-					<GalleryMobile />
-				</Link>
-
-				<div className='mobile__home'>
+			<div className='margin-general grid grid-4 gap-3 max-md:flex max-md:flex-col '>
+				<div className='grid-area-1'>
+					<Link to='/works'>
+						<Gallery />
+						<GalleryMobile />
+					</Link>
+				</div>
+				<div className='grid-area-2'>
 					<HeaderHome />
 					<About />
 				</div>

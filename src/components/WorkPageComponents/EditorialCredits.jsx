@@ -12,16 +12,22 @@ export function EditorialCredits({ project }) {
 	const info = editorial.find(item => item.info)?.info || [];
 
 	return (
-		<div className='text grid'>
+		<div className='bg-[#c5c5c5]/50 rounded-custom p-6 text-base leading-5 grid grid-cols-2 max-md:p-4 max-md:grid-cols-1'>
 			<div>
-				Credits<br></br>
+				<p className='font-bold'>Credits</p>
 			</div>
 			<div>
+				{photographyCredit && (
+					<>
+						<p>Photos</p> {photographyCredit.photography}
+					</>
+				)}
+
 				{info.length > 0 && (
 					<div>
 						{info.map((info, index) => (
 							<div key={index}>
-								<div style={{ paddingBottom: '1rem' }}>
+								<div className='pt-4'>
 									<p>{info.title}</p> {info.content}
 								</div>
 							</div>
@@ -34,18 +40,12 @@ export function EditorialCredits({ project }) {
 						<p>Links</p>
 						{links.map((link, index) => (
 							<div key={index}>
-								
 								<a href={link.link} target='_blank'>
 									<u>{link.title}</u>
 								</a>
 							</div>
 						))}
 					</div>
-				)}
-				{photographyCredit && (
-					<>
-						<p>Photos</p> {photographyCredit.photography}
-					</>
 				)}
 			</div>
 		</div>

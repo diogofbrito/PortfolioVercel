@@ -27,7 +27,7 @@ export function ThemeSwitch() {
 	}, [theme]);
 
 	return (
-		<button className='navlink__toggle' onClick={toggleTheme} aria-label='Toggle theme'>
+		<button className='bg-[#c5c5c5]/50 rounded-custom py-2 px-4' onClick={toggleTheme} aria-label='Toggle theme'>
 			{theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
 		</button>
 	);

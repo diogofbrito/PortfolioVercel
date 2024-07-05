@@ -14,10 +14,8 @@ export function ExhibitionCredits({ project }) {
 
 
 	return (
-		<div className='text grid'>
-			<div>
-				Credits
-			</div>
+		<div className='bg-[#c5c5c5]/50 rounded-custom p-6 text-base leading-5 grid grid-cols-2 max-md:p-4 max-md:grid-cols-1'>
+			<p className='font-bold'>Credits</p>
 			<div>
 				{photographyCredit && (
 					<>
@@ -27,14 +25,14 @@ export function ExhibitionCredits({ project }) {
 
 				{infoItems.map((info, index) => (
 					<div key={index}>
-						<div style={{ paddingTop: '1rem' }}>
+						<div className='pt-4'>
 							<p>{info.title}</p> {info.content}
 						</div>
 					</div>
 				))}
 
 				{links.length > 0 && (
-					<div style={{ paddingTop: '1rem' }}>
+					<div className='pt-4'>
 						<p>Links</p>
 						{links.map((link, index) => (
 							<div key={index}>

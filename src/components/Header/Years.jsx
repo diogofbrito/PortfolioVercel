@@ -30,15 +30,15 @@ export function Years() {
 	}, []);
 
 	return (
-		<div className='dropdown-container' ref={dropdownRef}>
-			<div className={`custom-select ${isOpen ? 'open' : ''}`} onClick={toggleDropdown}>
-				<button className='selected-value' aria-label='Years'>
-					{selectedYear} {isOpen ? <ChevronUp  size={20} /> : <ChevronDown  size={20}/>}
+		<div className='relative w-56 mx-auto' ref={dropdownRef}>
+			<div className={`flex flex-col w-full cursor-pointer relative ${isOpen ? 'open' : ''}`} onClick={toggleDropdown}>
+				<button className='bg-[#c5c5c5]/50 rounded-custom py-2 px-4 flex items-center justify-between ' aria-label='Years'>
+					{selectedYear} {isOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
 				</button>
 				{isOpen && (
-					<ul className='options'>
+					<ul className='list-none pt-0 mt-10 rounded-custom bg-[#e2e2e2] max-h-200 overflow-y-auto absolute w-full z-10 darkOptions'>
 						{uniqueYears.map(year => (
-							<li key={year} onClick={() => handleOptionClick(year)}>
+							<li key={year} onClick={() => handleOptionClick(year)} className='py-2 px-4 hover:bg-[#494949]'>
 								{year}
 							</li>
 						))}
