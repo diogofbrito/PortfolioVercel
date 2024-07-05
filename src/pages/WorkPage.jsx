@@ -52,7 +52,7 @@ export function WorkPage() {
 				<div className='bg-[#c5c5c5]/50 rounded-custom p-6 text-base leading-5'>
 					<div className='flex flex-row justify-between'>
 						<div>
-							<h2 className='text-2xl font-bold leading-none max-md:text-xl '>{project.title}</h2>
+							<h2 className='text-2xl font-bold leading-none max-md:text-base '>{project.title}</h2>
 							<div className='flex items-center gap-2'>
 								{Array.isArray(project.category) ? (
 									project.category.map((cat, index) => (
