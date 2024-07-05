@@ -6,8 +6,9 @@ export function About() {
 			<div className='flex flex-col gap-3 text-base leading-5 pt-3 bg'>
 				<div className='bg-[#c5c5c5]/50 rounded-custom p-6 max-md:p-5'>
 					<div className='text-2xl'>About</div>
-					Diogo Brito is a Portuguese Graphic Designer, Web Developer and Visual Artist.
-					<br></br> He collaborates with diverse clients and projects across fashion, graphic design, editorial, videography, visual arts and choreography. He is also a co-founder of Stand Project, a collective art initiative in Lisbon, founded in 2020.
+					Diogo Brito is a multidisciplinary Designer, Web Developer and Visual Artist.
+					<br></br> He collaborates with diverse clients and projects across fashion, graphic design, editorial, videography, visual arts and choreography. He is also a co-founder of Stand Project, a
+					collective art initiative in Lisbon, founded in 2020.
 				</div>
 				<div className='bg-[#c5c5c5]/50 rounded-custom p-6 max-md:p-5'>
 					<div className='text-2xl'>Selected partners / Clients</div>
