@@ -15,7 +15,7 @@ export function Home() {
 						<GalleryMobile />
 					</Link>
 				</div>
-				<div className='grid-area-2'>
+				<div className='grid-area-2 about overflow-scroll'>
 					<HeaderHome />
 					<About />
 				</div>

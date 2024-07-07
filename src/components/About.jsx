@@ -3,12 +3,16 @@ import React from 'react';
 export function About() {
 	return (
 		<>
-			<div className='flex flex-col gap-3 text-base leading-5 pt-3 bg'>
+			<div className='flex flex-col gap-3 text-base leading-5 pt-3 bg overflow-hidden '>
 				<div className='bg-[#c5c5c5]/50 rounded-custom p-6 max-md:p-5'>
 					<div className='text-2xl'>About</div>
-					Diogo Brito is a multidisciplinary Designer, Web Developer and Visual Artist.
-					<br></br> He collaborates with diverse clients and projects across fashion, graphic design, editorial, videography, visual arts and choreography. He is also a co-founder of Stand Project, a
+					I'm a multidisciplinary Designer, Web Developer, and Visual Artist.
+					<br></br>I collaborate with diverse clients and projects across fashion, graphic design, editorial, videography, visual arts and choreography. I'm also a co-founder of Stand Project, a
 					collective art initiative in Lisbon, founded in 2020.
+				</div>
+				<div className='bg-[#c5c5c5]/50 rounded-custom p-6 max-md:p-5'>
+					<div className='text-2xl'>Services</div>
+					Web Design UX UI<br></br>Web Development<br></br>Visual Identity<br></br>Editorial Design<br></br>Art Direction <br></br>Posters <br></br>Video
 				</div>
 				<div className='bg-[#c5c5c5]/50 rounded-custom p-6 max-md:p-5'>
 					<div className='text-2xl'>Selected partners / Clients</div>
