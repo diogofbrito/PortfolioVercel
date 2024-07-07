@@ -37,6 +37,8 @@ export function About() {
 					<a href='https://drive.google.com/file/d/1DTWFEIm2G74Rl5byl4UD59I19pTH-FPx/view?usp=sharing' target='_blank'>
 						CV - Resume
 					</a>
+
+					<div className='text-xs text-right'>® 2024 Diogo Brito</div>
 				</div>
 			</div>
 		</>
