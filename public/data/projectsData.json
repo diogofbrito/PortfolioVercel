@@ -624,6 +624,7 @@
 			"id": "Critique",
 			"title": "Critique by David Marques & Tiago Cadete",
 			"placeholder": "/imgs/main/Critique/CR_placeholder.webp",
+			"videoMobile": "/imgs/main/Critique/CR_mobile.mp4",
 			"videoUrl": "/vid/CR_ANIMA.mp4",
 			"images": ["/vid/CR_ANIMA1.mp4", "/imgs/main/Critique/CR1.webp", "/imgs/main/Critique/CR2.webp", "/imgs/main/Critique/CR3.webp", "/imgs/main/Critique/CR4.webp", "/imgs/main/Critique/CR5.webp"],
 			"category": ["Web Design", "Web Development"],
@@ -726,6 +727,7 @@
 			"id": "MisterioDaCultura",
 			"title": "Mistério da Cultura by David Marques",
 			"placeholder": "/imgs/main/MisterioCultura/MDC2.webp",
+			"imageMobile": "/imgs/main/MisterioCultura/MDC_mobile.webp",
 			"imageUrl": "/imgs/main/MisterioCultura/MDC1.webp",
 			"images": [
 				"/imgs/main/MisterioCultura/MDC9.webp",
@@ -740,7 +742,6 @@
 				"/imgs/main/MisterioCultura/MDC8.webp",
 				"/imgs/main/MisterioCultura/MDC12.webp",
 				"/imgs/main/MisterioCultura/MDC7.webp"
-				
 			],
 			"category": "Video",
 			"year": 2019,
