@@ -3,7 +3,7 @@ import React from 'react';
 export function About() {
 	return (
 		<>
-			<div className='flex flex-col gap-3 text-base leading-5 pt-3 bg overflow-hidden '>
+			<div className='flex flex-col gap-3 text-base leading-5 pt-3'>
 				<div className='bg-[#c5c5c5]/50 rounded-custom p-6 max-md:p-5'>
 					<div className='text-2xl'>About</div>
 					I'm a multidisciplinary Designer, Web Developer, and Visual Artist.

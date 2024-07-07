@@ -96,10 +96,12 @@ input::placeholder {
 	border: 1px solid var(--text-color-dark);
 }
 
-
-.about {
-	height: calc(100vh - 1.5rem);
+@media (min-width: 768px) {
+	.about {
+		height: calc(100vh - 1.5rem);
+	}
 }
+
 /*? COMPONENTS:: GALLERY */
 .swiper {
 	position: absolute;
