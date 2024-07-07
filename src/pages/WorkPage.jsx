@@ -1,6 +1,7 @@
 import React, { useContext, useRef, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { ContentImgs } from '../components/WorkSinglePage/ContentImgs.jsx';
+import { ContentImgsMisterio } from '../components/WorkSinglePage/ContentImgsMisterio.jsx';
 import { AppContext } from '../contexts/AppContext';
 import { ExhibitionCredits } from '../components/WorkPageComponents/ExhibitionCredits.jsx';
 import { BtnsPrevNext } from '../components/WorkSinglePage/BtnsPrevNext.jsx';
@@ -72,7 +73,9 @@ export function WorkPage() {
 				</div>
 			</div>
 
-			<ContentImgs restMedia={restMedia} lastMedia={lastMedia} />
+			{id === 'MisterioDaCultura' ? <ContentImgsMisterio restMedia={restMedia} lastMedia={lastMedia} project={project} /> : <ContentImgs restMedia={restMedia} lastMedia={lastMedia} />}
+
+
 
 			{project.exhibitions && (
 				<div className='-pt-8 pb-3 max-md:-pt-4'>
