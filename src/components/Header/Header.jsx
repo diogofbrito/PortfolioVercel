@@ -24,7 +24,7 @@ export function Header() {
 
 			<div className='flex gap-3'>
 				{currentPath !== '/works' && (
-					<NavLink to='/works' className='bg-[#c5c5c5]/50 rounded-custom py-2.6 px-4 flex items-center'>
+					<NavLink to='/works' className='bg-[#c5c5c5]/50 rounded-custom py-2.6 px-4 flex items-center '>
 						Works
 					</NavLink>
 				)}

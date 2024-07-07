@@ -58,11 +58,6 @@ ul {
 	margin: 0;
 }
 
-a.active,
-button.active {
-	color: var(--background-color-light);
-}
-
 .dark-mode .search input[type='text'] {
 	color: var(--text-color-dark);
 }
@@ -101,8 +96,9 @@ input::placeholder {
 	border: 1px solid var(--text-color-dark);
 }
 
-.about{
-		height: calc(100vh - 1.5rem);
+
+.about {
+	height: calc(100vh - 1.5rem);
 }
 /*? COMPONENTS:: GALLERY */
 .swiper {
