@@ -7,8 +7,7 @@ export function About() {
 				<div className='bg-[#c5c5c5]/50 rounded-custom p-6 max-md:p-5'>
 					<div className='text-2xl'>About</div>
 					I'm a multidisciplinary Designer, Web Developer, and Visual Artist.
-					<br></br>I collaborate with diverse clients and projects across fashion, graphic design, editorial, videography, visual arts and choreography. I'm also a co-founder of Stand Project, a
-					collective art initiative in Lisbon, founded in 2020.
+					<br></br>I collaborate with diverse clients and projects across fashion, graphic design, editorial, videography, visual and performing arts. I'm also a co-founder of Stand Project, a collective art initiative in Lisbon, founded in 2020.
 				</div>
 				<div className='bg-[#c5c5c5]/50 rounded-custom p-6 max-md:p-5'>
 					<div className='text-2xl'>Services</div>

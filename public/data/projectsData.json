@@ -337,7 +337,7 @@
 		{
 			"id": "TeoriasDaInspiracao",
 			"placeholder": "/imgs/main/Teorias/TDI0.webp",
-			"title": "Teorias da Inspiração - Filme by David Marques",
+			"title": "Teorias da Inspiração - Filme",
 			"videoMobile": "/vid/TI_ANIMA.mp4",
 			"videoUrl": "/vid/TI_ANIMA.mp4",
 			"images": [
@@ -456,7 +456,7 @@
 		},
 		{
 			"id": "EsaCosa",
-			"title": "Esa Cosa Llamada Amor by Plataforma 285",
+			"title": "Esa Cosa Llamada Amor",
 			"placeholder": "/imgs/main/EsaCosa/ESA_placeholder.webp",
 			"imageMobile": "/imgs/main/EsaCosa/ESA_mobile.webp",
 			"imageUrl": "/imgs/main/EsaCosa/ESA_COSA.gif",
@@ -612,7 +612,7 @@
 		},
 		{
 			"id": "EnjoyWeather",
-			"title": "Enjoy the Weather by Teresa Silva",
+			"title": "Enjoy the Weather",
 			"placeholder": "/imgs/main/EnjoyTWeather/EW1.webp",
 			"videoMobile": "/imgs/main/EnjoyTWeather/EW_mobile.mp4",
 			"imageUrl": "/imgs/main/EnjoyTWeather/EW1.webp",
@@ -623,7 +623,7 @@
 		},
 		{
 			"id": "Critique",
-			"title": "Critique by David Marques & Tiago Cadete",
+			"title": "Critique",
 			"placeholder": "/imgs/main/Critique/CR_placeholder.webp",
 			"videoMobile": "/imgs/main/Critique/CR_mobile.mp4",
 			"videoUrl": "/vid/CR_ANIMA.mp4",
@@ -659,7 +659,7 @@
 		},
 		{
 			"id": "DancaSemVergonha",
-			"title": "Dança sem Vergonha by David Marques",
+			"title": "Dança sem Vergonha",
 			"placeholder": "/imgs/main/DancaVergonha/DSV_placeholder.webp",
 			"imageMobile": "/imgs/main/DancaVergonha/DSV_mobile.webp",
 			"imageUrl": "/imgs/main/DancaVergonha/DSV7.webp",
@@ -726,7 +726,7 @@
 		},
 		{
 			"id": "MisterioDaCultura",
-			"title": "Mistério da Cultura by David Marques",
+			"title": "Mistério da Cultura",
 			"placeholder": "/imgs/main/MisterioCultura/MDC2.webp",
 			"imageMobile": "/imgs/main/MisterioCultura/MDC_mobile.webp",
 			"imageUrl": "/imgs/main/MisterioCultura/MDC1.webp",
