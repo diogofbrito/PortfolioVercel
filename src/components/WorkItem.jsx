@@ -11,7 +11,7 @@ export function WorkItem({ project }) {
 					<img src={placeholder} alt={title} loading='lazy' className='w-full h-full object-cover' />
 				</LazyLoad>
 				<div className='absolute inset-0 hidden md:flex flex-col items-center justify-center bg-black bg-opacity-50 backdrop-blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-custom'>
-					<p className='text-white text-xl '>{title}</p>
+					<p className='text-white text-xl max-md:text-base'>{title}</p>
 					<div className='flex items-center gap-1'>
 						{Array.isArray(category) ? (
 							category.map((cat, index) => (
