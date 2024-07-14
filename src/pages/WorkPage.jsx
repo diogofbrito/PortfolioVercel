@@ -53,7 +53,7 @@ export function WorkPage() {
 				<div className='bg-[#c5c5c5]/50 rounded-3xl p-6 text-base leading-5'>
 					<div className='flex flex-row justify-between'>
 						<div>
-							<h2 className='text-xl leading-none max-md:text-xl '>{project.title}</h2>
+							<h2 className='text-xl leading-none max-md:text-xl max-md:leading-none'>{project.title}</h2>
 							<div className='flex items-center gap-1'>
 								{Array.isArray(project.category) ? (
 									project.category.map((cat, index) => (
@@ -73,7 +73,6 @@ export function WorkPage() {
 						<p dangerouslySetInnerHTML={{ __html: formattedText }}></p>
 						{project.infoLink && (
 							<Link to={`/works/StandProject`}>
-							
 								<u>{project.infoLink} </u>
 							</Link>
 						)}
