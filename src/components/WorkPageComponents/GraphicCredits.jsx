@@ -12,7 +12,7 @@ export function GraphicCredits({ project }) {
 	const info = graphic.find(item => item.info)?.info || [];
 
 	return (
-		<div className='bg-[#c5c5c5]/50 rounded-custom p-6 text-base leading-5 grid grid-cols-2 max-md:p-4 max-md:grid-cols-1'>
+		<div className='bg-[#c5c5c5]/50 rounded-3xl p-6 text-base leading-5 grid grid-cols-2 max-md:grid-cols-1'>
 			<p className='font-bold'>
 				Credits
 			</p>

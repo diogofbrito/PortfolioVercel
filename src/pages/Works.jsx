@@ -13,7 +13,7 @@ export function Works() {
 
 	const breakpointColumnsObj = {
 		default: 3,
-		1000: 2,
+		1100: 2,
 		768: 1,
 	};
 
@@ -23,7 +23,7 @@ export function Works() {
 				{isListView ? (
 					<WorksList projects={filteredProjects} />
 				) : (
-					<Masonry breakpointCols={breakpointColumnsObj} className='flex gap-3' columnClassName='bg-clip-padding'>
+					<Masonry breakpointCols={breakpointColumnsObj} className='flex gap-1' columnClassName='bg-clip-padding'>
 						{filteredProjects.length > 0 ? (
 							filteredProjects.map(project => (
 								<Link to={`/works/${project.id}`} key={project.id}>
@@ -31,7 +31,7 @@ export function Works() {
 								</Link>
 							))
 						) : (
-							<div>No projects found</div>
+							<div className='p-2 '>No projects found</div>
 						)}
 					</Masonry>
 				)}

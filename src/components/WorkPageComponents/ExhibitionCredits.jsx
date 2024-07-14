@@ -14,7 +14,7 @@ export function ExhibitionCredits({ project }) {
 
 
 	return (
-		<div className='bg-[#c5c5c5]/50 rounded-custom p-6 text-base leading-5 grid grid-cols-2 max-md:p-4 max-md:grid-cols-1'>
+		<div className='bg-[#c5c5c5]/50 rounded-custom p-6 text-base leading-5 grid grid-cols-2 max-md:grid-cols-1'>
 			<p className='font-bold'>Credits</p>
 			<div>
 				{photographyCredit && (

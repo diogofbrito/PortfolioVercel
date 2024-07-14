@@ -124,7 +124,7 @@
 			],
 			"category": "Identity",
 			"year": 2022,
-			"info": "Underdogs Gallery hired me to create a visual identity piece for the exterior of poster tube mailers for early bird tickets for the Meo Kalorama festival 2023, one which would clearly incorporate identifying logos and signature palette of the brand. I was also charged with devising a closure solution for the tubes. I chose to design this as a large-scale, multi-colored, pixellated sticker with flaps that simultaneously functioned as a closure in a bold and highly visible style. \n Included in the mailer tube with vinyl stage pieces was an insert I designed with graphics related to the sticker which serves to explain the contents.",
+			"info": "Underdogs Gallery hired me to create a visual identity piece for the exterior of poster tube mailers for early bird tickets for the Meo Kalorama festival 2023, one which would clearly incorporate identifying logos and signature palette of the brand. \n I was also charged with devising a closure solution for the tubes. I chose to design this as a large-scale, multi-colored, pixellated sticker with flaps that simultaneously functioned as a closure in a bold and highly visible style. \n Included in the mailer tube with vinyl stage pieces was an insert I designed with graphics related to the sticker which serves to explain the contents.",
 			"graphic": [
 				{
 					"photography": "© Ana Pires, courtesy Underdogs Gallery"
@@ -157,6 +157,7 @@
 			"category": ["Identity", "Art Direction"],
 			"year": 2022,
 			"info": "Umbigo, an independent art magazine in Portgual, invited Stand Project to create a visual essay in collaboration with the National Coach Museum in Lisbon.\n As part of Stand’s team, I created a suite of visual compositions - hybrid creatures depicting an impossible crossing of historical facets of the legacy of coaches and popular symbols of the modern automobile tuning subculture.\n The project can be found in issue #82 of the magazine.",
+			"infoLink": "More info about Stand Project.",
 			"graphic": [
 				{
 					"photography": "© Filipa Nunes, Reina Del Mar, Diogo Brito",
@@ -216,7 +217,7 @@
 			"images": ["/vid/AD_ANIMA1.mp4", "/imgs/main/Darling/AD1.webp", "/imgs/main/Darling/AD4.webp", "/imgs/main/Darling/AD3.webp", "/imgs/main/Darling/AD5.webp", "/imgs/main/Darling/AD2.webp"],
 			"category": ["Web Design", "Web Development"],
 			"year": 2022,
-			"info": "Alex Darling, a professional travel photographer, charged me with producing a site showcasing his work in a minimalist framework which would usher the user into a focused, clean experience, with the directive that it engage with the user to slow down time. I developed a site free from any typical distracting interfaces and relied solely on soft, ultra slow transitions, hidden links and dark backgrounds that both comfort the viewer, relax the eye and lull the user into focusing purely on the image served to them."
+			"info": "Alex Darling, a professional travel photographer, charged me with producing a site showcasing his work in a minimalist framework which would usher the user into a focused, clean experience, with the directive that it engage with the user to slow down time. \n I developed a site free from any typical distracting interfaces and relied solely on soft, ultra slow transitions, hidden links and dark backgrounds that both comfort the viewer, relax the eye and lull the user into focusing purely on the image served to them."
 		},
 		{
 			"id": "JonasLander",
@@ -267,7 +268,8 @@
 			],
 			"category": ["Identity", "Editorial"],
 			"year": 2022,
-			"info": "Stand Project is a collaborative artistic project whose is focus to create and curate exhibitions that take place in unconventional spaces organized by a collective in Lisbon. \n The first cycle was made in a working car dealership in Lisbon between February 2020 to April 2021, which we named Stand 1.0. Because each event of that cycle was the result of a collaboration between two artists who hadn’t previously worked together, the book serves as a way to capture the ephemeral process as well as the events themselves, incorporating images of gatherings, teaser video stills, reproductions of messages amongst artists and the collective and poster art all framed with text written by guests about the work, visual reference details of the car dealership, full-bleed, color-saturated pages and signature colors.",
+			"info": "Stand Project is a collaborative artistic project whose is focus to create and curate exhibitions that take place in unconventional spaces organized by a collective in Lisbon. \n The first cycle was made in a working car dealership in Lisbon between February 2020 to April 2021, which we named Stand 1.0. \nBecause each event of that cycle was the result of a collaboration between two artists who hadn’t previously worked together, the book serves as a way to capture the ephemeral process as well as the events themselves, incorporating images of gatherings, teaser video stills, reproductions of messages amongst artists and the collective and poster art all framed with text written by guests about the work, visual reference details of the car dealership, full-bleed, color-saturated pages and signature colors.",
+			"infoLink":"More info about Stand Project.",
 			"editorial": [
 				{
 					"photography": "© João Monteiro"
@@ -419,9 +421,10 @@
 				"/imgs/main/Amadora3/AMD9.webp",
 				"/imgs/main/Amadora3/AMD10.webp"
 			],
-			"category": "Individual Exhibition",
+			"category": "Exhibitions",
 			"year": 2021,
 			"info": "<i>Amadora-3</i> is my first exhibition that both documents and reflect the beginning of my professional activity in the context of interacting with the bureaucratic national systems and the mechanical ways of defining oneself as an artist and young creative in Portugal. \n The works developed revolve around navigating these systems.",
+			
 			"exhibitions": [
 				{
 					"photography": "© Alex Darling"
@@ -472,7 +475,7 @@
 			],
 			"category": "Editorial",
 			"year": 2021,
-			"info": "Esa Cosa Llamada Amor: 10 years is a performance by Plataforma 285, a multidisciplinary art collective in Portugal. \n This play also serves as a frame of their performance history for their 10th anniversary as a collective. They hired me to design a fanzine style book to celebrate and commemorate the event. Included are collage-heavy pages, clean scans and reproductions of past ticket stubs, process images, moodboard writings, production stills and personal communications amongst the collective’s members, all serving to create a scrapbook-style publication.",
+			"info": "Esa Cosa Llamada Amor: 10 years is a performance by Plataforma 285, a multidisciplinary art collective in Portugal. \n This play also serves as a frame of their performance history for their 10th anniversary as a collective.  \n They hired me to design a fanzine style book to celebrate and commemorate the event. Included are collage-heavy pages, clean scans and reproductions of past ticket stubs, process images, moodboard writings, production stills and personal communications amongst the collective’s members, all serving to create a scrapbook-style publication.",
 			"editorial": [
 				{
 					"photography": "© Plataforma 285"
@@ -533,7 +536,7 @@
 			],
 			"category": ["Art Direction", "Identity", "Video", "Posters"],
 			"year": 2021,
-			"info": "The Stand Project is an artistic enjoyment project. It is a space with a double life, designed to conceive diverse artistic projects in a car dealership - Siampauto LDA in Lisbon. \nIt operates through programming cycles, utilizing the inauguration event as a moment to exist as a space for meetings and leisure. The first season of The Stand took place between February 2020 and April 2021. \n Six exhibition projects were developed by pairs of 12 artists, culminating in a series of six public presentations.",
+			"info": "The Stand Project is a space with a double life, designed to conceive diverse artistic projects in a car dealership - Siampauto LDA in Lisbon. \n It operates through programming cycles, utilizing the inauguration event as a moment to exist as a space for meetings and leisure. The first season of Stand took place between February 2020 and April 2021. \n Six exhibition projects were developed by pairs of 12 artists, culminating in a series of six public presentations.",
 			"exhibitions": [
 				{
 					"info": [
@@ -630,15 +633,15 @@
 			"images": ["/vid/CR_ANIMA1.mp4", "/imgs/main/Critique/CR1.webp", "/imgs/main/Critique/CR2.webp", "/imgs/main/Critique/CR3.webp", "/imgs/main/Critique/CR4.webp", "/imgs/main/Critique/CR5.webp"],
 			"category": ["Web Design", "Web Development"],
 			"year": 2020,
-			"info": "Critique was conceptualized by choreographer David Marques and artist Tiago Cadete as a digital spa which curated an open, relaxing atmosphere of critical thinking about the status of the performing arts in Portugal. \n I designed the site to promote a soothing atmosphere where familiar icons of tranquility and spa culture floated on a black background which invited the user to interact, reposition and compose the scene to their liking. Embedded behind each click and drag icon users would find thoughtful questions posed and pop-up videos from figures related to the critique of the arts. I added new icons and subsequent questions and video weekly, inviting users to return to the site and expanding the scope of artist’s original concept."
+			"info": "Critique was conceptualized by choreographer David Marques and artist Tiago Cadete as a digital spa which curated an open, relaxing atmosphere of critical thinking about the status of the performing arts in Portugal. \n I designed the site to promote a soothing atmosphere where familiar icons of tranquility and spa culture floated on a black background which invited the user to interact, reposition and compose the scene to their liking.\n  Embedded behind each click and drag icon users would find thoughtful questions posed and pop-up videos from figures related to the critique of the arts. I added new icons and subsequent questions and video weekly, inviting users to return to the site and expanding the scope of artist’s original concept."
 		},
 		{
 			"id": "HelmutLang",
 			"title": "Helmut Lang - Tshirt Contest",
 			"placeholder": "/imgs/main/HelmutLang/HL2.webp",
 			"imageMobile": "/imgs/main/HelmutLang/HL_mobile.webp",
-			"imageUrl": "/imgs/main/HelmutLang/HL2.webp",
-			"images": ["/imgs/main/HelmutLang/HL1.webp", "/imgs/main/HelmutLang/HL3.webp", "/imgs/main/HelmutLang/HL5.webp", "/imgs/main/HelmutLang/HL4.webp"],
+			"imageUrl": "/imgs/main/HelmutLang/HL1.webp",
+			"images": ["/imgs/main/HelmutLang/HL2.webp", "/imgs/main/HelmutLang/HL3.webp", "/imgs/main/HelmutLang/HL5.webp", "/imgs/main/HelmutLang/HL4.webp"],
 			"category": "Identity",
 			"year": 2020,
 			"info": "In 2020, I entered a design contest announced by Helmut Lang, inviting the public to pitch an original graphic expressing the theme “STAY HOME” in the midst of of the early COVID-19 pandemic. \n I began with scanning, printing and collage based on rubber gloves I had been using daily on shopping trips. I settled on simplicity and using the gloves simultaneously as symbols of intimacy and distance, markers of human touch and as well as protection, but in rich colors devoid of the cold medicalized color palette. \n The concept of touch as a luxury. I chose to hand write the label instead of employing the official font and logo to further add to the air of individualism and reflect the almost D.I.Y. nature of closeness and protection we had to decide on for ourselves in that time. \n <i>Touch</i> was one of 2,250 designs to integrate the 14 finalists.",
@@ -746,7 +749,7 @@
 			],
 			"category": "Video",
 			"year": 2019,
-			"info": "Mistério da cultura (Mystery of Culture) is a metatheatrical performance piece by David Marques both about what the performance itself could have contained, could have been and what transpired during the process of its making. \n In theory, it is about culture, art and their models of production, representation and support. During months of the creative process, I filmed with my Sony Handycam hi8 in all the residencies, their relevant discussions, auditions, moodboards / ideas between Marques and the performers. For this piece, the concept was visually manifesting the difficulty, intensity and frustration of attempting to locate, navigate and unlock the puzzle of the bureaucracy of creation and whether or not the effort is worth the result. \nI attempted to achieve this through filming details, shadows, close-ups, writing, backstage environments to fashion the visual narrative.",
+			"info": "Mistério da cultura (Mystery of Culture) is a metatheatrical performance piece by David Marques both about what the performance itself could have contained, could have been and what transpired during the process of its making. \n In theory, it is about culture, art and their models of production, representation and support. During months of the creative process, I filmed with my Sony Handycam hi8 in all the residencies, their relevant discussions, auditions, moodboards / ideas between Marques and the performers. \n For this piece, the concept was visually manifesting the difficulty, intensity and frustration of attempting to locate, navigate and unlock the puzzle of the bureaucracy of creation and whether or not the effort is worth the result. \nI attempted to achieve this through filming details, shadows, close-ups, writing, backstage environments to fashion the visual narrative.",
 			"video": [
 				{
 					"photography": "© Joana Linda"

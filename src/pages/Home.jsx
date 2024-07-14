@@ -8,7 +8,7 @@ import { GalleryMobile } from '../components/GalleryMobile';
 export function Home() {
 	return (
 		<>
-			<div className='margin-general grid grid-4 gap-3 max-md:flex max-md:flex-col '>
+			<div className='margin-general grid grid-4 gap-1 max-md:flex max-md:flex-col '>
 				<div className='grid-area-1'>
 					<Link to='/works'>
 						<Gallery />

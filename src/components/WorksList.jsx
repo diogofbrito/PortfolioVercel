@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 
 export function WorksList({ projects }) {
 	return (
-		<div className='w-full flex flex-col justify-center items-center gap-3'>
+		<div className='w-full flex flex-col justify-center items-center gap-1'>
 			{projects.length > 0 ? (
 				projects.map(project => (
-					<Link to={`/works/${project.id}`} key={project.id} className='flex justify-between w-full p-4 bg-[#c5c5c5]/50 rounded-custom hover:bg-[#c5c5c5]/80'>
+					<Link to={`/works/${project.id}`} key={project.id} className='flex justify-between  items-center w-full p-4 bg-[#c5c5c5]/50 rounded-3xl hover:bg-[#c5c5c5]/80'>
 						<div>
-							<p className='font-bold'>{project.title}</p>
-							<div className='flex flex-row items-center justify-between pt-1 '>
-								<div className='flex items-center gap-2 max-md:gap-1 '>
+							<p className='text-xl'>{project.title}</p>
+							<div className='flex flex-row items-center justify-between '>
+								<div className='flex items-center gap-1 max-md:gap-1 '>
 									{Array.isArray(project.category) ? (
 										project.category.map((cat, index) => (
 											<div key={index} className='text-[0.7rem] leading-none flex pt-7px pr-8px pb-3px pl-8px rounded-34px darkBorder'>
@@ -23,11 +23,13 @@ export function WorksList({ projects }) {
 								</div>
 							</div>
 						</div>
-						<p>{project.year}</p>
+						
+							<p>{project.year}</p>
+						
 					</Link>
 				))
 			) : (
-				<div className='no-results-message'>No projects found</div>
+				<div className='p-2'>No projects found</div>
 			)}
 		</div>
 	);

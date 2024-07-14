@@ -17,15 +17,15 @@ export function Header() {
 	}
 
 	return (
-		<div className='margin-general z-50 flex justify-between items-center'>
-			<NavLink to='/' className='bg-[#c5c5c5]/50 rounded-custom py-2.6 px-4 flex items-center'>
-				Diogo Brito
+		<div className='margin-general z-50 flex justify-between'>
+			<NavLink to='/' className='h-9 px-2.5 bg-[#c5c5c5]/50 rounded-3xl flex justify-center items-center hover:bg-[#c5c5c5]/80'>
+				<span className='leading-3 p-2.5 flex items-end h-full'>Diogo Brito</span>
 			</NavLink>
 
-			<div className='flex gap-3'>
+			<div className='flex gap-1 h-9 '>
 				{currentPath !== '/works' && (
-					<NavLink to='/works' className='bg-[#c5c5c5]/50 rounded-custom py-2.6 px-4 flex items-center '>
-						Works
+					<NavLink to='/works' className='h-9 px-2.5 bg-[#c5c5c5]/50 rounded-3xl flex justify-center items-center hover:bg-[#c5c5c5]/80'>
+						<span className='leading-3 p-2.5 flex items-end h-full'>Back</span>
 					</NavLink>
 				)}
 
@@ -39,7 +39,7 @@ export function Header() {
 							setSelectedYear={setSelectedYear}
 							filteredProjects={filteredProjects}
 						/>
-						<button className='bg-[#c5c5c5]/50 rounded-custom py-2 px-4 flex items-center' onClick={toggleViewMode}>
+						<button className='bg-[#c5c5c5]/50 rounded-3xl py-2.5 px-4 flex items-center hover:bg-[#c5c5c5]/80' onClick={toggleViewMode}>
 							{isListView ? <LayoutGrid size={20} /> : <List size={20} />}
 						</button>
 					</>
