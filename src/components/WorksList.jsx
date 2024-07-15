@@ -8,7 +8,7 @@ export function WorksList({ projects }) {
 				projects.map(project => (
 					<Link to={`/works/${project.id}`} key={project.id} className='flex justify-between  items-center w-full p-4 bg-[#c5c5c5]/50 rounded-3xl hover:bg-[#c5c5c5]/80'>
 						<div>
-							<p className='text-xl'>{project.title}</p>
+							<p className='text-xl max-md:text-base max-md:leading-3'>{project.title}</p>
 							<div className='flex flex-row items-center justify-between '>
 								<div className='flex items-center gap-1 max-md:gap-1 '>
 									{Array.isArray(project.category) ? (
