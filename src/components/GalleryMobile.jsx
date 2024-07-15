@@ -11,15 +11,7 @@ import 'swiper/css/pagination';
 export function GalleryMobile() {
 	const { projects } = useContext(AppContext);
 
-	 const videoEl = useRef(null);
-
-		const attemptPlay = () => {
-			videoEl &&
-				videoEl.current &&
-				videoEl.current.play().catch(error => {
-					console.error('Error attempting to play', error);
-				});
-		};
+	
 	
 	return (
 		<div className='hidden max-md:block'>
@@ -40,7 +32,7 @@ export function GalleryMobile() {
 									src={project.videoMobile}
 									loop
 									muted
-									ref={videoEl}
+									
 									playsInline
 									onError={e => {
 										console.error(`Error loading video: ${project.videoMobile}`, e);
