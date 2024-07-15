@@ -44,6 +44,7 @@ export function GalleryMobile() {
 									src={project.videoMobile}
 									loop
 									muted
+									autoPlay
 									ref={videoEl}
 									playsInline
 									onError={e => {

@@ -223,7 +223,7 @@
 			"id": "JonasLander",
 			"title": "Jonas&Lander",
 			"placeholder": "/imgs/main/JonasLander/JL_placeholder.webp",
-			"videoMobile": "/imgs/main/JonasLander/JL_mobile.webp",
+			"videoMobile": "/imgs/main/JonasLander/JL_mobile.mp4",
 			"videoUrl": "/vid/JL_ANIMA.mp4",
 			"images": [
 				"/vid/JL_ANIMA1.mp4",
