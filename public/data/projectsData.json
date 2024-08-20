@@ -667,7 +667,7 @@
 		{
 			"id": "DancaSemVergonha",
 			"title": "Dança sem Vergonha",
-			"placeholder": "/imgs/main/DancaVergonha/DSV_placeholder.webp",
+			"placeholder": "/imgs/main/DancaVergonha/DSV9.webp",
 			"imageMobile": "/imgs/main/DancaVergonha/DSV_mobile.webp",
 			"imageUrl": "/imgs/main/DancaVergonha/DSV7.webp",
 			"images": [
@@ -734,7 +734,7 @@
 		{
 			"id": "MisterioDaCultura",
 			"title": "Mistério da Cultura",
-			"placeholder": "/imgs/main/MisterioCultura/MDC2.webp",
+			"placeholder": "/imgs/main/MisterioCultura/MDC1.webp",
 			"imageMobile": "/imgs/main/MisterioCultura/MDC_mobile.webp",
 			"imageUrl": "/imgs/main/MisterioCultura/MDC1.webp",
 			"images": [
