@@ -3,7 +3,7 @@
 		{
 			"id": "Percurso",
 			"title": "Percurso - José Teixeira",
-			"placeholder": "/imgs/main/Percurso/PER1.webp",
+			"placeholder": "/imgs/main/Percurso/PER4.webp",
 			"imageUrl": "/imgs/main/Percurso/PER2.webp",
 			"imageMobile": "/imgs/main/Percurso/PER_mobile.webp",
 			"images": [
@@ -115,11 +115,15 @@
 			"imageMobile": "/imgs/main/Kalorama/KA_mobile.webp",
 			"videoUrl": "/vid/KALORAMA_ANIMA.mp4",
 			"images": [
-				"/imgs/main/Kalorama/KA1.webp",
-				"/imgs/main/Kalorama/KA4.webp",
+				"/imgs/main/Kalorama/KA_placeholder.webp",
+				"/imgs/main/Kalorama/KA5.webp",
 				"/imgs/main/Kalorama/KA3.webp",
+				"/imgs/main/Kalorama/KA4.webp",
+				"/imgs/main/Kalorama/KA10.webp",
 				"/imgs/main/Kalorama/KA5.webp",
 				"/imgs/main/Kalorama/KA6.webp",
+				"/imgs/main/Kalorama/KA8.webp",
+				"/imgs/main/Kalorama/KA9.webp",
 				"/imgs/main/Kalorama/KA7.webp"
 			],
 			"category": "Identity",
@@ -132,8 +136,8 @@
 				{
 					"info": [
 						{
-							"title": "Note",
-							"content": "The videos are part of NOS Instagram advertising"
+							"title": "Videos",
+							"content": "© MEO Kalorama 2023"
 						}
 					]
 				}
@@ -240,7 +244,7 @@
 		{
 			"id": "Limit",
 			"title": "Limit of Disappearance",
-			"placeholder": "/imgs/main/Limit/LD1.webp",
+			"placeholder": "/imgs/main/Limit/LD6.webp",
 			"imageUrl": "/imgs/main/Limit/LD1.webp",
 			"imageMobile": "/imgs/main/Limit/LD_mobile.webp",
 			"images": ["/imgs/main/Limit/LD4.webp", "/imgs/main/Limit/LD5.webp", "/imgs/main/Limit/LD3.webp", "/imgs/main/Limit/LD2.webp"],
@@ -616,10 +620,10 @@
 		{
 			"id": "EnjoyWeather",
 			"title": "Enjoy the Weather",
-			"placeholder": "/imgs/main/EnjoyTWeather/EW1.webp",
+			"placeholder": "/imgs/main/EnjoyTWeather/EW0.webp",
 			"videoMobile": "/imgs/main/EnjoyTWeather/EW_mobile.mp4",
 			"imageUrl": "/imgs/main/EnjoyTWeather/EW1.webp",
-			"images": ["/imgs/main/EnjoyTWeather/EW1.webp", "/imgs/main/EnjoyTWeather/EW2.webp", "/imgs/main/EnjoyTWeather/EW3.webp", "/imgs/main/EnjoyTWeather/EW4.webp"],
+			"images": ["/imgs/main/EnjoyTWeather/EW2.webp", "/imgs/main/EnjoyTWeather/EW3.webp", "/imgs/main/EnjoyTWeather/EW5.webp", "/imgs/main/EnjoyTWeather/EW4.webp"],
 			"category": ["Posters", "Identity"],
 			"year": 2021,
 			"info": "Enjoy the Weather is a project about investigation by the Portuguese choreographer Teresa Silva in collaboration with five other artists. \n The project consisted of four artistic residences each of which concluded with a small show. The suite of posters I was asked to design was developed to demonstrate a visual unity and identity to the project as well as individually to present a collage of environmental elements related to each separate show; water, wind, beach, drops, flora and fauna, etc. Which included images from residency process work."

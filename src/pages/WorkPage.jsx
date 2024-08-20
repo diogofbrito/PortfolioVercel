@@ -88,7 +88,11 @@ export function WorkPage() {
 					</div>
 				</div>
 
-				{id === 'MisterioDaCultura' ? <ContentImgsMisterio restMedia={restMedia} lastMedia={lastMedia} project={project} /> : <ContentImgs restMedia={restMedia} lastMedia={lastMedia} />}
+				{id === 'MisterioDaCultura' || id === 'Kalorama' ? (
+					<ContentImgsMisterio restMedia={restMedia} lastMedia={lastMedia} project={project} />
+				) : (
+					<ContentImgs restMedia={restMedia} lastMedia={lastMedia} />
+				)}
 
 				{project.exhibitions && (
 					<div className='-pt-8 pb-1 max-md:-pt-4'>
