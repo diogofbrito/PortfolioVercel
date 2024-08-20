@@ -207,8 +207,8 @@
 			"placeholder": "/imgs/main/Novocine/NC_placeholder.webp",
 			"videoMobile": "/imgs/main/Novocine/NC_mobile.mp4",
 			"videoUrl": "/vid/NC_ANIMA.mp4",
-			"images": ["/vid/NC_ANIMA1.mp4", "/imgs/main/Novocine/NC2.webp", "/imgs/main/Novocine/NC3.webp", "/imgs/main/Novocine/NC4.webp", "/imgs/main/Novocine/NC5.webp", "/imgs/main/Novocine/NC6.webp"],
-			"category": ["Web Design", "Web Development"],
+			"images": ["/vid/NC_ANIMA1.mp4", "/imgs/main/Novocine/NC7.webp", "/imgs/main/Novocine/NC3.webp", "/imgs/main/Novocine/NC4.webp", "/imgs/main/Novocine/NC5.webp", "/imgs/main/Novocine/NC6.webp"],
+			"category": ["Identity", "Web Design", "Web Development"],
 			"year": 2022,
 			"info": "Novocine is an online cinema platform whose goal is to screen a new film, free for audiences, every twenty days. \n I was hired to design their project website as an undistracting, intuitive experience intended to seamlessly and easily allow users to focus on each film presented while maintaining a clear and recognizable Novocine identity."
 		},
@@ -273,7 +273,7 @@
 			"category": ["Identity", "Editorial"],
 			"year": 2022,
 			"info": "Stand Project is a collaborative artistic project whose is focus to create and curate exhibitions that take place in unconventional spaces organized by a collective in Lisbon. \n The first cycle was made in a working car dealership in Lisbon between February 2020 to April 2021, which we named Stand 1.0. \nBecause each event of that cycle was the result of a collaboration between two artists who hadn’t previously worked together, the book serves as a way to capture the ephemeral process as well as the events themselves, incorporating images of gatherings, teaser video stills, reproductions of messages amongst artists and the collective and poster art all framed with text written by guests about the work, visual reference details of the car dealership, full-bleed, color-saturated pages and signature colors.",
-			"infoLink":"More info about Stand Project.",
+			"infoLink": "More info about Stand Project.",
 			"editorial": [
 				{
 					"photography": "© João Monteiro"
@@ -428,7 +428,7 @@
 			"category": "Exhibitions",
 			"year": 2021,
 			"info": "<i>Amadora-3</i> is my first exhibition that both documents and reflect the beginning of my professional activity in the context of interacting with the bureaucratic national systems and the mechanical ways of defining oneself as an artist and young creative in Portugal. \n The works developed revolve around navigating these systems.",
-			
+
 			"exhibitions": [
 				{
 					"photography": "© Alex Darling"
