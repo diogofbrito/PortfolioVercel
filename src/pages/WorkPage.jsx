@@ -88,7 +88,7 @@ export function WorkPage() {
 					</div>
 				</div>
 
-				{id === 'MisterioDaCultura' || id === 'Kalorama' ? (
+				{id === 'MisterioDaCultura' || id === 'Kalorama' || id === 'AntónioCastro' ? (
 					<ContentImgsMisterio restMedia={restMedia} lastMedia={lastMedia} project={project} />
 				) : (
 					<ContentImgs restMedia={restMedia} lastMedia={lastMedia} />

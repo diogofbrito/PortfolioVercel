@@ -66,7 +66,7 @@
 		{
 			"id": "LeroyMerlin",
 			"title": "Leroy Merlin x CCP",
-			"placeholder": "/imgs/main/Leroy/LM0.webp",
+			"placeholder": "/imgs/main/Leroy/LM00.webp",
 			"imageUrl": "/imgs/main/Leroy/LM1.webp",
 			"imageMobile": "/imgs/main/Leroy/LM_mobile.webp",
 			"images": ["/imgs/main/Leroy/LM3.webp", "/imgs/main/Leroy/LM4.webp", "/imgs/main/Leroy/LM5.webp",  "/imgs/main/Leroy/LM2.webp"],
@@ -414,13 +414,14 @@
 			"imageMobile": "/imgs/main/Amadora3/AMD_mobile.mp4",
 			"imageUrl": "/imgs/main/Amadora3/AMD1.webp",
 			"images": [
-				"/imgs/main/Amadora3/AMD1.webp",
 				"/imgs/main/Amadora3/AMD5.webp",
 				"/imgs/main/Amadora3/AMD4.webp",
 				"/imgs/main/Amadora3/AMD6.webp",
 				"/imgs/main/Amadora3/AMD7.webp",
-				"/imgs/main/Amadora3/AMD8.webp",
+				"/imgs/main/Amadora3/AMD11.webp",
 				"/imgs/main/Amadora3/AMD9.webp",
+				"/imgs/main/Amadora3/AMD8.webp",
+
 				"/imgs/main/Amadora3/AMD10.webp"
 			],
 			"category": "Exhibitions",
@@ -603,12 +604,14 @@
 			"videoUrl": "/vid/AC_ANIMA.mp4",
 			"images": [
 				"/vid/AC_ANIMA1.mp4",
-				"/imgs/main/AntonioCastro/AC1.webp",
 				"/vid/AC_ANIMA2.mp4",
-				"/imgs/main/AntonioCastro/AC2.webp",
-				"/vid/AC_ANIMA3.mp4",
 				"/imgs/main/AntonioCastro/AC3.webp",
 				"/imgs/main/AntonioCastro/AC4.webp",
+				"/vid/AC_ANIMA3.mp4",
+				"/vid/AC_ANIMA3.mp4",
+				"/imgs/main/AntonioCastro/AC6.webp",
+				"/imgs/main/AntonioCastro/AC5.webp",
+				"/imgs/main/AntonioCastro/AC7.webp",
 				"/imgs/main/AntonioCastro/AC1.webp"
 			],
 			"category": ["Web Design", "Web Development"],
