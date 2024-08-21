@@ -612,7 +612,7 @@
 				"/imgs/main/AntonioCastro/AC6.webp",
 				"/imgs/main/AntonioCastro/AC5.webp",
 				"/imgs/main/AntonioCastro/AC7.webp",
-				"/imgs/main/AntonioCastro/AC1.webp"
+				"/vid/AC_ANIMA4.mp4"
 			],
 			"category": ["Web Design", "Web Development"],
 			"year": 2021,
@@ -635,7 +635,7 @@
 			"placeholder": "/imgs/main/Critique/CR_placeholder.webp",
 			"videoMobile": "/imgs/main/Critique/CR_mobile.mp4",
 			"videoUrl": "/vid/CR_ANIMA.mp4",
-			"images": ["/vid/CR_ANIMA1.mp4", "/imgs/main/Critique/CR1.webp", "/imgs/main/Critique/CR2.webp", "/imgs/main/Critique/CR3.webp", "/imgs/main/Critique/CR4.webp", "/imgs/main/Critique/CR5.webp"],
+			"images": ["/vid/CR_ANIMA1.mp4", "/imgs/main/Critique/CR3.webp", "/imgs/main/Critique/CR4.webp", "/imgs/main/Critique/CR5.webp"],
 			"category": ["Web Design", "Web Development"],
 			"year": 2020,
 			"info": "Critique was conceptualized by choreographer David Marques and artist Tiago Cadete as a digital spa which curated an open, relaxing atmosphere of critical thinking about the status of the performing arts in Portugal. \n I designed the site to promote a soothing atmosphere where familiar icons of tranquility and spa culture floated on a black background which invited the user to interact, reposition and compose the scene to their liking.\n  Embedded behind each click and drag icon users would find thoughtful questions posed and pop-up videos from figures related to the critique of the arts. I added new icons and subsequent questions and video weekly, inviting users to return to the site and expanding the scope of artist’s original concept."
