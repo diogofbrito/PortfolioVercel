@@ -6,7 +6,6 @@ export function ContentImgsMisterio({ restMedia, lastMedia }) {
 
 	return (
 		<>
-			{/* Renderização da primeira linha */}
 			<div className='grid grid-cols-2 gap-1 pt-1 max-md:grid-cols-1'>
 				{firstRow.map((media, index) => (
 					<div key={index} className='w-full h-full object-cover overflow-hidden rounded-3xl'>

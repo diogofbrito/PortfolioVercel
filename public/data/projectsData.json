@@ -98,8 +98,10 @@
 				"/imgs/main/Wasted/WR1.mp4",
 				"/imgs/main/Wasted/WR2.webp",
 				"/imgs/main/Wasted/WR3.webp",
-				"/imgs/main/Wasted/WR5.webp",
+				"/imgs/main/Wasted/WR2.webp",
+				"/imgs/main/Wasted/WR6.webp",
 				"/imgs/main/Wasted/WR7.webp",
+				"/imgs/main/Wasted/WR9.webp",
 				"/imgs/main/Wasted/WR8.webp"
 			],
 			"category": ["Web Design", "Web Development"],
@@ -220,24 +222,6 @@
 			"category": ["Web Design", "Web Development"],
 			"year": 2022,
 			"info": "Alex Darling, a professional travel photographer, charged me with producing a site showcasing his work in a minimalist framework which would usher the user into a focused, clean experience, with the directive that it engage with the user to slow down time. \n I developed a site free from any typical distracting interfaces and relied solely on soft, ultra slow transitions, hidden links and dark backgrounds that both comfort the viewer, relax the eye and lull the user into focusing purely on the image served to them."
-		},
-		{
-			"id": "JonasLander",
-			"title": "Jonas&Lander",
-			"placeholder": "/imgs/main/JonasLander/JL_placeholder.webp",
-			"videoMobile": "/imgs/main/JonasLander/JL_mobile.mp4",
-			"videoUrl": "/vid/JL_ANIMA.mp4",
-			"images": [
-				"/vid/JL_ANIMA1.mp4",
-				"/imgs/main/JonasLander/JL2.webp",
-				"/imgs/main/JonasLander/JL4.webp",
-				"/imgs/main/JonasLander/JL7.webp",
-				"/imgs/main/JonasLander/JL3.webp",
-				"/vid/JL_ANIMA2.mp4"
-			],
-			"category": ["Web Design", "Web Development"],
-			"year": 2022,
-			"info": "Jonas & Lander is a duo of Portuguese choreographers. \n They partnered with me to re-envision their website as a place which would reflect the universe of their collaboration as artists that included colorful aspects of their catalog, elements of surreality, folkloric compositions all strung together using archival performance imagery and playful mouse effects."
 		},
 		{
 			"id": "Limit",
