@@ -29,14 +29,8 @@ export function About() {
 					<a href='https://www.linkedin.com/in/diogofcbrito/' target='_blank'>
 						Linkedin
 					</a>
-					<br></br>
-					<a href='https://github.com/diogofbrito/' target='_blank'>
-						Github
-					</a>
-					<br></br>
-					<a href='https://drive.google.com/file/d/1DTWFEIm2G74Rl5byl4UD59I19pTH-FPx/view?usp=sharing' target='_blank'>
-						CV - Resume
-					</a>
+					
+					
 				</div>
 				<div className='text-sm text-center pt-1 opacity-50'>® 2024 Diogo Brito</div>
 			</div>
