@@ -8,14 +8,14 @@
 	box-sizing: border-box;
 }
 :root {
-	--background-color-light: #eaebde;
+	--background-color-light: #fff;
 	--background-trans-light: rgba(255, 255, 255, 0.95);
-	--text-color-light: #000000;
+	--text-color-light: #333;
 	--shadow-light: rgba(0, 0, 0, 0.25);
 
-	--background-color-dark: #000000;
+	--background-color-dark: #1a1a1a;
 	--background-trans-dark: rgba(51, 51, 51, 0.95);
-	--text-color-dark: #eaebde;
+	--text-color-dark: #fff;
 	--shadow-dark: rgba(255, 255, 255, 0.25);
 }
 
